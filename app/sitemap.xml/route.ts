@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
-  "keyword-research-guide-2026",
+  "technical-seo-audit-checklist-2026",  "keyword-research-guide-2026",
 ] as const;
 
 const TOOL_SLUGS = [
