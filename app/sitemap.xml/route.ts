@@ -2,62 +2,61 @@ import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
   "keyword-research-guide-2026",
-  "best-seo-tools-2026",
-];
+] as const;
 
 const TOOL_SLUGS = [
-  "semrush", "ahrefs", "moz", "google-search-console", "google-keyword-planner",
-  "screaming-frog", "majestic", "se-ranking", "ubersuggest", "kwfinder",
-  "keywordtool-io", "surfer-seo", "clearscope", "marketmuse", "frase-io",
-  "answer-the-public", "spyfu", "similarweb", "serpstat", "mangools",
-  "linkody", "cognitive-seo", "sitebulb", "deepcrawl", "woorank",
-  "seoptimer", "niche-relevant", "buzzsumo", "ranktracker", "accu-rank",
-  "small-seo-tools", "seo-review-tools", "xml-sitemaps", "redirect-checker",
-  "dareboost", "gtmetrix", "webpagetest", "google-pagespeed-insights",
-  "pingdom", "litmus", "hunter-io", "mail-tester", "copyscape",
-  "sucuri", "wordfence", "sematext", "open-site-explorer",
-  "google-tag-assistant", "ahrefs-webmaster-tools", "google-trends",
-]
+  "semrush",
+    "ahrefs",
+    "moz-pro",
+    "google-keyword-planner",
+    "surfer-seo",
+    "ubersuggest",
+    "answer-the-public",
+    "se-ranking",
+    "marketmuse",
+    "frase",
+] as const;
+
+const CATEGORY_SLUGS = [
+  "analytics",
+    "backlink-analysis",
+    "content-marketing",
+    "email-marketing",
+    "keyword-research",
+    "ppc-and-advertising",
+    "seo-tools",
+    "social-media-management",
+] as const;
 
 export async function GET() {
   const baseUrl = "https://seotoolsnav.net";
 
-  const staticPages = [
-    { url: `${baseUrl}`, priority: 1.0 },
-    { url: `${baseUrl}/about`, priority: 0.7 },
-    { url: `${baseUrl}/blog`, priority: 0.8 },
-    { url: `${baseUrl}/contact`, priority: 0.5 },
-    { url: `${baseUrl}/privacy`, priority: 0.4 },
-    { url: `${baseUrl}/terms`, priority: 0.4 },
-    { url: `${baseUrl}/disclosure`, priority: 0.3 },
-    { url: `${baseUrl}/faq`, priority: 0.6 },
-  ];
+  const urls: string[] = [];
 
-  const toolPages = TOOL_SLUGS.map((slug) => ({
-    url: `${baseUrl}/tools/${slug}`,
-    priority: 0.8,
-  }));
+  urls.push(`<url><loc>${baseUrl}</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>`);
+  urls.push(`<url><loc>${baseUrl}/blog</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
+  urls.push(`<url><loc>${baseUrl}/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
+  urls.push(`<url><loc>${baseUrl}/contact</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>`);
+  urls.push(`<url><loc>${baseUrl}/faq</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>`);
+  urls.push(`<url><loc>${baseUrl}/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>`);
+  urls.push(`<url><loc>${baseUrl}/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>`);
+  urls.push(`<url><loc>${baseUrl}/disclosure</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>`);
 
-  const blogPages = BLOG_SLUGS.map((slug) => ({
-    url: `${baseUrl}/blog/${slug}`,
-    priority: 0.7,
-  }));
+  for (const slug of CATEGORY_SLUGS) {
+    urls.push(`<url><loc>${baseUrl}/category/${slug}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
+  }
 
-  const allPages = [...staticPages, ...toolPages, ...blogPages];
+  for (const slug of BLOG_SLUGS) {
+    urls.push(`<url><loc>${baseUrl}/blog/${slug}</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>`);
+  }
 
-  return new Response(
-    `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${allPages.map((page) => `  <url>
-    <loc>${page.url}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>${page.priority}</priority>
-  </url>`).join("\n")}
-</urlset>`,
-    {
-      headers: {
-        "Content-Type": "application/xml",
-      },
-    }
-  );
+  for (const slug of TOOL_SLUGS) {
+    urls.push(`<url><loc>${baseUrl}/tools/${slug}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>`);
+  }
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>`;
+
+  return new Response(sitemap, {
+    headers: { "Content-Type": "application/xml" },
+  });
 }
