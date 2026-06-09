@@ -105,7 +105,7 @@ A: Yes—if you’re generating revenue from organic traffic. Even Ubersuggest a
 
 **Q: How often should I update my keyword map?**  
 A: Minimum quarterly. High-velocity industries (e.g., crypto, tech news) require monthly reviews. Always re-audit after major Google updates (e.g., Core Updates), product launches, or significant competitor content shifts—these events can invalidate 20–35% of previously viable keywords within weeks.`,
-    author: "Tools Expert",
+    author: "Andrew Kim",
     authorRole: "Tools Navigation Hub",
     date: "2026-06-07",
     category: "Keyword Research",
@@ -217,7 +217,7 @@ Google's 2026 Environmental Algorithm Update (unofficial name) includes a "page 
 - **Track new metrics.** Brand lift, AI citation rate, zero-click value.
 
 **The bottom line:** SEO in 2026 isn't harder — it's different. The fundamentals of quality, authority, and user experience remain, but the *expression* of those fundamentals has changed. Adapt your strategy, and the opportunity is bigger than ever.`,
-    author: "SEO Strategy Team",
+    author: "Andrew Kim",
     authorRole: "SEO Tools Navigation Hub",
     date: "2026-06-08",
     category: "SEO Trends",
@@ -1038,7 +1038,7 @@ Rankings alone don't reflect success. In 2026, track:
 
 ## Conclusion
 A 2026 SEO content strategy succeeds only when it balances algorithmic intelligence with human insight. It starts with deep topic mastery — not keyword lists — and evolves through continuous gap analysis, EEAT-driven creation, intelligent internal architecture, and outcome-focused measurement. Tools accelerate execution; people provide the authority. Invest in both — and watch traffic grow not just in volume, but in value.`,
-    author: "SEO Strategy Team",
+    author: "Andrew Kim",
     authorRole: "SEO Tools Navigation Hub",
     date: "2026-06-08",
     category: "Content Strategy",
