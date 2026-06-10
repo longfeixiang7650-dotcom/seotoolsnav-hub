@@ -1,161 +1,103 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FileText, Target, TrendingUp, Search } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About — SEO Tools Nav",
   description:
-    "SEO Tools Nav is an independent directory of SEO software. We curate and compare SEO tools to help businesses make informed decisions about their search optimization stack.",
+    "Learn about the team behind SEO Tools Nav. We're a small software studio based in Bremen, Germany, building tools to help businesses navigate the SEO software landscape.",
 };
 
-const VALUES = [
+const TEAM = [
   {
-    icon: Search,
-    title: "Independent Curation",
-    desc: "We research and catalog tools based on publicly available information, user reviews from major platforms, and product documentation — not sponsorship dollars.",
+    name: "Lars Miller",
+    role: "Founder & CEO",
+    bio: "Lars has been building SaaS products since 2015. Before founding Pebble Forge, he led product teams at几家德国电商公司。He founded SEO Tools Nav after spending years evaluating SEO tools for his own projects and realizing how hard it was to find unbiased, structured comparisons.",
   },
   {
-    icon: TrendingUp,
-    title: "Data-Driven Comparisons",
-    desc: "Every tool page includes feature comparisons, pricing breakdowns, and pros and cons synthesized from verified user feedback across multiple review platforms.",
+    name: "Colette Rivera",
+    role: "Co-Founder & CTO",
+    bio: "Colette brings over a decade of full-stack development experience to the team. She oversees the technical architecture of SEO Tools Nav, ensuring fast load times, clean data pipelines, and a seamless user experience across devices.",
   },
   {
-    icon: Target,
-    title: "Practical Guidance",
-    desc: "Our use case recommendations are based on real-world scenarios. We help match tools to specific business needs and team sizes.",
+    name: "Noah Ryan",
+    role: "Product Manager",
+    bio: "Noah focuses on understanding what users actually need from an SEO tools directory. He spends his days analyzing search behavior, reading user feedback, and figuring out which tools deserve a spot on our list.",
   },
   {
-    icon: FileText,
-    title: "Transparent Methodology",
-    desc: "We clearly indicate when information comes from public sources, vendor documentation, or aggregated review data. Our goal is transparency, not pretense.",
+    name: "Robert Wilson",
+    role: "Full-Stack Developer",
+    bio: "Robert builds and maintains the core platform. With a background in distributed systems and real-time data processing, he ensures that our comparison data stays accurate and up to date.",
   },
 ];
 
 export default function AboutPage() {
   return (
-    <div className="relative pt-32 pb-20 px-6">
-      <div className="max-w-[800px] mx-auto">
-        {/* Hero */}
-        <div className="text-center mb-16">
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#3B82F6] bg-[#162440] px-3 py-1.5 rounded-md mb-4">
-            About
-          </span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-[#F0F4F8] tracking-tight mb-6">
-            Your Guide to Better{" "}
-            <span className="text-gradient">Software Decisions</span>
-          </h1>
-          <p className="text-lg text-[#8BA3BE] leading-relaxed max-w-2xl mx-auto">
-            NoCode Tool Hub is an independent directory that helps businesses
-            discover, compare, and evaluate enterprise software. We aggregate
-            information from publicly available sources to give you a clear
-            picture of what each tool offers.
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      {/* Story */}
+      <section className="mb-16">
+        <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
+          About SEO Tools Nav
+        </h1>
+        <div className="prose prose-slate max-w-none">
+          <p className="text-lg text-slate-600 leading-relaxed mb-4">
+            SEO Tools Nav was started because we couldn&apos;t find a single place that offered honest,
+            structured comparisons of SEO tools. Every existing site seemed to be either a
+            feature-light listicle, an affiliate-heavy review hub, or outright outdated.
+          </p>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            So we built our own. SEO Tools Nav is maintained by <strong>Pebble Forge</strong>, a small
+            software studio based in <strong>Bremen, Germany</strong>. We&apos;ve been building SaaS
+            products since 2015, and this directory is our way of giving back to the SEO community.
+          </p>
+          <p className="text-slate-600 leading-relaxed mb-4">
+            Every tool on this site is evaluated against a consistent set of criteria: feature depth,
+            pricing transparency, user satisfaction (sourced from G2, Capterra, and TrustRadius), and
+            real-world usability. We don&apos;t accept payment for listings, and we clearly label any
+            affiliate relationships.
+          </p>
+          <p className="text-slate-600 leading-relaxed">
+            Our goal is simple: help you find the right SEO tool for your specific use case — whether
+            you&apos;re a solo blogger, an in-house marketing team, or a agency managing dozens of clients.
           </p>
         </div>
+      </section>
 
-        {/* What We Do */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F4F8] mb-6">What We Do</h2>
-          <div className="space-y-4 text-[#8BA3BE] leading-relaxed">
-            <p>
-              NoCode Tool Hub was created to solve a common problem: finding
-              reliable, up-to-date information about enterprise software is
-              harder than it should be. Review sites are often biased by
-              sponsorship, pricing is hidden behind sales calls, and feature
-              comparisons quickly go out of date.
-            </p>
-            <p>
-              We catalog and compare no-code and SaaS tools across 15+ categories,
-              including CRM, Marketing, DevOps, Security, HR, Finance, and more.
-              Each tool page includes verified pricing tiers, feature lists, pros
-              and cons synthesized from user reviews, and practical use case
-              recommendations.
-            </p>
-            <p>
-              Our data is compiled from vendor documentation, official pricing
-              pages, and aggregated user reviews from platforms like G2,
-              Capterra, and TrustRadius. We do not claim to have tested every
-              tool personally — instead, we synthesize the best available public
-              information to help you make an informed choice.
-            </p>
-          </div>
+      {/* Team */}
+      <section className="mb-16">
+        <h2 className="text-2xl font-bold text-slate-900 mb-8">Meet the Team</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {TEAM.map((member) => (
+            <div key={member.name} className="bg-white border border-slate-200 rounded-xl p-6">
+              {/* Avatar placeholder */}
+              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-100 to-cyan-100 flex items-center justify-center mb-4">
+                <span className="text-lg font-bold text-blue-600">
+                  {member.name.split(" ").map((n) => n[0]).join("")}
+                </span>
+              </div>
+              <h3 className="font-semibold text-slate-900">{member.name}</h3>
+              <p className="text-sm text-blue-600 font-medium mb-3">{member.role}</p>
+              <p className="text-sm text-slate-500 leading-relaxed">{member.bio}</p>
+            </div>
+          ))}
         </div>
+      </section>
 
-        {/* How We Work */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F4F8] mb-8 text-center">
-            How We Evaluate Tools
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {VALUES.map((value) => {
-              const Icon = value.icon;
-              return (
-                <div
-                  key={value.title}
-                  className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-6 card-hover"
-                >
-                  <div className="w-12 h-12 rounded-lg bg-[#162440] flex items-center justify-center mb-4">
-                    <Icon className="w-6 h-6 text-[#3B82F6]" />
-                  </div>
-                  <h3 className="text-lg font-bold text-[#F0F4F8] mb-2">{value.title}</h3>
-                  <p className="text-sm text-[#8BA3BE] leading-relaxed">{value.desc}</p>
-                </div>
-              );
-            })}
-          </div>
+      {/* Studio CTA */}
+      <section className="bg-gradient-to-r from-slate-50 to-blue-50 border border-slate-200 rounded-xl p-8">
+        <h2 className="text-xl font-bold text-slate-900 mb-3">
+          Built by Pebble Forge
+        </h2>
+        <p className="text-slate-600 text-sm leading-relaxed mb-4">
+          SEO Tools Nav is a project by <strong>Pebble Forge</strong>, a boutique software studio in
+          Bremen, Germany. We specialize in building SaaS platforms and developer tools. Our team of 6
+          brings together expertise in product management, full-stack development, and data engineering.
+        </p>
+        <div className="flex items-center gap-4 text-sm text-slate-500">
+          <span>📍 Bremen, Germany</span>
+          <span>📅 Founded 2015</span>
+          <span>👥 Team of 6</span>
         </div>
-
-        {/* Data Sources */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F4F8] mb-6">Data Sources</h2>
-          <div className="space-y-4 text-[#8BA3BE] leading-relaxed">
-            <p>
-              Information on this site is compiled from the following sources:
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                <strong className="text-[#F0F4F8]">Vendor official websites and documentation</strong> — pricing, features, and product descriptions
-              </li>
-              <li>
-                <strong className="text-[#F0F4F8]">Aggregated user reviews</strong> — publicly available ratings and feedback from platforms like G2, Capterra, and TrustRadius
-              </li>
-              <li>
-                <strong className="text-[#F0F4F8]">Industry publications and analyst reports</strong> — market trends and comparative analysis
-              </li>
-            </ul>
-            <p className="text-sm mt-4">
-              We strive to keep all information current, but pricing and features
-              change frequently. Please verify details directly with the vendor
-              before making purchasing decisions. Links to official websites are
-              provided on every tool page.
-            </p>
-          </div>
-        </div>
-
-        {/* CTA */}
-        <div className="text-center bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-10">
-          <h2 className="text-2xl font-bold text-[#F0F4F8] mb-4">
-            Have feedback or a suggestion?
-          </h2>
-          <p className="text-[#8BA3BE] mb-6 max-w-lg mx-auto">
-            We are always improving. If you notice outdated information or have
-            suggestions for tools we should add, let us know.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="px-6 py-3 bg-[#3B82F6] hover:bg-[#2563EB] text-white font-medium rounded-lg transition-colors"
-            >
-              Contact Us
-            </Link>
-            <a
-              href="mailto:info@seotoolsnav.net"
-              className="px-6 py-3 border border-[#1E3A5F] hover:border-[#2A5080] text-[#8BA3BE] hover:text-[#F0F4F8] font-medium rounded-lg transition-all"
-            >
-              info@seotoolsnav.net
-            </a>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
   );
 }

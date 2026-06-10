@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "./sections/Header";
-import Footer from "./sections/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import CookieBanner from "./components/CookieBanner";
 
 export const metadata: Metadata = {
@@ -44,21 +44,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen antialiased">
-        {/* Background Effects */}
-        <div className="aurora-bg" />
-        <div className="grid-pattern" />
-
-        {/* Header */}
+      <body className="min-h-screen bg-slate-50 text-slate-900 antialiased">
         <Header />
-
-        {/* Main Content */}
-        <main className="relative z-10">{children}</main>
-
-        {/* Footer */}
+        <main className="min-h-screen">{children}</main>
         <Footer />
-
-        {/* Cookie Consent Banner */}
         <CookieBanner />
       </body>
     </html>

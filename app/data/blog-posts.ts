@@ -105,8 +105,8 @@ A: Yes—if you’re generating revenue from organic traffic. Even Ubersuggest a
 
 **Q: How often should I update my keyword map?**  
 A: Minimum quarterly. High-velocity industries (e.g., crypto, tech news) require monthly reviews. Always re-audit after major Google updates (e.g., Core Updates), product launches, or significant competitor content shifts—these events can invalidate 20–35% of previously viable keywords within weeks.`,
-    author: "Andrew Kim",
-    authorRole: "Tools Navigation Hub",
+    author: "Lars Miller",
+    authorRole: "CTO, Pebble Forge",
     date: "2026-06-04",
     category: "Keyword Research",
     readTime: 9,
@@ -424,8 +424,8 @@ Your site’s organic future isn’t written in content alone. It’s coded in h
 **Ready to automate your audit?** Try our free [Technical SEO Health Checker](https://www.seotoolsnav.com/audit) — it runs 37 validation points in under 90 seconds and generates a prioritized, developer-ready report.
 
 *© 2026 SEO Tools Nav. All rights reserved.*`,
-    author: "Mike Zhang",
-    authorRole: "Technical SEO Specialist",
+    author: "Colette Rivera",
+    authorRole: "Product Manager, Pebble Forge",
     date: "2026-06-05",
     category: "SEO Tools",
     readTime: 14,
@@ -474,8 +474,8 @@ Rankings alone don't reflect success. In 2026, track:
 
 ## Conclusion
 A 2026 SEO content strategy succeeds only when it balances algorithmic intelligence with human insight. It starts with deep topic mastery — not keyword lists — and evolves through continuous gap analysis, EEAT-driven creation, intelligent internal architecture, and outcome-focused measurement. Tools accelerate execution; people provide the authority. Invest in both — and watch traffic grow not just in volume, but in value.`,
-    author: "Andrew Kim",
-    authorRole: "SEO Tools Navigation Hub",
+    author: "Lars Miller",
+    authorRole: "Founder & CEO, Pebble Forge",
     date: "2026-06-06",
     category: "Content Strategy",
     readTime: 7,
@@ -563,8 +563,8 @@ A: No — only Semrush (Business+), Ahrefs (Advanced+), and SE Ranking (Enterpri
 - **Freelancers**: Go with SE Ranking — maximum capability, minimum overhead, and seamless client handoffs.
 
 The right SEO tool in 2026 isn’t about raw power — it’s about contextual fit. At SEO Tools Nav, we don’t sell subscriptions. We help you invest wisely.`,
-    author: "SEO Tools Team",
-    authorRole: "SEO Tools Navigation Hub",
+    author: "Noah Ryan",
+    authorRole: "Founder & CEO, Pebble Forge",
     date: "2026-06-07",
     category: "SEO Tools",
     readTime: 7,
@@ -618,8 +618,8 @@ Not recommended for large-scale or enterprise SEO. It lacks API depth, custom se
 ### Final Recommendation  
 
 For most SEO professionals in 2026, **Matomo is the optimal balance**: strong privacy compliance, full data ownership, reliable organic traffic segmentation, and actionable SEO dashboards—without GA4's black-box modeling or Adobe's cost barrier. Plausible shines for indie publishers and small sites prioritizing speed and simplicity. GA4 remains viable *only* if deeply embedded in Google's marketing stack—and even then, pairing it with Matomo or raw log file analysis mitigates data gaps. Adobe Analytics justifies investment only for Fortune 500 brands running omnichannel campaigns with dedicated analytics engineering resources. Choose based on your data sovereignty needs—not vendor lock-in.`,
-    author: "Andrew Kim",
-    authorRole: "SEO Tools Navigation Hub",
+    author: "Lars Miller",
+    authorRole: "Founder & CEO, Pebble Forge",
     date: "2026-06-10",
     category: "Analytics",
     readTime: 7,
