@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
   "technical-seo-audit-checklist-2026",  "keyword-research-guide-2026",  "seo-tools-comparison-2026",
-  "ga4-vs-matomo-vs-plausible-2026",
+  "ga4-vs-matomo-vs-plausible-2026",  "ahrefs-vs-semrush-vs-moz-2026",
 ] as const;
 
 const TOOL_SLUGS = [

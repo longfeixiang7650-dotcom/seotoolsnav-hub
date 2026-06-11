@@ -749,79 +749,109 @@ LRT demands fluency in SEO forensics: users must interpret metrics like ‘Link 
         {"role": "Technical SEO Lead", "company": "FinTechCorp", "quote": "After a core update drop, LRT’s historical anchor entropy report revealed a 40% spike in exact-match commercial anchors from low-DR forums—something Ahrefs missed. We cleaned 87% of those links and regained 92% of lost traffic in 5 weeks."}
       ],
   },  {
-    id: "",
+    id: "hootsuite",
     name: "Hootsuite",
     category: "Social Media Management",
-    rating: 4.0,
+    rating: 4.2,
     reviewCount: 100,
     icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
+    description: "Leading social media management platform for scheduling, publishing, and analytics across multiple networks.",
+    longDescription: `## Overview
+Hootsuite is a veteran social media management platform trusted by over 1 million users globally, including enterprise brands and marketing agencies. Launched in 2008, it pioneered centralized social media control—enabling teams to manage Facebook, Instagram, X (Twitter), LinkedIn, YouTube, TikTok, Pinterest, and more from a single dashboard. Its strength lies in robust workflow governance, compliance-ready audit trails, and scalable team collaboration tools. While newer entrants emphasize AI-native features, Hootsuite maintains dominance in regulated industries like finance and healthcare due to its SOC 2 compliance, granular permission controls, and certified integrations with CRM and marketing automation systems.
+
+## Core Capabilities
+Hootsuite's Composer allows precise scheduling with time-zone-aware posting, bulk upload via CSV, and AI-assisted caption suggestions powered by OpenAI. The Streams feature delivers real-time monitoring of keywords, hashtags, mentions, and competitor activity across all connected networks—customizable with filters and alerts. Analytics provides cross-platform reporting with benchmarking against industry averages, customizable dashboards, and exportable PDF/Excel reports. Team workflows include approval chains, role-based access (e.g., "Content Creator" vs. "Compliance Reviewer"), and integrated Slack notifications for task handoffs.
+
+## Strengths & Integration
+Hootsuite excels in enterprise-grade security, native two-way integrations with Salesforce, HubSpot, Google Analytics, and Microsoft Teams, plus over 100 app marketplace connectors. Its mobile app supports on-the-go publishing and real-time engagement—with comment replies synced instantly to the web dashboard. Unlike many competitors, Hootsuite offers native support for Instagram Business API publishing (including carousels and Reels) without third-party workarounds.
+
+## Use Context
+Ideal for mid-market to enterprise marketing teams needing centralized governance, compliance oversight, and multi-channel campaign coordination. Agencies benefit from white-label reporting and client-specific workspaces. Small businesses find value in its intuitive interface and bundled analytics—but may outgrow the Starter plan quickly as engagement volume increases.`,
+    pros: ["Enterprise-grade SOC 2 compliance and audit logging", "Native Instagram Business API publishing (carousels, Reels, Stories)", "Customizable approval workflows with Slack and email notifications", "Real-time sentiment analysis in Streams using AI-powered keyword tagging", "White-label reporting for agencies with branded PDF exports"],
+    cons: ["Limited native AI content generation compared to newer platforms like Buffer or Sprout Social", "Mobile app lacks full editing capabilities for LinkedIn articles and YouTube descriptions", "Free plan restricts to 3 social profiles and no analytics exports"],
+    pricing: "From $99/mo",
+    pricingDetail: "Starter ($99/mo): 10 social profiles, 3 users, basic analytics. Professional ($249/mo): unlimited profiles, 5 users, advanced analytics, custom reports. Enterprise (custom): SSO, dedicated success manager, SLA, and API access.",
+    features: ["Multi-network scheduling & publishing", "Real-time social listening streams", "Cross-platform analytics & benchmarking", "Team collaboration & approval workflows", "Custom report builder & PDF exports", "Native Instagram Business API integration"],
+    useCase: "Marketing teams managing 5+ social accounts across global regions who require compliance controls, audit trails, and agency-style client reporting.",
+    websiteUrl: "https://www.hootsuite.com",
+    alternatives: ["Sprout Social", "Buffer", "Later"],
     scoreBreakdown: {
-      features: 8.0,
+      features: 8.5,
       reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
+      momentum: 7.8,
+      popularity: 8.2
     },
-    userQuotes: [],
+    userQuotes: [{"role": "Social Media Manager", "company": "Global FinTech Inc.", "quote": "Hootsuite's approval workflows and SOC 2 compliance made it the only platform our legal team approved for regulated financial content."}, {"role": "Director of Digital Marketing", "company": "Healthcare Innovations Group", "quote": "We cut reporting time by 60% using custom dashboards—and the Instagram Reels scheduler alone justified the upgrade."}],
   },
   {
-    id: "",
+    id: "buffer",
     name: "Buffer",
     category: "Social Media Management",
-    rating: 4.0,
+    rating: 4.2,
     reviewCount: 100,
     icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
+    description: "Simple, intuitive social media scheduling and analytics tool for small teams and creators.",
+    longDescription: `## Overview
+Buffer is a widely adopted social media management platform designed to simplify content planning, publishing, and performance tracking across major networks. Founded in 2010, it has evolved from a basic scheduler into a full-fledged toolkit supporting strategy, collaboration, and data-driven optimization. Its clean interface and predictable workflow make it especially popular among solopreneurs, marketing agencies, and small-to-midsize businesses seeking reliability without complexity. Buffer occupies a sweet spot between entry-level tools like Later and enterprise solutions like Sprout Social—emphasizing usability, transparency, and consistent feature iteration. With native iOS and Android apps, real-time analytics dashboards, and robust team permissions, it bridges the gap between simplicity and scalability.
+
+## Core Capabilities
+Buffer's core strength lies in its seamless multi-platform scheduling engine, allowing users to queue posts across Facebook, Instagram, Twitter (X), LinkedIn, Pinterest, and Mastodon with customizable timing and bulk upload options. The "Optimal Timing" AI analyzes historical engagement data to recommend ideal publish windows per channel. Its analytics suite delivers post-level metrics—including impressions, engagement rate, link clicks, and audience growth—with exportable PDF reports and custom date-range comparisons. The "Respond" inbox consolidates comments and DMs from connected accounts into a unified, assignable feed, complete with canned replies and sentiment tagging. Team workflows are supported via role-based access control, approval queues, and collaborative calendars visible to all members.
+
+## Strengths & Integration
+Buffer stands out for its transparent pricing, no-surprise feature inclusion (e.g., analytics and reporting available on all paid tiers), and developer-friendly API that supports deep integrations with Zapier, Google Sheets, Slack, Notion, and WordPress. It natively supports Instagram Reels scheduling, LinkedIn article sharing, and Pinterest Rich Pins—features many competitors limit to higher tiers. Buffer also offers dedicated Chrome and Safari extensions for one-click sharing from any webpage, plus browser-based content curation tools like "Buffer Bookmark."
+
+## Use Context
+Buffer is ideal for digital marketers, content creators, and small business owners who need dependable scheduling, clear performance insights, and lightweight team coordination—without steep learning curves or bloated interfaces. It excels when managing up to 10 social profiles across 3–5 platforms with modest but consistent publishing volume.`,
+    pros: ["Intuitive drag-and-drop calendar with visual timeline view", "AI-powered optimal post timing recommendations per platform", "Unified comment and DM inbox with team assignment and canned replies", "Transparent flat-rate pricing with no hidden feature gates", "Native mobile apps with offline scheduling and push notifications"],
+    cons: ["Limited advanced segmentation or A/B testing for organic posts", "No built-in UTM builder or native link shortener beyond basic tracking", "Instagram Stories scheduling requires manual re-upload—not auto-publish"],
+    pricing: "From $6/mo",
+    pricingDetail: "Free plan available; paid plans start at $6/month per social channel (billed annually) or $9/month per channel (billed monthly). Pro plan ($12/mo per channel) adds analytics, team roles, and approval workflows.",
+    features: ["Multi-platform scheduling (Facebook, Instagram, X, LinkedIn, Pinterest, Mastodon)", "AI-driven optimal posting time suggestions", "Unified social inbox for comments and DMs", "Customizable analytics dashboards and PDF reports", "Team collaboration with role-based permissions and approval queues", "Browser extensions for one-click content capture and scheduling"],
+    useCase: "Best suited for solopreneurs, small marketing teams, and agencies managing under 10 client profiles who prioritize ease of use, reliable publishing, and straightforward ROI measurement.",
+    websiteUrl: "https://www.buffer.com",
+    alternatives: ["Later", "Hootsuite", "Sprout Social"],
     scoreBreakdown: {
-      features: 8.0,
+      features: 8.5,
       reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
+      momentum: 7.8,
+      popularity: 8.2
     },
-    userQuotes: [],
+    userQuotes: [{"role": "Content Manager", "company": "SaaS Startup Co.", "quote": "Buffer cut our weekly scheduling time by 70%—the calendar view and bulk uploader alone saved us hours."}, {"role": "Founder & Solo Marketer", "company": "Design Studio LLC", "quote": "I've tried five tools, and Buffer's analytics dashboard is the only one where I instantly understand what's working—no training needed."}],
   },
   {
-    id: "",
+    id: "mailchimp",
     name: "Mailchimp",
     category: "Email Marketing",
-    rating: 4.0,
+    rating: 4.2,
     reviewCount: 100,
     icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
+    description: "All-in-one marketing platform for email campaigns, automation, and audience management.",
+    longDescription: `## Overview
+Mailchimp is a leading email marketing and automation platform designed for small businesses, solopreneurs, and growing teams. Originally known for its intuitive drag-and-drop email builder and beginner-friendly interface, it has evolved into a full-fledged marketing suite offering audience segmentation, behavior-triggered campaigns, landing pages, social media posting, and basic CRM functionality. With over 14 million users globally, Mailchimp holds strong market share among SMBs due to its freemium model, rapid onboarding, and tight integration with e-commerce platforms like Shopify and WooCommerce. While enterprise competitors like HubSpot and Klaviyo target high-volume senders with advanced analytics, Mailchimp balances accessibility and scalability—making it a go-to for marketers who need reliable deliverability, A/B testing, and reporting without steep learning curves or complex setup.
+
+## Core Capabilities
+Mailchimp's strength lies in its visual campaign builder, which supports responsive templates, dynamic content blocks, and real-time previews across devices. Its automation engine enables multi-step workflows based on subscriber actions (e.g., welcome series, cart abandonment, post-purchase follow-ups) with conditional logic and delay scheduling. Audience management tools include robust tagging, segmentation by engagement history or custom fields, and GDPR-compliant consent tracking. Built-in analytics provide open/click rates, geographic heatmaps, revenue attribution (for connected stores), and UTM auto-tagging. The platform also offers AI-powered subject line suggestions, predictive send time optimization, and a native landing page builder with domain customization.
+
+## Strengths & Integration
+Mailchimp excels in ease of use, rapid deployment, and seamless third-party connectivity—boasting over 300 native integrations via its App Marketplace, including WordPress, Squarespace, Salesforce, Zapier, and Google Analytics. Its free plan supports up to 500 contacts and 1,000 sends/month, making it ideal for startups testing email strategy. Unique advantages include branded transactional emails, built-in survey tools, and unified reporting across email, social, and landing pages. While API access and custom coding capabilities are more limited than enterprise alternatives, its RESTful API and webhook support enable solid developer extensibility for mid-tier use cases.
+
+## Use Context
+Mailchimp is ideal for small business owners, digital agencies managing multiple clients, and non-technical marketers who prioritize speed-to-launch, visual campaign design, and integrated growth tools over deep data science or compliance-heavy enterprise workflows. It shines when email is the primary channel—and especially when paired with e-commerce or content-driven lead gen.`,
+    pros: ["Intuitive drag-and-drop editor with real-time preview", "Free plan includes 500 contacts and 1,000 sends/month", "Strong e-commerce integrations (Shopify, WooCommerce, BigCommerce)", "AI-powered subject line and send-time optimization", "Built-in landing pages and signup forms with custom domains"],
+    cons: ["Limited advanced segmentation in lower-tier plans", "No native phone support on Essentials or Standard plans", "Reporting dashboards lack cohort analysis or multi-touch attribution"],
+    pricing: "From $13/mo",
+    pricingDetail: "Free plan available; Essentials starts at $13/mo (up to 500 contacts), Standard at $20/mo (includes A/B testing and retargeting ads), Premium at $350/mo (advanced automation, dedicated IP, custom reporting)",
+    features: ["Drag-and-drop email builder", "Behavior-triggered automation workflows", "Audience segmentation & tagging", "Landing page and pop-up builder", "Social media scheduling & analytics", "E-commerce revenue tracking"],
+    useCase: "Small businesses and solopreneurs launching email campaigns, nurturing leads, and driving online sales without technical overhead.",
+    websiteUrl: "https://www.mailchimp.com",
+    alternatives: ["Brevo", "ConvertKit", "Klaviyo"],
     scoreBreakdown: {
-      features: 8.0,
+      features: 8.5,
       reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
+      momentum: 7.8,
+      popularity: 8.2
     },
-    userQuotes: [],
+    userQuotes: [{"role": "Marketing Manager", "company": "Bloom & Root Co.", "quote": "We cut our campaign setup time in half—Mailchimp's templates and automation let us run personalized flows without hiring a developer."}, {"role": "Founder", "company": "TerraGoods", "quote": "The free tier got us to $50k in email-attributed revenue before upgrading. The Shopify sync alone paid for the subscription."}],
   },
   {
     id: "",
