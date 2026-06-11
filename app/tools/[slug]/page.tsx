@@ -21,6 +21,70 @@ import {
 import { TOOL_MAP, ALL_TOOLS } from "@/data/tools";
 import { softwareSchema, organizationSchema } from "@/lib/schema";
 
+function renderContent(content: string) {
+  const lines = content.split("\n");
+  const elements: React.ReactNode[] = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    if (trimmed.startsWith("## ")) {
+      elements.push(
+        <h2 key={i} className="text-xl md:text-2xl font-bold text-[#e8e0f7] mt-10 mb-4 tracking-tight">
+          {trimmed.replace(/^##\s+/, "")}
+        </h2>
+      );
+      i++;
+      continue;
+    }
+    if (trimmed.startsWith("### ")) {
+      elements.push(
+        <h3 key={i} className="text-lg font-bold text-[#e8e0f7] mt-8 mb-3">
+          {trimmed.replace(/^###\s+/, "")}
+        </h3>
+      );
+      i++;
+      continue;
+    }
+
+    if (trimmed === "") {
+      i++;
+      continue;
+    }
+
+    if (trimmed === "---") {
+      elements.push(<hr key={i} className="border-[#3b2566] my-8" />);
+      i++;
+      continue;
+    }
+
+    elements.push(
+      <p key={i} className="text-[#c4b5fd] leading-relaxed mb-4 text-base">
+        {formatInline(trimmed)}
+      </p>
+    );
+    i++;
+  }
+
+  return elements;
+}
+
+function formatInline(text: string): React.ReactNode {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return (
+        <strong key={idx} className="font-bold text-[#e8e0f7]">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
+
 function ScoreBar({ label, score, color }: { label: string; score: number; color: string }) {
   const pct = Math.min(score, 100);
   return (
@@ -156,9 +220,9 @@ export default function ToolDetailPage() {
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#e8e0f7] mb-4 tracking-tight">
             {tool.name}
           </h1>
-          <p className="text-lg md:text-xl text-[#c4b5fd] leading-relaxed">
-            {tool.longDescription}
-          </p>
+          <div className="text-lg md:text-xl text-[#c4b5fd] leading-relaxed">
+            {renderContent(tool.longDescription)}
+          </div>
         </header>
 
         {/* Quick Stats */}

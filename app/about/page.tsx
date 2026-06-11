@@ -11,7 +11,7 @@ const TEAM = [
   {
     name: "Lars Miller",
     role: "Founder & CEO",
-    bio: "Lars has been building SaaS products since 2015. Before founding Pebble Forge, he led product teams at几家德国电商公司。He founded SEO Tools Nav after spending years evaluating SEO tools for his own projects and realizing how hard it was to find unbiased, structured comparisons.",
+    bio: "Lars has been building SaaS products since 2015. Before founding Pebble Forge, he led product teams at several German e-commerce companies. He founded SEO Tools Nav after spending years evaluating SEO tools for his own projects and realizing how hard it was to find unbiased, structured comparisons.",
   },
   {
     name: "Colette Rivera",
