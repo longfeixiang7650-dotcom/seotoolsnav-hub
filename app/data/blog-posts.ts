@@ -811,4 +811,94 @@ Whether you're auditing a 500K-page
     tags: ["Ahrefs", "Semrush", "Moz Pro", "SEO Tools 2026", "SEO Tool Comparison", "Keyword Research", "Backlink Analysis"]
   },
 
+
+  {
+    slug: "technical-seo-audit-checklist-2026",
+    title: "The Complete Technical SEO Audit Checklist for 2026: A Practical Guide",
+    excerpt: "A practical 12-point technical SEO audit checklist for 2026 covering Core Web Vitals, crawl optimization, indexing, structured data, and more with recommended tools and pass thresholds.",
+    content: `
+# The Complete Technical SEO Audit Checklist for 2026: A Practical Guide
+
+Technical SEO is no longer a "nice-to-have" -- it's the bedrock of visibility in 2026. With Google's continued emphasis on user experience (Core Web Vitals, Interaction to Next Paint), AI-powered Search Generative Experience (SGE), and AI Overviews that pull from highly crawlable, well-structured pages, technical health directly impacts ranking, indexing, and traffic resilience.
+
+A single unoptimized LCP image or broken hreflang tag can sideline your content from SGE carousels or rich results. This guide delivers a field-tested, tool-backed 12-point technical SEO audit checklist -- updated for 2026's realities.
+
+## The 12-Point Technical SEO Audit Checklist
+
+1. **Core Web Vitals (LCP, INP, CLS)**  
+   Measure real-user and lab data for Largest Contentful Paint (<2.5s), Interaction to Next Paint (<200ms), and Cumulative Layout Shift (<0.1). Use PageSpeed Insights for field + lab metrics; Lighthouse (v12+) for deep diagnostics. Prioritize INP -- it's now Google's primary responsiveness signal.
+
+2. **Crawl Budget Optimization**  
+   Identify low-value pages (thin, duplicate, paginated) consuming crawl resources. Use Screaming Frog to detect crawl depth >5, redirect chains, and non-200 status codes. Cross-reference with GSC Crawl Stats to confirm bot activity aligns with priority pages.
+
+3. **Indexing Coverage Ratio**  
+   Calculate: (Valid indexed URLs / Total submitted URLs) × 100. Target ≥95%. Audit GSC Coverage Report weekly for "Excluded" and "Submitted but not indexed" errors -- especially "Discovered - currently not indexed" due to low priority.
+
+4. **XML Sitemap Health Check**  
+   Validate sitemap syntax, HTTP status (200), freshness, and URL inclusion logic. Screaming Frog and Sitebulb flag orphaned sitemap entries, outdated lastmod dates, and >50k URL limits per sitemap.
+
+5. **Robots.txt & Canonical Tag Audit**  
+   Ensure robots.txt doesn't accidentally block critical assets (CSS/JS) or indexable pages. Verify self-referencing canonicals on all canonical pages -- no cross-domain mismatches or missing tags on paginated or AMP variants.
+
+6. **JavaScript Rendering & SSR Verification**  
+   Use Google URL Inspection Tool's "View Crawled Page" and "Rendered HTML" tabs. Confirm key content (headings, CTAs, schema) appears in rendered output. For SPAs, verify server-side rendering (SSR) or hybrid rendering is active -- client-side-only sites risk indexing gaps.
+
+7. **Structured Data Validation**  
+   Test JSON-LD implementation using Google's Rich Results Test. Validate Schema.org types (Article, Product, FAQPage) and required properties. Fix errors *before* deployment -- invalid markup disables rich result eligibility.
+
+8. **Mobile-First Indexing Check**  
+   Review GSC Mobile Usability report for "Text too small", "Clickable elements too close", or viewport issues. Ensure mobile and desktop versions serve identical content and structured data.
+
+9. **HTTPS & Mixed Content Audit**  
+   Run GTmetrix or Ahrefs Site Audit to detect HTTP resources (images, scripts, fonts) on HTTPS pages. Mixed content breaks security indicators and harms trust signals -- especially critical for SGE credibility scoring.
+
+10. **Internal Linking & Orphan Pages**  
+    Use Semrush's Site Audit or Sitebulb to find pages with zero internal links ("orphans"). Prioritize linking from high-authority pages (homepage, category hubs) using descriptive anchor text.
+
+11. **Log File Analysis**  
+    Import server logs into Screaming Frog Log Analyzer to identify crawl inefficiencies: excessive 404s, crawl storms on low-priority sections, or bot access to staging environments. Match crawl frequency to page update cadence.
+
+12. **hreflang & International SEO**  
+    Validate hreflang tags using Ahrefs or Sitebulb. Ensure bidirectional referencing, correct language-country codes (e.g., en-gb, es-es), and consistent x-default usage. Test with Google's International Targeting report.
+
+## Pass Thresholds at a Glance
+
+| Item | Pass Threshold | Primary Tool |
+|------|----------------|--------------|
+| LCP | ≤2.5s (mobile), ≤1.5s (desktop) | PageSpeed Insights |
+| INP | ≤200ms (good), ≤500ms (needs improvement) | Lighthouse v12+ |
+| Indexing Coverage Ratio | ≥95% | Google Search Console |
+| XML Sitemap Errors | 0 syntax or HTTP errors | Screaming Frog |
+| Mixed Content Warnings | 0 active HTTP resources | GTmetrix |
+| Orphan Pages | ≤0.5% of total indexed pages | Semrush Site Audit |
+| hreflang Errors | 0 missing/bidirectional mismatches | Ahrefs Site Audit |
+
+## How Often Should You Audit?
+
+- **Monthly**: Core Web Vitals, GSC Coverage, mobile usability  
+- **Quarterly**: Full 12-point audit (especially after site migrations or major CMS updates)  
+- **On-Demand**: After core algorithm updates, JavaScript framework upgrades, or international expansion  
+
+## FAQ
+
+**Q: Do I need to fix every INP issue before launching a new feature?**  
+Yes -- if INP exceeds 500ms on key conversion paths (e.g., product page add-to-cart), Google may deprioritize those pages in SGE and AI Overviews. Optimize event handlers and third-party script loading first.
+
+**Q: Can GSC alone replace a full technical audit?**  
+No. GSC shows *what's happening* (e.g., "Not indexed"), but not *why* (e.g., "noindex tag inherited from template"). Pair it with log analysis, rendering tests, and code-level validation.
+
+**Q: Is hreflang still relevant with SGE?**  
+Absolutely. SGE surfaces regionally appropriate answers -- incorrect hreflang confuses Google's geotargeting logic and dilutes international rankings.
+
+## Conclusion
+
+In 2026, technical SEO isn't about passing a checklist -- it's about building infrastructure that earns trust from both users and AI systems. Each item on this list addresses a documented Google ranking or indexing signal. Start with your weakest metric (check GSC first), use the recommended tools, and iterate. Consistent, evidence-based technical hygiene separates sites that merely survive algorithm shifts -- from those that dominate AI-driven search.
+    `,
+    author: "Colette Rivera",
+    authorRole: "Product Manager, Pebble Forge",
+    date: "2026-06-12",
+    category: "Technical SEO",
+    readTime: 7,
+    tags: ["Technical SEO", "SEO Audit", "Core Web Vitals", "Site Audit", "SEO Checklist", "Google Search Console", "Screaming Frog", "Structured Data"]
+  },
 ];
