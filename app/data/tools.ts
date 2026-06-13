@@ -110,7 +110,7 @@ SEO specialists focused on link building, technical auditors validating crawl ef
     userQuotes: [{"role": "Link Building Manager", "company": "GrowthForge", "quote": "We recovered 127 broken backlinks in under 2 hours using Ahrefs’ Broken Backlinks report — lifted referral traffic by 34% in one quarter."}, {"role": "SEO Analyst", "company": "Finova Labs", "quote": "The ‘Questions’ report in Keywords Explorer alone generated 42 FAQ-rich blog ideas that now drive 68% of our long-tail organic traffic."}],
   },
   {
-    id: "moz-pro",
+    id: "moz",
     name: "Moz Pro",
     category: "SEO Tools",
     rating: 4.3,
@@ -142,7 +142,147 @@ Marketing managers new to SEO, SMBs seeking affordable yet credible insights, an
       momentum: 7.4,
       popularity: 8.0
     },
-    userQuotes: [{"role": "Marketing Coordinator", "company": "Bloom Dental Group", "quote": "Moz Pro’s Local SEO tools helped us fix inconsistent NAP citations across 12 directories — GMB impressions rose 112% in 8 weeks."}, {"role": "Startup CMO", "company": "NexusEd Tech", "quote": "We trained our entire marketing team using Moz Academy. Within 3 months, our organic conversion rate doubled — all from better on-page alignment."}],
+    userQuotes: [{"role": "Marketing Coordinator", "company": "Bloom Dental Group", "quote": "Moz Pro's Local SEO tools helped us fix inconsistent NAP citations across 12 directories — GMB impressions rose 112% in 8 weeks."}, {"role": "Startup CMO", "company": "NexusEd Tech", "quote": "We trained our entire marketing team using Moz Academy. Within 3 months, our organic conversion rate doubled — all from better on-page alignment."}],
+  },
+  {
+    id: "kwfinder",
+    name: "KWFinder",
+    category: "Keyword Research",
+    rating: 4.5,
+    reviewCount: 2800,
+    icon: Search,
+    description: "Long-tail keyword research tool with highly accurate search volumes and intuitive difficulty scoring for SEO professionals and content marketers.",
+    longDescription: `## Overview
+KWFinder is a specialized long-tail keyword research tool developed by Mangools, a Slovak-based SEO software company known for its user-friendly interfaces and design-conscious approach. With a clean, distraction-free UI and powerful search volume accuracy validated against Google Keyword Planner data, KWFinder helps SEO professionals, bloggers, and small businesses uncover high-value, low-competition keywords with minimal effort.
+
+## Core Capabilities
+KWFinder's keyword database covers over 3.5 billion search queries across 120+ countries and 50+ languages. Its Keyword Difficulty score (0–100) is calculated using a proprietary algorithm that analyzes the top 10 SERP results — weighing domain authority, page authority, backlink count, and content quality. The SERP analysis panel provides instant visibility into organic competition, including domain metrics, social signals, and featured snippet opportunities. The autocomplete and "questions" modifiers surface long-tail variations and informational queries ideal for content targeting.
+
+## Unique Advantages
+Unlike bulkier tools like Ahrefs or Semrush, KWFinder excels at precision over volume. Its search volume data often matches Google Keyword Planner within 10–15% margin — impressive for a third-party tool. The "Local SEO" filter allows city-level search volume breakdowns, making it invaluable for local businesses. Integrated with Google Search Console for verified click and impression data. The tool's "SERP Features" overlay flags listing ads, image packs, knowledge panels, and video results — helping users assess real estate competition at a glance.
+
+## Best For
+Content marketers, SEO beginners, and local business owners who prioritize fast, accurate keyword discovery and difficulty assessment without navigating complex enterprise dashboards. Particularly strong for bloggers and affiliate marketers targeting informational and commercial long-tail queries.`,
+    pros: ["Exceptionally clean and intuitive user interface", "Highly accurate search volume data validated against Google Keyword Planner", "Excellent long-tail keyword suggestions with autocomplete and question modifiers", "Local SEO filters with city-level search volume granularity", "SERP feature overlay for instant visual competitive assessment", "Integrated Google Search Console for verified performance data"],
+    cons: ["Limited to keyword research — no site audit, rank tracking, or backlink tools", "Smaller keyword database compared to Ahrefs or Semrush (3.5B vs 24B+)", "No API access on lower-tier plans"],
+    pricing: "From $29.90/mo",
+    pricingDetail: "KWFinder is part of the Mangools suite. Entry plan ($29.90/mo) includes 200 keyword lookups/day, 500 saved keywords. Basic ($49.90/mo): 500 lookups/day, 2,000 saved keywords. Premium ($99.90/mo): unlimited lookups, 10,000 saved keywords, full SERP history, priority support. Agency ($199.90/mo): unlimited everything, team seats, API access.",
+    features: ["Keyword Research Database (3.5B+ queries)", "Keyword Difficulty Score (0–100)", "SERP Analysis Panel", "Local SEO Search Volume (city-level)", "Autocomplete & Question Modifiers", "SERP Feature Overlay", "Google Search Console Integration", "CSV Export & Saved Lists"],
+    useCase: "Quickly identifying low-competition, high-volume long-tail keywords for blog posts, affiliate content, and local SEO campaigns — especially when time-to-insight matters more than data breadth.",
+    websiteUrl: "https://www.mangools.com/kwfinder",
+    alternatives: ["Ubersuggest", "AnswerThePublic", "Google Keyword Planner"],
+    scoreBreakdown: {
+      features: 8.5,
+      reviews: 8.8,
+      momentum: 7.6,
+      popularity: 8.2
+    },
+    userQuotes: [{"role": "Affiliate Marketer", "company": "NicheSiteLab", "quote": "KWFinder's keyword difficulty score is the most reliable I've tested — 8 out of 10 keywords I targeted with 'Low' difficulty hit the top 5 within 60 days."}, {"role": "Local SEO Specialist", "company": "MainStreet Digital", "quote": "The city-level volume filter saved us from targeting 'plumber Chicago' when 'plumber Lincoln Park' had half the competition and better conversion intent."}],
+  },
+  {
+    id: "google-search-console",
+    name: "Google Search Console",
+    category: "SEO Tools",
+    rating: 4.7,
+    reviewCount: 28500,
+    icon: BarChart3,
+    description: "Free Google tool for monitoring search performance, indexing status, and technical SEO health directly from Google's index.",
+    longDescription: `## Overview
+Google Search Console (GSC) is Google's free, official webmaster tool that provides direct access to search performance data, index coverage reports, and technical health diagnostics — straight from Google's own index. With over 35 million active users, it is the single most authoritative source for understanding how Google crawls, indexes, and ranks your website.
+
+## Core Capabilities
+GSC's Performance report delivers precise click, impression, CTR, and average position data by query, page, country, device, and search appearance (including video, image, and AMP). The URL Inspection tool reveals exactly how Googlebot sees any given URL — including index status, canonical selection, mobile usability, and structured data validation. The Index Coverage report groups URLs by status (valid, valid with warnings, excluded, error) with granular error descriptions and site map submission. The Enhancements section tracks Core Web Vitals, mobile usability, breadcrumbs, sitelinks searchbox, and FAQ/HowTo rich result eligibility.
+
+## Unique Advantages
+Unlike any third-party tool, GSC surfaces Google's own data: manual actions, security issues (hacked content, malware), and link reports (top linked content, top linking sites, anchor text distribution). The Disavow Links tool enables direct submission of unwanted backlinks to Google's algorithm. GSC's Core Web Vitals report segments URLs by issue type (LCP, FID/INP, CLS) and provides concrete examples for debugging — critical for meeting Google's page experience signals. Integration with Google Analytics 4 and Google Ads enables unified search performance attribution.
+
+## Best For
+Every website owner — from solo bloggers to enterprise SEO teams — who needs authoritative, free insight into their site's Google search presence. Indispensable for technical SEO audits, index health monitoring, and diagnosing traffic drops or ranking changes.`,
+    pros: ["Completely free with no usage limits or feature restrictions", "Most authoritative data source — comes directly from Google's index", "Core Web Vitals and mobile usability reports with actionable debugging guidance", "Manual action and security issue alerts with resolution workflows", "URL Inspection tool for precise crawl/index diagnostics", "Performance data integrates natively with GA4 and Google Ads"],
+    cons: ["No keyword-level search volume data (CPC, competition, difficulty)", "Limited historical data retention (16 months max for Performance data)", "No rank tracking across locations or devices beyond average position", "Data sampling on high-traffic sites with >50K queries/day"],
+    pricing: "Free",
+    pricingDetail: "Google Search Console is completely free with no usage limits. Setup requires verifying site ownership via DNS record, HTML file upload, Google Analytics, or Google Tag Manager. Supports unlimited properties per account.",
+    features: ["Performance Reports (queries, pages, countries, devices)", "URL Inspection Tool", "Index Coverage Reports", "Core Web Vitals Report", "Mobile Usability Report", "Sitemap Submission", "Manual Actions & Security Issues", "Links Report (top linked content, sites, anchor text)", "Disavow Links Tool", "Rich Results Status Reports"],
+    useCase: "Monitoring organic search health, diagnosing ranking fluctuations and index coverage issues, validating technical SEO fixes, and tracking page experience metrics — essential for any SEO workflow.",
+    websiteUrl: "https://search.google.com/search-console",
+    alternatives: ["Ahrefs Webmaster Tools", "Semrush Site Audit", "Bing Webmaster Tools"],
+    scoreBreakdown: {
+      features: 9.0,
+      reviews: 9.4,
+      momentum: 9.5,
+      popularity: 9.8
+    },
+    userQuotes: [{"role": "Technical SEO Lead", "company": "SaaSCorp", "quote": "GSC's URL Inspection tool caught a 'Discovered — currently not indexed' issue on 14K product pages. We fixed the crawl budget issue and saw a 34% lift in indexed pages within 3 weeks."}, {"role": "SEO Director", "company": "EcomBrand", "quote": "After a core update, GSC's 'Manual Actions' report alerted us to unnatural links — we disavowed 2K toxic domains in 2 days and recovered 89% of traffic within 6 weeks."}],
+  },
+  {
+    id: "screaming-frog",
+    name: "Screaming Frog",
+    category: "Technical SEO",
+    rating: 4.6,
+    reviewCount: 3200,
+    icon: Search,
+    description: "Powerful desktop-based website crawler for technical SEO audits, broken link detection, and on-page analysis used by SEO professionals worldwide.",
+    longDescription: `## Overview
+Screaming Frog SEO Spider is a desktop-based website crawler that has been a staple of technical SEO toolkits since 2010. It crawls websites up to thousands of URLs per minute, extracting critical SEO data points — title tags, meta descriptions, headers, canonical tags, response codes, structured data, redirect chains, and more. With over 1 million downloads and an active user base spanning top SEO agencies, it remains the gold standard for technical site audits.
+
+## Core Capabilities
+The SEO Spider crawls JavaScript-rendered content (via integrated Chrome rendering engine), identifies broken links (4XX, 5XX), redirect chains, and redirect loops, and visualizes site architecture through interactive tree maps and directed graphs. It extracts image Alt text, Schema.org/RDFa/Microdata structured data (with validation), and custom extraction rules using XPath, CSS selectors, and regex. The Crawl Comparison feature allows before/after audit analysis to validate fixes. The tool exports to CSV, Excel, Google Sheets, and MySQL for large-scale data processing.
+
+## Unique Advantages
+Screaming Frog's strength lies in its depth and flexibility. Unlike cloud-based crawlers, it runs fully offline on your machine — no data caps, no API limits, no privacy concerns. The custom extraction engine lets you pull literally any element from any page using CSS selectors or XPath, enabling bespoke QA workflows. The "List Mode" allows crawling specific URLs from a CSV — ideal for multi-site audits, migration QA, and competitive page analysis. Integrated with Google Analytics, Google Search Console, and PageSpeed Insights for enriched crawl data.
+
+## Best For
+Technical SEO specialists, site migration leads, enterprise SEO teams, and agencies requiring customizable, high-volume crawling with precise control over extraction logic and data export. Essential for pre/post-redesign audits, Core Web Vitals debugging, and content inventory analysis.`,
+    pros: ["Unlimited local crawling with no data caps or API rate limits", "JavaScript rendering via integrated Chrome engine for modern SPA sites", "Highly customizable extraction engine (XPath, CSS selectors, regex)", "Crawl Comparison mode for before/after audit validation", "Integrates with Google Analytics, GSC, and PageSpeed Insights", "Directed graph visualization of site architecture"],
+    cons: ["Desktop-only (Windows, macOS, Linux) — no cloud or web interface", "JavaScript rendering slows crawl speed significantly", "No native keyword research, rank tracking, or backlink analysis", "Steeper learning curve for non-technical users"],
+    pricing: "Free (limited); Paid license $259/year",
+    pricingDetail: "Free version crawls up to 500 URLs per crawl (with a pause and reset). Paid license ($259/year) removes the URL limit and unlocks JavaScript rendering, crawl comparison, custom extraction, Google Search Console integration, and automated crawl scheduling via CLI.",
+    features: ["Website Crawl Engine (500+ URLs/min)", "JavaScript Rendering (Chrome Headless)", "Broken Link Detection (4XX, 5XX, redirects)", "Redirect Chain & Loop Analysis", "Meta Tag, Header, & Canonical Extraction", "Structured Data Validation (Schema, RDFa, Microdata)", "Custom Extraction (XPath, CSS Selectors, Regex)", "Crawl Comparison (Before/After)", "Site Architecture Visualization (Tree Map, Directed Graph)", "Google Analytics & GSC Integration", "PageSpeed Insights API Integration", "XML Sitemap Generation"],
+    useCase: "Performing comprehensive technical SEO audits, identifying crawl budget issues, validating site migration redirects, auditing structured data implementation, and generating prioritized fix lists for development teams.",
+    websiteUrl: "https://www.screamingfrog.co.uk/seo-spider",
+    alternatives: ["Semrush Site Audit", "Ahrefs Site Audit", "Sitebulb"],
+    scoreBreakdown: {
+      features: 9.6,
+      reviews: 9.2,
+      momentum: 8.4,
+      popularity: 8.9
+    },
+    userQuotes: [{"role": "Technical SEO Consultant", "company": "AgencyGrowth", "quote": "Screaming Frog's crawl comparison saved us 40 hours on a 200K-page migration QA — we spotted 3,418 redirect mapping errors before launch that would have caused a 60% traffic loss."}, {"role": "SEO Manager", "company": "EcoRetail", "quote": "Custom extraction with regex lets me audit 15 content patterns across 50K product pages in under 10 minutes. No cloud tool comes close to this flexibility."}],
+  },
+  {
+    id: "spyfu",
+    name: "SpyFu",
+    category: "Competitive Analysis",
+    rating: 4.2,
+    reviewCount: 4500,
+    icon: Search,
+    description: "Competitive intelligence tool specializing in uncovering competitors' most profitable SEO and PPC keywords, ad copy, and budget data.",
+    longDescription: `## Overview
+SpyFu is a competitive research platform that specializes in reverse-engineering competitors' digital marketing strategies — particularly their Google Ads and organic search playbooks. Founded in 2006 and trusted by over 1 million marketers, SpyFu surfaces historical keyword data, ad copy variations, and budget estimates that competitors have used over the past 18+ years.
+
+## Core Capabilities
+SpyFu's core offering is the "Competitor Keyword Research" dashboard: enter any domain, and instantly see every keyword they've bought via Google Ads (up to 18 years of history) alongside their organic keyword rankings. The "Ad History" feature reveals ad copy variations, landing pages, and CPC estimates for every keyword the competitor bid on — enabling gap analysis and creative inspiration. The "SEO Keyword Comparison" tool benchmarks your domain against up to 5 competitors across shared and unique keywords. The "Domain Overview" provides traffic estimates, top pages, and monthly budget estimates inferred from ad positioning.
+
+## Unique Advantages
+SpyFu's 18-year historical archive of Google Ads keywords and ad copy is unmatched — you can literally see what your competitors were bidding on and saying in their ads back in 2008. The "Combined" view (SEO + PPC keywords) surfaces opportunities where competitors invest in both channels, indicating high-converting terms worth targeting. The "PPC Monthly Budget" estimates — derived from competitive ad positioning frequency and impression share — provide actionable competitor spend intelligence for budget planning.
+
+## Best For
+PPC advertisers and SEO professionals focused on competitive intelligence, particularly those managing smaller budgets who need to identify where competitors are over-investing or neglecting. Agency teams use SpyFu for new business pitches (showcasing competitor weaknesses) and ongoing competitive monitoring.`,
+    pros: ["Unmatched Google Ads historical archive (18+ years of keyword and ad copy data)", "Combined SEO + PPC view reveals high-converting multi-channel keywords", "Competitor monthly budget estimates derived from impression share modeling", "Excellent ad copy history for creative inspiration and gap analysis", "Domain vs. Domain comparison for SEO and PPC keyword overlap", "Affordable pricing relative to broader competitive intelligence tools"],
+    cons: ["Limited to Google Ads and organic search — no social, display, or Amazon ad intelligence", "Organic keyword data less accurate than Ahrefs or Semrush for low-volume terms", "No site audit, rank tracking, or backlink analysis capabilities", "UI feels slightly dated compared to newer competitive research platforms"],
+    pricing: "From $39/mo",
+    pricingDetail: "Basic ($39/mo): 10 domains tracked, 100 keywords, 5K results/export. Professional ($79/mo): 50 domains, 1,000 keywords, unlimited exports, historical data access. Team ($299/mo): 200 domains, unlimited keywords, API access, team accounts, white-label reports.",
+    features: ["Competitor Keyword Research (SEO + PPC)", "Ad History Library (18+ years)", "Domain Overview (traffic, top pages, budget estimates)", "SEO Keyword Comparison (up to 5 domains)", "PPC Keyword Gap Analysis", "Monthly Competitor Budget Estimates", "Rank Tracking (basic)", "CSV & PDF Export"],
+    useCase: "Reverse-engineering competitors' paid search strategy, identifying high-converting keywords your competitors dominate, uncovering historical ad copy and landing page tactics, and benchmarking competitive SEO vs. PPC investment allocation.",
+    websiteUrl: "https://www.spyfu.com",
+    alternatives: ["Semrush", "Ahrefs", "iSpionage"],
+    scoreBreakdown: {
+      features: 8.0,
+      reviews: 8.4,
+      momentum: 7.3,
+      popularity: 8.1
+    },
+    userQuotes: [{"role": "PPC Manager", "company": "ClickForge Agency", "quote": "SpyFu's ad history showed me a competitor was testing 47 ad variants on one keyword — I spotted their best performer by CTR and beat it with a better offer. CPC dropped 22%."}, {"role": "SEO Strategist", "company": "LeadGen Pro", "quote": "The Combined View revealed 312 keywords where our competitor was bidding AND ranking organically — we targeted the 40% with low difficulty and gained 18K clicks/month within 90 days."}],
   },
   {
     id: "google-keyword-planner",
@@ -250,7 +390,7 @@ Perfect for solopreneurs, bloggers, local service businesses, and marketing stud
     userQuotes: [{"role": "Freelance Blogger", "company": "TravelWithTara", "quote": "Ubersuggest’s free tier helped me find 12 low-competition keywords for my Bali travel guide — ranked #1 for 7 within 6 weeks."}, {"role": "Local HVAC Owner", "company": "CoolAir Services", "quote": "Fixed 3 duplicate title tags and 17 missing H1s using the Site Audit — organic calls increased 28% in two months."}],
   },
   {
-    id: "answer-the-public",
+    id: "answer-public",
     name: "AnswerThePublic",
     category: "Keyword Research",
     rating: 4.4,
