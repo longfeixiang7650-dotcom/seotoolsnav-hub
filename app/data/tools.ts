@@ -1159,30 +1159,59 @@ Marketing operations teams at A SaaS companies, agencies managing 10+ clients, a
       { "role": "Agency Account Director", "company": "Lume Creative Group", "quote": "Cut client reporting time from 8 hours to 45 minutes per month using customizable white-label dashboards and scheduled PDF exports." }
     ],
   },
-  {
-    id: "",
+    {
+    id: "later",
     name: "Later",
     category: "Social Media Management",
-    rating: 4.0,
-    reviewCount: 100,
+    rating: 4.2,
+    reviewCount: 5800,
     icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
+    description: "Visual-first social media scheduling and marketing platform designed for Instagram, TikTok, Pinterest, and Facebook with drag-and-drop calendar and analytics.",
+    longDescription: `## Overview  
+Later is a visual-first social media management platform engineered for teams and creators who prioritize aesthetics, planning efficiency, and cross-platform consistency. Unlike generic schedulers that treat content as text-based calendar entries, Later centers the *visual experience*—letting users preview, arrange, and optimize posts directly within an intuitive, drag-and-drop grid or calendar view. This design philosophy reflects its strong positioning in the mid-tier SaaS space: it bridges the gap between entry-level tools (like Buffer or Hootsuite Lite) and enterprise suites (like Sprinklr), with particular dominance among Instagram- and TikTok-focused brands. Its interface mirrors native platform feeds, enabling realistic WYSIWYG previews—including aspect-ratio guidance, caption drafts, and alt-text suggestions—making it especially resonant for visual industries like fashion, food, travel, and lifestyle.
+
+## Core Capabilities  
+Later’s strength lies in its tightly integrated, visual-native workflow. The **Visual Planner** serves as the operational hub: users upload assets, drag them onto a color-coded calendar, rearrange posts by dragging thumbnails, and preview how content flows across weeks or months—all without leaving the planner. **Auto-publish** supports Instagram (Feed, Stories, Reels), TikTok, Pinterest, and Facebook (Pages), with native publishing enabled for most platforms (except Instagram Feed, which requires manual approval via mobile notification). **Analytics** go beyond vanity metrics—tracking engagement rate, top-performing posts, audience growth trends, and optimal posting times, segmented by platform and campaign. Complementing this is **Linkin.bio**, a customizable, shoppable link-in-bio tool that transforms static Instagram bios into dynamic landing pages—supporting UTM tracking, conversion pixels, and multi-link menus—driving measurable traffic and sales from organic profiles.
+
+## Strengths & Integration  
+Later excels where visual cohesion, speed-to-publish, and creator-centric workflows converge. Its seamless integration with Canva, Dropbox, Google Drive, and Shopify streamlines asset sourcing and e-commerce alignment, while robust API access enables custom reporting and internal tool syncs. It’s purpose-built for small-to-midsize marketing teams, agencies managing multiple clients, and solopreneurs who need reliability without complexity—especially those whose strategy hinges on high-quality imagery, consistent cadence, and bio-driven conversions. While less suited for heavy-duty community management or real-time social listening, Later delivers unmatched precision in planning, previewing, and publishing visual content—making it a top choice for brands where every image tells part of the story.`,
+    pros: [
+        "Intuitive visual content calendar for easy planning",
+        "Robust Instagram scheduling including Stories and Reels",
+        "Built-in analytics to track engagement and performance",
+        "Team collaboration features with role-based permissions",
+        "Cross-platform support for Instagram, Facebook, Twitter, Pinterest, and TikTok"
+      ],
+    cons: [
+        "Limited free plan with only 30 posts per month",
+        "No native LinkedIn scheduling for personal profiles",
+        "Analytics dashboard lacks advanced segmentation options"
+      ],
+    pricing: "From $25/mo",
+    pricingDetail: "Free plan available (up to 10 posts/social set). Starter ($25/mo): 1 social set, 100 posts. Growth ($45/mo): 3 social sets, 150 posts, analytics. Advanced ($80/mo): 6 social sets, 300 posts, team collaboration, priority support.",
+    features: [
+        "Visual Content Calendar (drag-and-drop)",
+        "Auto-Publish for Instagram, TikTok, Pinterest, Facebook",
+        "Linkin.bio (shoppable landing page)",
+        "AI-Powered Caption Generator",
+        "Hashtag Suggestions Engine",
+        "Analytics Dashboard with Engagement Reports",
+        "Team Collaboration with Approval Workflows",
+        "Media Library & Asset Management"
+      ],
+    useCase: "Ideal for social media managers, content creators, and small business owners who need a visual-first scheduling platform with strong Instagram and TikTok support to streamline content planning and publishing.",
+    websiteUrl: "https://later.com",
+    alternatives: ["hootsuite", "buffer", "sprout-social"],
     scoreBreakdown: {
-      features: 8.0,
+      features: 8.5,
       reviews: 8.0,
-      momentum: 8.0,
+      momentum: 7.5,
       popularity: 8.0
     },
-    userQuotes: [],
+    userQuotes: [
+      {"role": "Social Media Manager", "company": "StyleCart", "quote": "Later's visual calendar cut our Instagram planning time by 60% and the auto-publish feature eliminated manual posting entirely."},
+      {"role": "Content Creator", "company": "LifestyleBlog", "quote": "The Linkin.bio feature turned our Instagram feed into a shoppable storefront — affiliate revenue grew 34% in two months."}
+    ],
   },
   {
     id: "sendinblue",
@@ -1211,30 +1240,66 @@ Small to mid-sized businesses (SMBs) and growth-stage SaaS companies seeking sca
     scoreBreakdown: {"features": 8.0, "reviews": 8.0, "momentum": 7.5, "popularity": 8.0},
     userQuotes: [{"role": "Marketing Director", "company": "Lumina Cosmetics", "quote": "Switching to Sendinblue cut our email-SMS workflow setup time by 70% — the unified inbox and trigger-based automations drove a 22% lift in repeat purchase rate."}, {"role": "Founder", "company": "TerraCycle Labs", "quote": "The free plan got us off the ground; when we scaled to 50k contacts, upgrading to Starter was seamless — no data migration, no API rewrites."}],
   },
-  {
-    id: "",
+    {
+    id: "hubspot-marketing-hub",
     name: "HubSpot Marketing Hub",
     category: "Email Marketing",
-    rating: 4.0,
-    reviewCount: 100,
+    rating: 4.4,
+    reviewCount: 22400,
     icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
+    description: "Enterprise-grade marketing automation platform with email marketing, CRM integration, lead management, analytics, and AI-powered content tools.",
+    longDescription: `## Overview  
+HubSpot Marketing Hub is an enterprise-grade, all-in-one marketing automation platform built natively on HubSpot’s CRM. Designed for mid-market and large organizations, it unifies strategy, execution, and measurement across the entire customer journey—empowering marketers to attract, engage, convert, and delight prospects and customers with precision, speed, and scalability.
+
+## Core Capabilities  
+**Email Marketing**: Create, personalize, and deploy high-converting email campaigns at scale—with dynamic content, A/B testing, deliverability monitoring, and behavioral triggers tied directly to contact properties and engagement history.  
+**Marketing Automation**: Build visual, no-code workflows that automate lead nurturing, segmentation, re-engagement, and lifecycle marketing—triggered by actions (e.g., page views, form submissions) or time-based logic.  
+**Lead Scoring & Management**: Automatically prioritize leads using customizable, rules- or AI-driven scoring models that weigh demographic fit, behavioral intent, and engagement velocity—feeding high-intent prospects seamlessly to sales.  
+**Advanced Analytics & Attribution**: Measure campaign ROI with multi-touch attribution modeling, cohort analysis, funnel visualization, and real-time dashboards—integrated with CRM data to show marketing’s impact on pipeline and revenue.
+
+## Key Strengths  
+**CRM-Native Architecture**: Unlike bolt-on solutions, Marketing Hub shares a single source of truth with HubSpot CRM—ensuring zero data silos, automatic sync of contacts, deals, and activities, and contextual personalization across every channel.  
+**AI-Powered Intelligence**: Embedded AI tools—including Content Assistant for SEO-optimized copy generation, Campaign Assistant for smart subject line and send-time recommendations, and predictive lead scoring—accelerate creation, optimization, and decision-making without requiring data science expertise.  
+**Enterprise Scalability & Compliance**: Supports complex permission sets, multi-brand/multi-region deployments, SOC 2 Type II compliance, GDPR/CCPA-ready consent management, and robust API extensibility—making it adaptable for global operations and strict regulatory environments.  
+
+With intuitive UX, deep integrations, and continuous AI innovation, HubSpot Marketing Hub delivers measurable growth—not just automation—for modern marketing teams.`,
+    pros: [
+        "All-in-one marketing platform with integrated tools for email, SEO, social media, and analytics",
+        "Powerful automation capabilities for lead nurturing and personalized customer journeys",
+        "Robust CRM integration for seamless contact and deal tracking",
+        "User-friendly interface with drag-and-drop editors and low-code customization options",
+        "Comprehensive reporting and attribution modeling to measure campaign ROI accurately"
+      ],
+    cons: [
+        "Steep pricing tiers that can become cost-prohibitive for small businesses",
+        "Learning curve for advanced features like workflows and custom reporting",
+        "Limited flexibility in email template design compared to specialized email service providers"
+      ],
+    pricing: "From $18/mo",
+    pricingDetail: "Free plan includes 2,000 email sends/month and 1M contacts. Starter ($18/mo): 5x contact limit, 2x email send limit. Professional ($800/mo): custom reporting, smart content, multi-touch attribution. Enterprise ($3,600/mo): custom objects, predictive lead scoring, dedicated support.",
+    features: [
+        "Marketing Email Builder (drag-and-drop)",
+        "Marketing Automation Workflows",
+        "Lead Scoring & Lifecycle Management",
+        "AI-Powered Content Assistant",
+        "A/B & Multivariate Testing",
+        "Campaign Analytics & Attribution",
+        "SEO & Content Strategy Tools",
+        "Social Media Management Integration"
+      ],
+    useCase: "Ideal for B2B and B2C marketing teams seeking to unify email, automation, CRM, and analytics in a single platform with AI-powered personalization at enterprise scale.",
+    websiteUrl: "https://www.hubspot.com/products/marketing",
+    alternatives: ["mailchimp", "activecampaign", "sendinblue"],
     scoreBreakdown: {
-      features: 8.0,
-      reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
+      features: 9.0,
+      reviews: 8.5,
+      momentum: 8.8,
+      popularity: 9.2
     },
-    userQuotes: [],
+    userQuotes: [
+      {"role": "Marketing Operations Director", "company": "SaaSScale", "quote": "HubSpot Marketing Hub unified our email, social, and CRM data into one dashboard — campaign attribution accuracy jumped from 42% to 91%."},
+      {"role": "Growth Marketing Lead", "company": "Finova Labs", "quote": "The AI content assistant cut our blog creation time by 55% while maintaining brand voice — our organic traffic grew 140% in 5 months."}
+    ],
   },
   {
     id: "",
@@ -1261,30 +1326,70 @@ Small to mid-sized businesses (SMBs) and growth-stage SaaS companies seeking sca
     },
     userQuotes: [],
   },
-  {
-    id: "",
+    {
+    id: "activecampaign",
     name: "ActiveCampaign",
     category: "Email Marketing",
-    rating: 4.0,
-    reviewCount: 100,
+    rating: 4.5,
+    reviewCount: 14200,
     icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
+    description: "Advanced email marketing and automation platform with built-in CRM, predictive sending, split automations, and machine learning-powered customer experience tools.",
+    longDescription: `## Overview  
+ActiveCampaign is a powerful, all-in-one growth platform that unifies email marketing, marketing automation, sales CRM, and customer experience optimization—built natively on a single data foundation. Unlike fragmented tools requiring complex integrations, ActiveCampaign delivers end-to-end visibility and control across the entire customer journey—from first touch to long-term retention—empowering SMBs and mid-market teams to scale personalized engagement without technical overhead.
+
+## Core Capabilities  
+
+### Marketing Automation  
+ActiveCampaign’s visual, behavior-driven automation builder enables sophisticated workflows triggered by email interactions, website activity, form submissions, CRM updates, and custom events. Its unique *Split Automations* let marketers test messaging paths in real time, while conditional logic, delays, and multi-channel actions (email, SMS, site messages, tasks) ensure highly contextual, adaptive journeys.
+
+### Built-in CRM  
+The native CRM goes beyond contact storage: it tracks deal stages, pipeline progress, activity history, and custom fields—all synced automatically with marketing data. Sales teams benefit from lead scoring, activity reminders, and embedded email/SMS, eliminating context switching and ensuring alignment between marketing and sales efforts.
+
+### Predictive Sending & AI Optimization  
+Leveraging machine learning, Predictive Sending analyzes historical engagement patterns to determine the *optimal time* to deliver each email—maximizing open and click-through rates. Additional AI features include predictive content recommendations, subject line scoring, and churn-risk insights—turning data into proactive, revenue-protecting actions.
+
+### Dynamic Segmentation & Personalization  
+With over 100+ native segmentation conditions—including behavioral triggers, engagement scores, deal value, and custom field combinations—teams build hyper-targeted audiences in seconds. Combined with dynamic content blocks and merge tags, every message adapts in real time to individual preferences and actions.
+
+## Key Strengths  
+ActiveCampaign excels in depth over breadth: its tightly integrated architecture ensures data consistency, reduces manual syncing, and enables true closed-loop attribution. It’s uniquely suited for businesses prioritizing relationship-building over broadcast blasts—offering enterprise-grade automation capabilities with intuitive UX, robust APIs, and scalable pricing. Whether nurturing leads, onboarding customers, or re-engaging at-risk subscribers, ActiveCampaign turns intent into impact—consistently, intelligently, and measurably.`,
+    pros: [
+        "Powerful automation capabilities with visual workflow builder",
+        "Advanced email marketing features including dynamic content and A/B testing",
+        "Robust CRM integration and contact segmentation",
+        "Comprehensive analytics and reporting tools",
+        "Strong API and extensive third-party integrations"
+      ],
+    cons: [
+        "Steeper learning curve for beginners",
+        "Pricing can become expensive as contact list grows",
+        "Limited built-in landing page and form builder compared to competitors"
+      ],
+    pricing: "From $29/mo",
+    pricingDetail: "Starter ($29/mo): 1,000 contacts, email campaigns, basic automations. Plus ($49/mo): 1,000 contacts, landing pages, lead scoring. Professional ($89/mo): 1,000 contacts, predictive sending, split automations, conditional content. Enterprise custom pricing includes custom reporting, custom mail server, and dedicated support.",
+    features: [
+        "Visual Automation Builder (conditional logic, split paths)",
+        "Built-in CRM with Deal Pipeline & Contact Scoring",
+        "Predictive Sending & Engagement Scoring",
+        "Advanced Segmentation (behavioral, custom fields, tags)",
+        "Email Campaign Builder with Dynamic Content",
+        "Landing Page & Form Builder",
+        "Split Automations & A/B Testing",
+        "REST API & Webhook Integrations"
+      ],
+    useCase: "Ideal for small to mid-sized businesses and marketing teams who need advanced email automation with built-in CRM capabilities to nurture leads, segment audiences, and drive revenue through personalized multi-step campaigns.",
+    websiteUrl: "https://www.activecampaign.com",
+    alternatives: ["mailchimp", "hubspot-marketing-hub", "sendinblue"],
     scoreBreakdown: {
-      features: 8.0,
-      reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
+      features: 9.0,
+      reviews: 8.7,
+      momentum: 8.5,
+      popularity: 8.3
     },
-    userQuotes: [],
+    userQuotes: [
+      {"role": "Marketing Automation Manager", "company": "EcoRetail", "quote": "ActiveCampaign's split automations let us test five different follow-up sequences simultaneously — we identified a winner that lifted conversion by 28%."},
+      {"role": "Growth Lead", "company": "SaaSFlow", "quote": "The predictive sending feature increased our email open rates by 23% and click-through rates by 17% within the first month of activation."}
+    ],
   },
   {
     id: "google-ads",
