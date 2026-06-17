@@ -1,9 +1,12 @@
 import { MetadataRoute } from "next";
 
-const BLOG_SLUGS = ["technical-seo-audit-checklist-2026",  "keyword-research-guide-2026",  "seo-trends-2026",
-  "seo-content-strategy-2026",  "seo-tools-comparison-2026",
-  "ga4-vs-matomo-vs-plausible-2026",  "ahrefs-vs-semrush-vs-moz-2026",,
-    "seo-content-optimization-entity-based-strategy-2026"] as const;
+const BLOG_SLUGS = ["technical-seo-audit-checklist-2026", "keyword-research-guide-2026", "seo-trends-2026",
+  "seo-content-strategy-2026", "seo-tools-comparison-2026",
+  "ga4-vs-matomo-vs-plausible-2026", "ahrefs-vs-semrush-vs-moz-2026",
+  "seo-content-optimization-entity-based-strategy-2026",
+  "seo-ranking-factors-2026", "technical-seo-audit-checklist-step-by-step-2026",
+  "local-seo-small-business-2026", "seo-content-optimization-guide-2026",
+  "link-building-strategies-2026"] as const;
 
 const TOOL_SLUGS = [
   "semrush",
