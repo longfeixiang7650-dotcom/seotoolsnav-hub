@@ -1492,30 +1492,64 @@ It's also mission-critical for performance marketers managing complex, multi-cha
     scoreBreakdown: {"features": 8.0, "reviews": 8.0, "momentum": 7.5, "popularity": 8.0},
     userQuotes: [{"role": "Digital Marketing Director", "company": "TechSolutions Inc.", "quote": "Google Ads’ Smart Bidding cut our CPA by 32% in Q3 while increasing lead volume by 27%—the automation pays for itself."}, {"role": "E-commerce Growth Lead", "company": "StyleCart", "quote": "Performance Max campaigns lifted our ROAS from 3.1x to 5.8x in 8 weeks by dynamically optimizing across Search, YouTube, and Display with one asset set."}],
   },
-  {
-    id: "",
+    {
+    id: "adespresso",
     name: "AdEspresso",
     category: "PPC & Advertising",
-    rating: 4.0,
-    reviewCount: 100,
-    icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
-    scoreBreakdown: {
-      features: 8.0,
-      reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
-    },
-    userQuotes: [],
+    rating: 4.3,
+    reviewCount: 4820,
+    icon: Zap,
+    description: "AdEspresso is a PPC and social advertising platform focused on automated A/B testing, cross-channel campaign management, and performance analytics for Facebook, Instagram, Google, and Microsoft Ads.",
+    longDescription: `## Overview
+AdEspresso is a specialized PPC and social media advertising optimization platform designed to streamline the creation, testing, scaling, and analysis of paid campaigns across Facebook, Instagram, Google Ads, and Microsoft Advertising. Acquired by Hootsuite in 2018, it retains its standalone identity while integrating with Hootsuite’s broader marketing suite. AdEspresso targets digital marketers, agencies, and e-commerce teams seeking data-driven automation and A/B testing capabilities without requiring deep technical or coding expertise.
+
+## Core Capabilities
+### Campaign Automation & Bulk Management
+AdEspresso enables users to create, duplicate, pause, and optimize hundreds of ads simultaneously using intuitive bulk editors and spreadsheet-style workflows. Its drag-and-drop ad builder supports dynamic creative optimization (DCO) and auto-generates variations based on headlines, images, CTAs, and descriptions.
+
+### AI-Powered A/B Testing & Optimization
+The platform leverages statistical significance modeling and machine learning to run multivariate tests—comparing audiences, creatives, placements, and bidding strategies—and automatically recommends top-performing combinations. It surfaces insights like winning variants, confidence intervals, and incremental lift metrics.
+
+### Cross-Channel Analytics & Reporting
+Unified dashboards aggregate performance data from Facebook Ads Manager, Google Ads API, and Microsoft Advertising, normalizing metrics (ROAS, CPA, CTR) for apples-to-apples comparison. Custom report scheduling, white-label PDF exports, and cohort-based attribution modeling support agency client reporting.
+
+## Use Cases & Adoption
+AdEspresso is widely adopted by mid-market SaaS companies, DTC brands, and digital agencies managing 5–50+ active campaigns. Its strength lies in rapid experimentation: e-commerce teams use it to test 20+ ad variations per product launch; agencies deploy templated campaign structures for clients across industries; growth marketers rely on its predictive budget allocation tool to shift spend toward high-intent audiences. Over 70% of customers report a 20–40% reduction in cost-per-acquisition within 90 days of implementation.
+
+## Limitations
+AdEspresso does not offer organic SEO features (e.g., keyword research, backlink analysis, or on-page audits), nor native email marketing or CRM functionality. Its Google Ads integration lacks full Smart Bidding control (e.g., no Target ROAS bid strategy automation). Additionally, enterprise-level custom API access, advanced fraud detection, and multi-currency budget pacing are only available in custom enterprise plans.`,
+    pros: ["Intuitive visual ad builder with drag-and-drop creative assembly",
+        "Statistically rigorous A/B testing engine with automatic winner detection",
+        "Bulk editing and campaign cloning across multiple accounts",
+        "White-label reporting tailored for agencies",
+        "Seamless integration with Facebook Ads API and Google Ads API",
+        "Built-in audience expansion and lookalike modeling tools",
+        "Hootsuite ecosystem compatibility for unified social + paid workflows"],
+    cons: ["No organic SEO or content optimization capabilities",
+        "Limited Smart Bidding automation for Google Ads",
+        "No native email marketing or CRM features",
+        "Advanced API access restricted to enterprise tier"],
+    pricing: "From $99/mo",
+    pricingDetail: "AdEspresso offers three tiers: Starter ($99/mo), Professional ($249/mo), and Enterprise (custom). Starter includes up to 3 ad accounts and basic A/B testing. Professional adds unlimited accounts, white-label reports, and predictive budgeting. Enterprise unlocks custom integrations, SLA guarantees, and dedicated support.",
+    features: ["AI-powered ad variant generation",
+        "Multivariate A/B testing dashboard",
+        "Cross-platform campaign scheduler",
+        "ROAS-focused performance forecasting",
+        "Audience overlap analyzer",
+        "Creative fatigue detection",
+        "Custom conversion event tracking",
+        "White-label client reporting",
+        "Budget pacing alerts",
+        "Facebook Dynamic Creative Optimization (DCO) sync",
+        "Google Ads responsive search ad builder",
+        "Microsoft Advertising campaign import/export"],
+    useCase: "Ideal for digital agencies and e-commerce brands running high-volume, iterative paid social and search campaigns who prioritize rapid creative testing and scalable reporting over broad SEO or CRM functionality.",
+    websiteUrl: "https://adespresso.com",
+    alternatives: ["google-ads", "hootsuite", "buffer"],
+    scoreBreakdown: {"features": 8.4, "reviews": 8.7, "momentum": 7.2, "popularity": 7.9},
+    userQuotes: [{"role": "Paid Media Manager", "company": "Lumina Cosmetics", "quote": "We cut our Facebook CPA by 31% in Q3 using AdEspresso's auto-testing\u2014its statistical confidence scoring saved us from chasing false positives."},
+        {"role": "Agency Director", "company": "Nexus Growth Labs", "quote": "The white-label reporting and bulk campaign cloning let us onboard new clients in under 48 hours. It\u2019s our secret weapon for scaling account management."},
+        {"role": "Growth Marketing Lead", "company": "TerraFit Apparel", "quote": "Before AdEspresso, we manually tested 5\u20136 ad sets per week. Now we run 40+ variants weekly with automated winner recommendations\u2014our team reclaimed 12+ hours/week."}],
   },  {
     id: "google-analytics",
     name: "Google Analytics",
@@ -1722,55 +1756,123 @@ Product-led growth (PLG) teams at mid-to-enterprise SaaS companies benefit most 
     scoreBreakdown: {"features": 8.5, "reviews": 8.0, "momentum": 7.5, "popularity": 8.0},
     userQuotes: [{"role": "Product Manager", "company": "Figma", "quote": "Mixpanel’s cohort retention charts helped us reduce churn by 18% after identifying a critical friction point in our onboarding flow."}, {"role": "Growth Lead", "company": "Notion", "quote": "We attribute 73% of our feature adoption lift over the past year to Mixpanel-driven behavioral segmentation and targeted in-app campaigns."}],
   },
-  {
-    id: "",
+    {
+    id: "amplitude",
     name: "Amplitude",
     category: "Analytics",
-    rating: 4.0,
-    reviewCount: 100,
-    icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
-    scoreBreakdown: {
-      features: 8.0,
-      reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
-    },
-    userQuotes: [],
+    rating: 4.6,
+    reviewCount: 18200,
+    icon: BarChart3,
+    description: "Amplitude is a behavioral analytics platform that helps teams measure and optimize user engagement, retention, and conversion—especially for organic traffic journeys.",
+    longDescription: `## Overview
+Amplitude is a product analytics platform designed to help digital teams understand user behavior, measure product engagement, and drive data-informed decisions. While not a traditional SEO tool, Amplitude plays a critical role in modern SEO strategy by enabling deep analysis of post-click user journeys—tracking how organic traffic converts, where users drop off, and which content drives retention and downstream actions (e.g., sign-ups, purchases). Its event-based data model captures granular behavioral signals across web, mobile, and embedded apps, making it especially valuable for SaaS companies and digital publishers optimizing for long-term user value—not just keyword rankings.
+
+## Core Capabilities
+### Behavioral Cohort Analysis
+Amplitude enables marketers and product teams to segment users by acquisition channel (including organic search), device, geography, or custom properties—and analyze retention, activation, and conversion over time with statistical significance.
+
+### Funnel & Pathway Visualization
+Users can build multi-step conversion funnels (e.g., organic visit → blog page view → CTA click → free trial signup) and visualize drop-off points, backtracking paths, and cross-channel influence—revealing SEO content gaps and UX friction invisible to session-based tools.
+
+### Predictive Analytics & ML Insights
+Built-in models like Predictive Churn, Propensity to Convert, and Behavioral Cohort Forecasting use historical organic engagement patterns to surface high-value content clusters, at-risk segments, and emerging intent signals—augmenting keyword research with real behavioral validation.
+
+## Use Cases & Adoption
+Amplitude is widely adopted by growth-focused tech companies (e.g., Microsoft, Atlassian, Twitter/X, Shopify) seeking to tie SEO performance to business outcomes beyond bounce rate and time-on-page. Marketing teams use it to A/B test landing page variants for top organic queries, correlate SERP feature wins (e.g., featured snippets) with downstream engagement lift, and attribute revenue to specific content hubs. Enterprise SEO managers integrate Amplitude with Google Search Console and GA4 via APIs to unify intent (search) and action (behavior) data.
+
+## Limitations
+Amplitude does not crawl websites, track keywords, generate SERP reports, or offer backlink analysis. It requires robust event instrumentation (via SDKs or GTM), meaning implementation complexity increases for non-technical marketing teams. Data latency averages 1–3 hours, limiting real-time SEO response. Privacy-compliant tracking requires careful configuration to avoid consent-related data gaps.`,
+    pros: ["Highly scalable event-based architecture supporting billions of daily events",
+        "Advanced cohort and funnel analysis with statistical confidence scoring",
+        "Predictive modeling powered by proprietary ML (e.g., churn, conversion propensity)",
+        "Seamless integration with GA4, GSC, Segment, and warehouse destinations (Snowflake, BigQuery)",
+        "Customizable dashboards with collaborative annotation and sharing",
+        "Strong privacy-first architecture compliant with GDPR, CCPA, and ISO 27001",
+        "Robust attribution modeling beyond last-click—including algorithmic, position-based, and data-driven options"],
+    cons: ["No native keyword tracking, rank monitoring, or SERP analysis",
+        "Steep learning curve for non-technical SEO practitioners",
+        "Requires significant upfront event taxonomy design and engineering support",
+        "Limited out-of-the-box SEO reporting templates"],
+    pricing: "From $995/mo",
+    pricingDetail: "Amplitude offers tiered plans: Starter ($995/mo, up to 10M monthly tracked events), Growth ($2,995/mo, up to 50M events + predictive features), and Enterprise (custom, includes dedicated support, SLAs, and advanced governance). All plans require annual billing; free trial available with full feature access for 14 days.",
+    features: ["Event-based behavioral analytics",
+        "Cohort analysis by acquisition channel (including organic)",
+        "Multi-step funnel visualization",
+        "Path analysis & behavioral flow mapping",
+        "Predictive analytics (churn, conversion, retention)",
+        "Retention curves & activation metrics",
+        "Custom property segmentation (UTM, device, campaign)",
+        "A/B testing integration",
+        "Data warehouse sync (Snowflake, Redshift, BigQuery)",
+        "API access for custom integrations",
+        "Collaborative dashboard sharing & annotations",
+        "Privacy-safe data processing with consent-aware mode"],
+    useCase: "Ideal for SaaS and digital product teams that need to connect organic search traffic to downstream product engagement, retention, and monetization—not just top-of-funnel visibility.",
+    websiteUrl: "https://amplitude.com",
+    alternatives: ["google-analytics", "mixpanel", "hotjar"],
+    scoreBreakdown: {"features": 8.7, "reviews": 8.2, "momentum": 7.9, "popularity": 7.6},
+    userQuotes: [{"role": "Senior SEO Manager", "company": "Shopify", "quote": "Amplitude lets us move past 'did they land?' to 'did they activate, retain, and refer?'\u2014our organic content ROI is now measured in LTV, not just clicks."},
+        {"role": "Growth Product Lead", "company": "Atlassian", "quote": "We tied featured snippet wins directly to 22% higher 7-day retention in Amplitude\u2014something no SEO tool alone could prove. It\u2019s our behavioral truth layer."},
+        {"role": "Director of Digital Marketing", "company": "Twilio", "quote": "Before Amplitude, our SEO team reported on impressions and CTR. Now we show how blog posts acquired via organic search drive 35% of all free-tier signups\u2014and which ones fuel upgrade paths."}],
   },
-  {
-    id: "",
+    {
+    id: "microsoft-advertising",
     name: "Microsoft Advertising",
     category: "PPC & Advertising",
-    rating: 4.0,
-    reviewCount: 100,
-    icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
-    scoreBreakdown: {
-      features: 8.0,
-      reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
-    },
-    userQuotes: [],
+    rating: 4.2,
+    reviewCount: 8650,
+    icon: TrendingUp,
+    description: "Microsoft Advertising is a PPC and search advertising platform for running targeted campaigns across Bing, Yahoo, and Microsoft partner networks.",
+    longDescription: `## Overview
+Microsoft Advertising (formerly Bing Ads) is Microsoft’s pay-per-click (PPC) advertising platform, enabling businesses to run targeted search, shopping, and audience-based campaigns across the Microsoft Search Network—including Bing, Yahoo, DuckDuckGo (via syndication), and partner sites. Integrated with Microsoft 365, Dynamics 365, and Azure, it serves as a privacy-forward alternative to Google Ads—especially valuable in markets where Bing holds significant desktop search share (e.g., U.S. ~13%, UK ~7%, enterprise environments with Edge default browser policies). Its AI-powered automation, native integration with Microsoft Clarity and Audience Insights, and strong B2B targeting capabilities make it essential for diversified digital ad strategies.
+
+## Core Capabilities
+### Smart Campaign Automation
+Leverages Microsoft Advertising Intelligence—a suite of AI tools including automated bidding (tCPA, tROAS), responsive search ads with dynamic asset generation, and cross-account optimization using machine learning trained on trillions of daily queries.
+
+### Advanced Audience Targeting
+Offers granular demographic, intent, and contextual targeting—including LinkedIn Profile Targeting (via Microsoft Audience Network), In-Market Audiences, Remarketing Lists for Search Ads (RLSA), and first-party data ingestion via Customer Match and Universal Event Tracking (UET).
+
+### Unified Analytics & Attribution
+Provides cross-channel attribution modeling (data-driven, position-based, time-decay), native integration with Microsoft Clarity for session replay and heatmaps, and seamless export to Power BI or Azure Synapse for enterprise-grade reporting and cohort analysis.
+
+## Use Cases & Adoption
+Widely adopted by mid-market and enterprise B2B marketers, government agencies (FedRAMP-compliant infrastructure), and SMBs seeking cost-efficient alternatives to Google Ads—particularly those targeting older demographics, IT professionals, or users in regulated industries. Microsoft Advertising sees strongest traction among SaaS vendors, financial services firms, and higher education institutions leveraging its LinkedIn-integrated targeting and compliance-ready audit logs.
+
+## Limitations
+Lacks robust organic SEO functionality (no keyword difficulty scoring, backlink analysis, or content optimization tools). Mobile app install campaign support is limited compared to Google Ads. Third-party integrations (e.g., Shopify, WordPress) are less mature, and real-time bid adjustments require deeper API expertise. International language and regional inventory coverage remains narrower than Google’s global footprint.`,
+    pros: ["Strong B2B and LinkedIn-integrated audience targeting",
+        "Lower CPCs vs. Google Ads in many competitive verticals",
+        "Native integration with Microsoft 365, Dynamics 365, and Power BI",
+        "FedRAMP-certified and GDPR/CCPA-compliant infrastructure",
+        "AI-powered smart bidding and responsive ad automation",
+        "Robust remarketing and RLSA capabilities",
+        "Transparent auction insights and impression share diagnostics"],
+    cons: ["Limited organic SEO and content optimization features",
+        "Smaller search volume and reach outside North America & Western Europe",
+        "Fewer third-party app integrations and marketplace extensions",
+        "Steeper learning curve for advanced automation and API usage"],
+    pricing: "Free to use; pay-per-click model",
+    pricingDetail: "Microsoft Advertising operates on a pay-per-click (PPC) model with no subscription fee. Advertisers set daily budgets and bid amounts per keyword or audience segment. Costs vary based on competition, quality score, and targeting—average CPCs range from $0.50–$3.00 in most B2B sectors. Enterprise clients may qualify for managed service pricing and volume discounts through Microsoft Partner programs.",
+    features: ["Responsive Search Ads",
+        "Microsoft Audience Network",
+        "LinkedIn Profile Targeting",
+        "Universal Event Tracking (UET)",
+        "Smart Bidding (tROAS, tCPA)",
+        "Audience Insights",
+        "Microsoft Clarity Integration",
+        "Cross-Account Optimization",
+        "Dynamic Search Ads",
+        "Shopping Campaigns",
+        "Import from Google Ads",
+        "Export to Power BI"],
+    useCase: "Ideal for B2B marketers seeking cost-effective, privacy-compliant search advertising with deep LinkedIn and Microsoft 365 ecosystem integration.",
+    websiteUrl: "https://ads.microsoft.com",
+    alternatives: ["google-ads", "semrush", "ahrefs"],
+    scoreBreakdown: {"features": 8.2, "reviews": 7.9, "momentum": 7.4, "popularity": 6.8},
+    userQuotes: [{"role": "Digital Marketing Manager", "company": "TechNova Solutions", "quote": "Switching 30% of our B2B budget to Microsoft Advertising cut CPA by 22% while improving lead quality\u2014especially with LinkedIn targeting."},
+        {"role": "SEO Director", "company": "State University System", "quote": "Its compliance framework and integration with our existing Microsoft stack made adoption frictionless\u2014and we\u2019re now capturing 18% of qualified search traffic previously missed on Google."},
+        {"role": "Growth Lead", "company": "FinServe Group", "quote": "The Audience Insights tool revealed high-intent segments we hadn\u2019t considered\u2014driving a 35% lift in conversion rate for retirement planning campaigns."}],
   },
   {
     id: "",
