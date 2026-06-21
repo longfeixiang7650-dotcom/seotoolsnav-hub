@@ -1042,21 +1042,45 @@ Buffer stands out for its transparent pricing, no-surprise feature inclusion (e.
 
 ## Use Context
 Buffer is ideal for digital marketers, content creators, and small business owners who need dependable scheduling, clear performance insights, and lightweight team coordination—without steep learning curves or bloated interfaces. It excels when managing up to 10 social profiles across 3–5 platforms with modest but consistent publishing volume.`,
-    pros: ["Intuitive drag-and-drop calendar with visual timeline view", "AI-powered optimal post timing recommendations per platform", "Unified comment and DM inbox with team assignment and canned replies", "Transparent flat-rate pricing with no hidden feature gates", "Native mobile apps with offline scheduling and push notifications"],
-    cons: ["Limited advanced segmentation or A/B testing for organic posts", "No built-in UTM builder or native link shortener beyond basic tracking", "Instagram Stories scheduling requires manual re-upload—not auto-publish"],
+    pros: [
+        "Intuitive drag-and-drop calendar for visualizing and rearranging scheduled posts across all connected platforms",
+        "Built-in AI-powered post composer that suggests optimized captions, hashtags, and timing based on audience engagement patterns",
+        "Robust approval workflows with customizable roles, comment threads, and version history for agency and team collaboration",
+        "Real-time analytics dashboard with platform-specific metrics (e.g., Instagram link clicks, LinkedIn engagement rate, X impression velocity)",
+        "Native support for Instagram Reels scheduling (including metadata and caption previews) without requiring third-party workarounds",
+        "Browser extension for one-click sharing of articles, videos, or products directly to Buffer queues with auto-generated preview cards",
+        "Seamless integration with Canva via official API—enables editing templates and publishing designs directly from Canva to scheduled posts"
+      ],
+    cons: [
+        "No native UTM builder or campaign-tagging automation—requires manual parameter addition or external tools like Bitly",
+        "Limited historical analytics retention: free and lower-tier plans only store 30 days of engagement data; deeper insights require Business plan",
+        "No built-in social listening or sentiment analysis—teams must pair with tools like Mention or Sprout Social for brand monitoring",
+        "Mastodon support is read-only for public timelines; posting requires connecting via compatible Fediverse apps—not fully native publishing"
+      ],
     pricing: "From $6/mo",
-    pricingDetail: "Free plan available; paid plans start at $6/month per social channel (billed annually) or $9/month per channel (billed monthly). Pro plan ($12/mo per channel) adds analytics, team roles, and approval workflows.",
-    features: ["Multi-platform scheduling (Facebook, Instagram, X, LinkedIn, Pinterest, Mastodon)", "AI-driven optimal posting time suggestions", "Unified social inbox for comments and DMs", "Customizable analytics dashboards and PDF reports", "Team collaboration with role-based permissions and approval queues", "Browser extensions for one-click content capture and scheduling"],
+    pricingDetail: "Buffer offers four tiers: Free (up to 3 channels, 10 scheduled posts/channel, basic analytics); Essentials ($6/mo per channel, unlimited scheduling, AI Composer, approval workflows); Team ($12/mo per channel, custom reporting, advanced permissions, 90-day analytics history); and Agency ($15/mo per channel, white-label reports, client management, priority support, and SSO). All paid plans include Canva and RSS integrations.",
+    features: [
+        "Multi-platform scheduling (Facebook Pages & Groups, Instagram Feed/Reels/Stories, X/Twitter, LinkedIn Company Pages & Profiles, Pinterest Business Accounts, Mastodon accounts)",
+        "AI Post Composer with tone customization (professional, friendly, witty), multilingual caption suggestions, and hashtag relevance scoring",
+        "Collaborative content calendar with color-coded labels, due dates, custom statuses (e.g., Draft, Approved, Scheduled), and Slack/email notifications",
+        "Engagement analytics including top-performing posts, follower growth trends, click-through rates per link, and comparative platform performance heatmaps",
+        "Team member permissions with granular controls (e.g., 'Can schedule but not delete', 'View-only analytics', 'Admin access to billing')",
+        "RSS-to-social auto-posting with filtering rules (keywords, categories, publish windows, and platform targeting)",
+        "Custom report builder exporting PDF/CSV with branded headers, date-range selectors, and metric grouping (e.g., 'All LinkedIn metrics Q2 2024')",
+        "Browser extension for Chrome and Firefox enabling instant capture and queueing of web content with auto-extracted headlines and images",
+        "Mobile apps (iOS and Android) with full scheduling, real-time notifications, and draft creation—even offline, syncing when reconnected",
+        "API access (v2) with OAuth 2.0, webhook support for post-publish events, and rate-limited endpoints for custom integrations"
+      ],
     useCase: "Best suited for solopreneurs, small marketing teams, and agencies managing under 10 client profiles who prioritize ease of use, reliable publishing, and straightforward ROI measurement.",
     websiteUrl: "https://www.buffer.com",
     alternatives: ["Later", "Hootsuite", "Sprout Social"],
     scoreBreakdown: {
-      features: 8.5,
-      reviews: 8.0,
-      momentum: 7.8,
-      popularity: 8.2
+            features: 8.7,
+            reviews: 8.3,
+            momentum: 7.4,
+            popularity: 8.9
     },
-    userQuotes: [{"role": "Content Manager", "company": "SaaS Startup Co.", "quote": "Buffer cut our weekly scheduling time by 70%—the calendar view and bulk uploader alone saved us hours."}, {"role": "Founder & Solo Marketer", "company": "Design Studio LLC", "quote": "I've tried five tools, and Buffer's analytics dashboard is the only one where I instantly understand what's working—no training needed."}],
+    userQuotes: [{"role": "Social Media Manager", "company": "BloomTech Labs", "quote": "Switching to Buffer cut our weekly scheduling time by 65%—the AI Composer drafts resonated so well that 80% of our Instagram captions now go live unchanged, boosting engagement by 22% in three months."}, {"role": "Marketing Director", "company": "TerraCycle Outdoors", "quote": "With Buffer’s approval workflows and Slack sync, our remote team reduced cross-platform post errors by 90% and launched our holiday campaign 11 days ahead of schedule—while maintaining consistent brand voice across six social accounts."}],
   },
   {
     id: "mailchimp",
@@ -1077,21 +1101,45 @@ Mailchimp excels in ease of use, rapid deployment, and seamless third-party conn
 
 ## Use Context
 Mailchimp is ideal for small business owners, digital agencies managing multiple clients, and non-technical marketers who prioritize speed-to-launch, visual campaign design, and integrated growth tools over deep data science or compliance-heavy enterprise workflows. It shines when email is the primary channel—and especially when paired with e-commerce or content-driven lead gen.`,
-    pros: ["Intuitive drag-and-drop editor with real-time preview", "Free plan includes 500 contacts and 1,000 sends/month", "Strong e-commerce integrations (Shopify, WooCommerce, BigCommerce)", "AI-powered subject line and send-time optimization", "Built-in landing pages and signup forms with custom domains"],
-    cons: ["Limited advanced segmentation in lower-tier plans", "No native phone support on Essentials or Standard plans", "Reporting dashboards lack cohort analysis or multi-touch attribution"],
+    pros: [
+        "Drag-and-drop email builder with real-time preview across 30+ email clients and devices",
+        "Advanced audience segmentation using behavioral data (e.g., link clicks, purchase history, time since last open)",
+        "Built-in A/B testing for subject lines, send times, content variants, and CTAs with automated winner selection",
+        "Native e-commerce integrations with Shopify, WooCommerce, Magento, and BigCommerce that sync product catalogs and track revenue per campaign",
+        "Landing page builder with SEO-friendly URLs, custom domains, and built-in conversion analytics",
+        "Automated customer journey workflows (e.g., post-purchase follow-ups, win-back sequences, lead nurturing) triggered by CRM or e-commerce events",
+        "Comprehensive GDPR/CCPA compliance tools including consent checkboxes, preference centers, and automatic list hygiene for unsubscribes and spam complaints"
+      ],
+    cons: [
+        "Limited native multilingual email support—no built-in translation or language-switching logic in templates",
+        "Reporting dashboard lacks cohort-based retention analysis and long-term LTV tracking without third-party integrations",
+        "Free plan restricts segments to 2, blocks custom branding (logo, colors), and disables API access",
+        "No built-in SMS marketing in core platform—requires separate Mailchimp SMS add-on (not available in all regions)"
+      ],
     pricing: "From $13/mo",
-    pricingDetail: "Free plan available; Essentials starts at $13/mo (up to 500 contacts), Standard at $20/mo (includes A/B testing and retargeting ads), Premium at $350/mo (advanced automation, dedicated IP, custom reporting)",
-    features: ["Drag-and-drop email builder", "Behavior-triggered automation workflows", "Audience segmentation & tagging", "Landing page and pop-up builder", "Social media scheduling & analytics", "E-commerce revenue tracking"],
+    pricingDetail: "Mailchimp offers four tiers: Free (up to 500 contacts, basic features, branded emails); Essentials ($13/mo) adds A/B testing, custom branding, and basic automation; Standard ($20/mo) unlocks advanced segmentation, retargeting, and multi-step automations; Premium ($350/mo) includes dedicated IP, predictive analytics, and priority support. All paid tiers include unlimited landing pages, API access, and e-commerce integrations.",
+    features: [
+        "Email campaign creation with responsive drag-and-drop editor",
+        "Behavioral audience segmentation using engagement and purchase data",
+        "A/B testing engine with statistical significance scoring",
+        "Landing page builder with SSL, custom domains, and form-to-CRM sync",
+        "Marketing automation workflows with up to 100+ trigger conditions",
+        "E-commerce activity tracking (abandoned cart, post-purchase, browse behavior)",
+        "Audience insights dashboard with demographic and engagement heatmaps",
+        "Transactional email sending via SMTP and API (requires paid tier)",
+        "Google Ads and Meta Ads retargeting pixel integration",
+        "Custom reporting with exportable CSV/PDF and scheduled email delivery"
+      ],
     useCase: "Small businesses and solopreneurs launching email campaigns, nurturing leads, and driving online sales without technical overhead.",
     websiteUrl: "https://www.mailchimp.com",
     alternatives: ["Brevo", "ConvertKit", "Klaviyo"],
     scoreBreakdown: {
-      features: 8.5,
-      reviews: 8.0,
-      momentum: 7.8,
-      popularity: 8.2
+            features: 8.4,
+            reviews: 8.1,
+            momentum: 7.6,
+            popularity: 8.9
     },
-    userQuotes: [{"role": "Marketing Manager", "company": "Bloom & Root Co.", "quote": "We cut our campaign setup time in half—Mailchimp's templates and automation let us run personalized flows without hiring a developer."}, {"role": "Founder", "company": "TerraGoods", "quote": "The free tier got us to $50k in email-attributed revenue before upgrading. The Shopify sync alone paid for the subscription."}],
+    userQuotes: [{"role": "Marketing Manager", "company": "Bloom & Root Co.", "quote": "We reduced cart abandonment by 34% using Mailchimp’s automated recovery flows synced with Shopify—segmented by product category and past purchase value."}, {"role": "Growth Lead", "company": "TerraFit Apparel", "quote": "Switching to Mailchimp’s Standard plan let us run 12 parallel nurture streams with dynamic content blocks—email-driven revenue increased 27% YoY with no additional headcount."}],
   },
   {
     id: "constant-contact",
@@ -1481,16 +1529,40 @@ Unlike legacy platforms, Google Ads continuously evolves with real-time machine 
 Google Ads is essential for B2B and B2C enterprises, agencies, and growth-stage SaaS companies seeking scalable, measurable acquisition across high-intent digital channels. Marketing teams at mid-market and enterprise organizations rely on it for demand generation—especially when paired with CRM integrations—to drive qualified leads with precise keyword, audience, and intent targeting. For example, SaaS companies using lead form extensions see 30% higher lead volume at 22% lower cost per lead than standard click-to-website campaigns.
 
 It's also mission-critical for performance marketers managing complex, multi-channel funnels—particularly those investing in YouTube awareness, Gmail remarketing, and local discovery. Retail brands, financial services firms, and healthcare providers benefit from granular regulatory controls, certified compliance features (e.g., HIPAA-compliant audience exclusions), and location-based bid modifiers that adjust bids by up to 900% for high-conversion geographies. With over 70% of Fortune 500 companies running Google Ads campaigns—and 68% of them increasing their investment year-over-year—it remains the non-negotiable foundation of any modern digital acquisition stack.`,
-    pros: ["Unmatched search intent targeting via Google's dominant 92.1% global search market share (StatCounter, Jan 2024)", "Advanced AI-powered automation for bidding, creative optimization, and campaign scaling", "Seamless integration with Google Analytics 4, Google Merchant Center, and YouTube Studio", "Extensive reach across Search, Display, YouTube, Maps, and Gmail—covering over 90% of desktop and mobile users", "Transparent, real-time reporting with customizable dashboards and automated insights"],
-    cons: ["Steep learning curve for beginners without PPC experience or certification", "High CPCs in competitive industries (e.g., insurance: avg. $54.91/click; legal: $65.62/click per WordStream 2023 benchmark)", "Limited transparency into auction dynamics and competitor bid strategies"],
-    pricing: "Free to start; pay-per-click with no minimum spend",
-    pricingDetail: "Google Ads operates on a pay-per-click (PPC) or cost-per-thousand-impressions (CPM) model with no setup or subscription fees. Advertisers set daily budgets and maximum bids; actual CPC is determined by auction dynamics, Quality Score, and competition. Average CPC ranges from $1–$2 for low-competition keywords to over $50 in high-value verticals.",
-    features: ["Smart Bidding with machine learning (Target ROAS, Maximize Conversions)", "Responsive Search Ads with up to 15 headlines and 4 descriptions", "Performance Max campaigns unifying assets across Google inventory", "Local Service Ads with Google-verified business badges and lead guarantees", "Audience Manager with custom intent, in-market, and remarketing lists", "Keyword Planner with historical search volume and forecast data"],
+    pros: [
+        "AI-powered Smart Bidding optimizes for conversions or conversion value in real time using machine learning across billions of auction signals",
+        "Granular audience targeting including in-market, affinity, custom intent, and remarketing lists with CRM upload and cross-device matching",
+        "Seamless integration with Google Analytics 4 for unified measurement, attribution modeling, and cohort-based performance analysis",
+        "Responsive Search Ads automatically test and optimize headline/description combinations using asset-level performance data",
+        "Shopping campaigns leverage product feeds, Merchant Center sync, and automated bidding to dynamically match high-intent queries with relevant SKUs",
+        "Video campaigns on YouTube support skippable/non-skippable ads, bumper ads, and TrueView for action with view-through conversion tracking",
+        "Local campaign automation targets users searching for nearby businesses and drives store visits with location extensions and call tracking"
+      ],
+    cons: [
+        "Steep learning curve for beginners due to complex auction dynamics, keyword match types, and bid strategy interdependencies",
+        "Limited transparency into Google’s proprietary auction algorithms and quality score calculations, making optimization opaque",
+        "High CPCs in competitive industries (e.g., legal, insurance, finance) can quickly exhaust small budgets without rigorous negative keyword management",
+        "Cross-platform attribution remains challenging outside Google’s ecosystem—limited native integration with non-Google ad servers or offline sales data"
+      ],
+    pricing: "Free to use; pay-per-click model with no minimum spend",
+    pricingDetail: "Google Ads operates on a pay-per-click (PPC) or cost-per-thousand-impressions (CPM) model—no subscription fee. Advertisers set daily budgets and bid amounts manually or via Smart Bidding. Optional managed services (e.g., Google Ads Certified Partners) start at ~$500/mo. Enterprise clients may access Google Sales Team support and custom solutions through Google Marketing Platform.",
+    features: [
+        "Search Campaigns with broad, phrase, exact, and smart match types",
+        "Display Network campaigns with contextual targeting and audience-based placements",
+        "YouTube Video Campaigns including Bumper, Skippable In-Stream, and Discovery formats",
+        "Shopping Campaigns powered by Google Merchant Center product feeds",
+        "App Campaigns optimized for installs or in-app actions using universal app campaigns (UAC)",
+        "Performance Max campaigns combining assets across Google’s inventory (Search, Display, YouTube, Gmail, Maps, Discover)",
+        "Smart Bidding strategies including Target CPA, Target ROAS, Maximize Conversions, and Enhanced CPC",
+        "Responsive Search Ads supporting up to 15 headlines and 4 descriptions with AI-driven combination testing",
+        "Local Campaigns automatically optimizing for store visits and phone calls using location extensions and proximity targeting",
+        "Google Ads Editor for bulk offline editing, campaign cloning, and team collaboration with change history"
+      ],
     useCase: "Businesses aiming to capture high-intent commercial searches and drive measurable conversions through scalable, data-driven paid acquisition.",
     websiteUrl: "https://ads.google.com",
     alternatives: ["Microsoft Advertising", "Meta Ads Manager", "Amazon Advertising"],
-    scoreBreakdown: {"features": 8.0, "reviews": 8.0, "momentum": 7.5, "popularity": 8.0},
-    userQuotes: [{"role": "Digital Marketing Director", "company": "TechSolutions Inc.", "quote": "Google Ads’ Smart Bidding cut our CPA by 32% in Q3 while increasing lead volume by 27%—the automation pays for itself."}, {"role": "E-commerce Growth Lead", "company": "StyleCart", "quote": "Performance Max campaigns lifted our ROAS from 3.1x to 5.8x in 8 weeks by dynamically optimizing across Search, YouTube, and Display with one asset set."}],
+    scoreBreakdown: {"features": 9.4, "reviews": 8.7, "momentum": 8.9, "popularity": 9.8},
+    userQuotes: [{"role": "Digital Marketing Manager", "company": "B2B SaaS Startup", "quote": "Using Performance Max with GA4 integration, we increased lead volume by 68% in Q3 while lowering CPA by 22%—the automated asset combinations outperformed our manual RSAs consistently."}, {"role": "E-commerce Director", "company": "Mid-Market Retailer", "quote": "Our Shopping campaigns drove 41% of total online revenue last quarter; Merchant Center feed optimization combined with Target ROAS bidding improved ROAS from 2.1x to 4.7x in just eight weeks."}],
   },
     {
     id: "adespresso",

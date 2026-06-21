@@ -7,7 +7,8 @@ const BLOG_SLUGS = ["technical-seo-audit-checklist-2026", "keyword-research-guid
   "seo-ranking-factors-2026", "technical-seo-audit-checklist-step-by-step-2026",
   "local-seo-small-business-2026", "seo-content-optimization-guide-2026",
   "link-building-strategies-2026",
-  "seo-complete-guide-2026"] as const;
+  "seo-complete-guide-2026",
+  "seo-automation-tools-workflows-2026"] as const;
 
 const TOOL_SLUGS = [
   "semrush",
