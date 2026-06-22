@@ -332,8 +332,6 @@ SpyFu excels at reverse-engineering competitor keyword strategies across both SE
     scoreBreakdown: {"features": 8.0, "reviews": 7.5, "momentum": 6.5, "popularity": 7.5},
     userQuotes: [{"role": "SEO Director", "company": "GrowthLabs Agency", "quote": "SpyFu helped us uncover $250K+ in missed PPC opportunities by revealing what our top 3 competitors were bidding on but not ranking for organically."}],
   },
-    userQuotes: [{"role": "PPC Manager", "company": "ClickForge Agency", "quote": "SpyFu's ad history showed me a competitor was testing 47 ad variants on one keyword — I spotted their best performer by CTR and beat it with a better offer. CPC dropped 22%."}, {"role": "SEO Strategist", "company": "LeadGen Pro", "quote": "The Combined View revealed 312 keywords where our competitor was bidding AND ranking organically — we targeted the 40% with low difficulty and gained 18K clicks/month within 90 days."}],
-  },
   {
     id: "google-keyword-planner",
     name: "Google Keyword Planner",
@@ -1194,12 +1192,6 @@ Constant Contact stands out for its exceptional ease of use even beginners can d
     scoreBreakdown: {"features": 7.5, "reviews": 8.0, "momentum": 6.0, "popularity": 8.0},
     userQuotes: [{"role": "Marketing Manager", "company": "Bloom & Branch Florists", "quote": "Constant Contact's live chat saved us during a last-minute campaign launch we got setup help in under two minutes."}],
   },
-    userQuotes: [
-      { "role": "Marketing Manager", "company": "Green Thumb Landscaping", "quote": "We reduced manual list cleanup by 70% after switching—auto-tagging based on quote requests and service bookings saved 5 hours/week." },
-      { "role": "Executive Director", "company": "Riverbend Community Center", "quote": "Our donor email open rate jumped from 22% to 39% in 3 months using their AI subject line tool and segmented appeals." },
-      { "role": "Owner", "company": "Bella Boutique", "quote": "Live support helped us set up abandoned cart SMS + email flows in under 20 minutes—no developer needed." }
-    ],
-  },
   {
     id: "sprout-social",
     name: "Sprout Social",
@@ -1839,9 +1831,7 @@ Mixpanel offers advanced cohort analysis to compare user groups over time based 
     scoreBreakdown: {"features": 8.5, "reviews": 8.0, "momentum": 7.5, "popularity": 7.5},
     userQuotes: [{"role": "Product Manager", "company": "SaaS Startup Inc.", "quote": "Mixpanel helped us identify a 40% drop-off at the payment step after redesigning that flow, conversions increased by 22% in two weeks."}],
   },
-    userQuotes: [{"role": "Product Manager", "company": "Figma", "quote": "Mixpanel’s cohort retention charts helped us reduce churn by 18% after identifying a critical friction point in our onboarding flow."}, {"role": "Growth Lead", "company": "Notion", "quote": "We attribute 73% of our feature adoption lift over the past year to Mixpanel-driven behavioral segmentation and targeted in-app campaigns."}],
-  },
-    {
+  {
     id: "amplitude",
     name: "Amplitude",
     category: "Analytics",
