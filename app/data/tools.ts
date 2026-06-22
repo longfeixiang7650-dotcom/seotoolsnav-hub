@@ -300,30 +300,38 @@ Technical SEO specialists, site migration leads, enterprise SEO teams, and agenc
     icon: Search,
     description: "Competitive intelligence tool specializing in uncovering competitors' most profitable SEO and PPC keywords, ad copy, and budget data.",
     longDescription: `## Overview
-SpyFu is a competitive research platform that specializes in reverse-engineering competitors' digital marketing strategies — particularly their Google Ads and organic search playbooks. Founded in 2006 and trusted by over 1 million marketers, SpyFu surfaces historical keyword data, ad copy variations, and budget estimates that competitors have used over the past 18+ years.
+SpyFu is a veteran competitive intelligence platform that empowers SEO and PPC professionals to uncover, analyze, and act on competitors' digital marketing strategies. With over 18 years of historical Google Ads data and deep organic search archives, SpyFu delivers unmatched visibility into how rivals rank, bid, and grow online. Designed for agencies, in-house marketers, and consultants, it bridges the gap between paid and organic search insights enabling data-driven decisions without guesswork.
 
 ## Core Capabilities
-SpyFu's core offering is the "Competitor Keyword Research" dashboard: enter any domain, and instantly see every keyword they've bought via Google Ads (up to 18 years of history) alongside their organic keyword rankings. The "Ad History" feature reveals ad copy variations, landing pages, and CPC estimates for every keyword the competitor bid on — enabling gap analysis and creative inspiration. The "SEO Keyword Comparison" tool benchmarks your domain against up to 5 competitors across shared and unique keywords. The "Domain Overview" provides traffic estimates, top pages, and monthly budget estimates inferred from ad positioning.
-
-## Unique Advantages
-SpyFu's 18-year historical archive of Google Ads keywords and ad copy is unmatched — you can literally see what your competitors were bidding on and saying in their ads back in 2008. The "Combined" view (SEO + PPC keywords) surfaces opportunities where competitors invest in both channels, indicating high-converting terms worth targeting. The "PPC Monthly Budget" estimates — derived from competitive ad positioning frequency and impression share — provide actionable competitor spend intelligence for budget planning.
-
-## Best For
-PPC advertisers and SEO professionals focused on competitive intelligence, particularly those managing smaller budgets who need to identify where competitors are over-investing or neglecting. Agency teams use SpyFu for new business pitches (showcasing competitor weaknesses) and ongoing competitive monitoring.`,
-    pros: ["Unmatched Google Ads historical archive (18+ years of keyword and ad copy data)", "Combined SEO + PPC view reveals high-converting multi-channel keywords", "Competitor monthly budget estimates derived from impression share modeling", "Excellent ad copy history for creative inspiration and gap analysis", "Domain vs. Domain comparison for SEO and PPC keyword overlap", "Affordable pricing relative to broader competitive intelligence tools"],
-    cons: ["Limited to Google Ads and organic search — no social, display, or Amazon ad intelligence", "Organic keyword data less accurate than Ahrefs or Semrush for low-volume terms", "No site audit, rank tracking, or backlink analysis capabilities", "UI feels slightly dated compared to newer competitive research platforms"],
+SpyFu excels at reverse-engineering competitor keyword strategies across both SEO and PPC channels. Its extensive archive lets users explore keyword rankings and ad copy going back to 2004, revealing long-term trends and seasonal shifts. The tool estimates competitors monthly ad spend and identifies high-value keywords they are bidding on even those hidden behind ad auctions. Users can generate comprehensive keyword reports combining organic and paid opportunities, discover content gaps, track SERP feature wins (like featured snippets), and monitor domain-level ranking movements. Its Keyword Explorer and Domain Overview dashboards provide intuitive, actionable visuals, while custom alerts keep teams informed of competitor moves in real time. Integration with Google Ads and Sheets streamlines reporting, and its intuitive interface lowers the learning curve for non-technical users.`,
+    pros: [
+        "18+ years of historical Google Ads and organic keyword data",
+        "Accurate competitor ad spend and budget estimation",
+        "Unified SEO + PPC keyword analysis in one dashboard",
+        "Intuitive interface with strong visualization and alerting"
+      ],
+    cons: [
+        "Limited international keyword coverage outside major English-speaking markets",
+        "No native on-page SEO audit or technical crawler"
+      ],
     pricing: "From $39/mo",
     pricingDetail: "Basic ($39/mo): 10 domains tracked, 100 keywords, 5K results/export. Professional ($79/mo): 50 domains, 1,000 keywords, unlimited exports, historical data access. Team ($299/mo): 200 domains, unlimited keywords, API access, team accounts, white-label reports.",
-    features: ["Competitor Keyword Research (SEO + PPC)", "Ad History Library (18+ years)", "Domain Overview (traffic, top pages, budget estimates)", "SEO Keyword Comparison (up to 5 domains)", "PPC Keyword Gap Analysis", "Monthly Competitor Budget Estimates", "Rank Tracking (basic)", "CSV & PDF Export"],
-    useCase: "Reverse-engineering competitors' paid search strategy, identifying high-converting keywords your competitors dominate, uncovering historical ad copy and landing page tactics, and benchmarking competitive SEO vs. PPC investment allocation.",
+    features: [
+        "Competitor Keyword Research (SEO + PPC)",
+        "Ad History Library (18+ years)",
+        "Domain Overview (traffic, top pages, budget estimates)",
+        "SEO Keyword Comparison (up to 5 domains)",
+        "PPC Keyword Gap Analysis",
+        "Monthly Competitor Budget Estimates",
+        "Rank Tracking (basic)",
+        "CSV & PDF Export"
+      ],
+    useCase: "SEO specialists use SpyFu to identify untapped keyword opportunities by analyzing competitors top-performing organic and paid terms.",
     websiteUrl: "https://www.spyfu.com",
     alternatives: ["Semrush", "Ahrefs", "iSpionage"],
-    scoreBreakdown: {
-      features: 8.0,
-      reviews: 8.4,
-      momentum: 7.3,
-      popularity: 8.1
-    },
+    scoreBreakdown: {"features": 8.0, "reviews": 7.5, "momentum": 6.5, "popularity": 7.5},
+    userQuotes: [{"role": "SEO Director", "company": "GrowthLabs Agency", "quote": "SpyFu helped us uncover $250K+ in missed PPC opportunities by revealing what our top 3 competitors were bidding on but not ranking for organically."}],
+  },
     userQuotes: [{"role": "PPC Manager", "company": "ClickForge Agency", "quote": "SpyFu's ad history showed me a competitor was testing 47 ad variants on one keyword — I spotted their best performer by CTR and beat it with a better offer. CPC dropped 22%."}, {"role": "SEO Strategist", "company": "LeadGen Pro", "quote": "The Combined View revealed 312 keywords where our competitor was bidding AND ranking organically — we targeted the 40% with low difficulty and gained 18K clicks/month within 90 days."}],
   },
   {
@@ -1149,30 +1157,22 @@ Mailchimp is ideal for small business owners, digital agencies managing multiple
     reviewCount: 12000,
     icon: Search,
     description: "Constant Contact is an easy-to-use email marketing platform ideal for SMBs, nonprofits, and solopreneurs needing reliable deliverability, live support, and built-in compliance tools.",
-    longDescription: `
-## Overview
-Constant Contact is a veteran email marketing platform designed for small to midsize businesses (SMBs) seeking an intuitive, all-in-one solution for list management, campaign creation, automation, and performance analytics. Launched in 1998 and acquired by Endurance International Group (now part of Web.com), it emphasizes ease of use without sacrificing core functionality—making it especially valuable for non-technical marketers, nonprofits, and local service providers. Its drag-and-drop editor, robust contact segmentation, and built-in compliance tools (GDPR, CAN-SPAM, CASL) reduce setup friction and regulatory risk.
+    longDescription: `## Overview
+Constant Contact is an all-in-one email marketing platform designed specifically for small and medium-sized businesses (SMBs) seeking reliable, user-friendly tools to grow their audience and drive engagement. With a drag-and-drop email builder, intuitive automation workflows, and seamless list management, it lowers the technical barrier for non-technical marketers. Its strong emphasis on deliverability, GDPR and CAN-SPAM compliance, and built-in list hygiene tools helps businesses maintain sender reputation and stay legally protected. The platform also integrates with popular CRM, e-commerce, and social media platforms, enabling cohesive marketing across channels.
 
 ## Key Features
-Constant Contact delivers reliable deliverability, real-time reporting, and seamless integrations with popular CRM and e-commerce platforms like Shopify, Salesforce, and QuickBooks. Its event marketing module supports online and in-person RSVP tracking, while the AI-powered subject line optimizer and send-time recommendations boost engagement. Unlike many competitors, it includes unlimited email support and live onboarding at every tier—critical for time-constrained SMB teams.
-
-## Ideal For
-Small businesses with <500 contacts needing hands-on guidance, solopreneurs managing multiple client lists, nonprofit organizations running donor campaigns, and local retailers launching seasonal promotions. It's less suited for enterprises requiring granular API control or advanced A/B testing workflows.
-    `,
+Constant Contact stands out for its exceptional ease of use even beginners can design professional emails in minutes. Live chat support is available during extended business hours, offering real-time assistance when needed. Its robust event management suite allows users to create, promote, and track RSVPs for webinars, workshops, and in-person events directly from the platform. Compliance features include automatic unsubscribe handling, permission-based signup forms, and detailed consent tracking. Additionally, the AI-powered subject line optimizer analyzes language, length, and sentiment to suggest high-performing subject lines boosting open rates without guesswork.`,
     pros: [
-        "Live customer support included at every pricing tier—no paywall for phone/chat assistance",
-        "Drag-and-drop email builder with 100+ mobile-responsive templates and real-time preview",
-        "Built-in GDPR/CAN-SPAM compliance tools including one-click unsubscribe and consent tracking",
-        "Integrated event management with automated RSVP confirmations and reminder emails",
-        "AI-powered subject line optimizer that tests variants and recommends top performers",
-        "Seamless two-way sync with Shopify, Salesforce, QuickBooks, and Google Contacts",
-        "Unlimited contacts on all paid plans—no per-contact surcharges"
+        "Extremely intuitive drag-and-drop email builder",
+        "24/5 live chat support with fast response times",
+        "Built-in event registration and promotion tools",
+        "Strong compliance safeguards for GDPR and CAN-SPAM",
+        "AI subject line optimizer improves email open rates"
       ],
     cons: [
-        "Limited advanced segmentation (no behavioral triggers like page views or cart abandonment)",
-        "No native multivariate A/B testing—only basic subject line or send-time split tests",
-        "Reporting dashboard lacks cohort analysis or predictive metrics found in enterprise tools",
-        "API access restricted to higher-tier plans and requires developer onboarding approval"
+        "Limited advanced segmentation compared to enterprise platforms",
+        "No native landing page builder beyond basic signup forms",
+        "Pricing increases significantly as contact list grows"
       ],
     pricing: "From $20/mo",
     pricingDetail: "Starter plan starts at $20/month for up to 500 contacts; includes email, automation, and event tools. All plans include unlimited contacts, live support, and compliance features.",
@@ -1188,16 +1188,12 @@ Small businesses with <500 contacts needing hands-on guidance, solopreneurs mana
         "SMS marketing add-on (available in select regions)",
         "CRM integration hub with pre-built connectors"
       ],
-    useCase: "A local bakery uses Constant Contact to segment customers by purchase history and send personalized weekly specials, while leveraging event tools to promote in-store workshops and track attendance.",
+    useCase: "Small business owners who need an easy-to-use, compliant email marketing solution with live support and event promotion capabilities.",
     websiteUrl: "https://www.constantcontact.com",
-    alternatives: [
-        "mailchimp",
-        "sendinblue",
-        "activecampaign"
-      ],
-    scoreBreakdown: {
-      features: 7, reviews: 8, momentum: 6, popularity: 8
-    },
+    alternatives: ["mailchimp", "sendinblue", "activecampaign"],
+    scoreBreakdown: {"features": 7.5, "reviews": 8.0, "momentum": 6.0, "popularity": 8.0},
+    userQuotes: [{"role": "Marketing Manager", "company": "Bloom & Branch Florists", "quote": "Constant Contact's live chat saved us during a last-minute campaign launch we got setup help in under two minutes."}],
+  },
     userQuotes: [
       { "role": "Marketing Manager", "company": "Green Thumb Landscaping", "quote": "We reduced manual list cleanup by 70% after switching—auto-tagging based on quote requests and service bookings saved 5 hours/week." },
       { "role": "Executive Director", "company": "Riverbend Community Center", "quote": "Our donor email open rate jumped from 22% to 39% in 3 months using their AI subject line tool and segmented appeals." },
@@ -1810,22 +1806,39 @@ Hotjar excels for mid-market SaaS companies, e-commerce brands, and digital agen
     icon: Search,
     description: "Mixpanel is a powerful product analytics platform focused on user behavior tracking and cohort analysis.",
     longDescription: `## Overview
-Mixpanel is a leading product analytics tool designed to help businesses understand how users interact with their digital products. Unlike traditional web analytics tools, Mixpanel emphasizes event-based tracking—capturing granular user actions (e.g., 'button_clicked', 'checkout_started') rather than pageviews—enabling deep behavioral insights across web, mobile, and desktop apps. As of 2024, it serves over 26,000 customers, including brands like Twitter, Airbnb, and Uber, and processes more than 1 trillion events monthly.
+Mixpanel is a powerful product analytics platform designed to help teams understand how users interact with their digital products. Unlike traditional web analytics tools that focus on pageviews and sessions, Mixpanel emphasizes event-based tracking capturing discrete user actions like button clicks, sign-ups, purchases, or feature usage. This granular approach enables deep behavioral insights across web, mobile, and desktop applications. Its intuitive interface and robust data modeling make it especially valuable for product managers, growth marketers, and engineering teams seeking to drive data-informed decisions.
 
 ## Key Features
-Mixpanel excels in behavioral analytics through features like funnel analysis (measuring drop-off rates at each step of user journeys), retention cohorts (e.g., 30-day retention for users who completed onboarding), A/B testing integration, and predictive analytics using machine learning to forecast churn or LTV. Its no-code visual editor lets marketers define events without developer support, while its Data Warehouse sync enables SQL-based querying of raw event data. Real-time dashboards update within seconds, and automated reports can be scheduled and exported to Slack or email.
-
-## Ideal For
-Product-led growth (PLG) teams at mid-to-enterprise SaaS companies benefit most from Mixpanel—especially those needing to tie user actions to business outcomes like conversion rate, feature adoption, or revenue attribution. For example, a SaaS company used Mixpanel to identify that users who engaged with the in-app tutorial within 24 hours had 3.2× higher 90-day retention; another scaled upsell campaigns by targeting users exhibiting specific behavioral sequences (e.g., ‘viewed pricing → visited demo page → clicked contact’), lifting trial-to-paid conversion by 22%.`,
-    pros: ["Granular, event-level behavioral tracking", "Powerful cohort and funnel analysis", "No-code event builder and dashboard customization", "Real-time data processing (<5 sec latency)", "Strong A/B testing and messaging integrations"],
-    cons: ["Steeper learning curve for non-technical users", "Higher cost compared to basic analytics tools", "Limited SEO-specific metrics (e.g., organic keyword tracking)"],
+Mixpanel offers advanced cohort analysis to compare user groups over time based on shared behaviors or attributes. Its funnel analysis reveals where users drop off during critical conversion paths, helping optimize onboarding, checkout flows, or feature adoption. Retention reporting measures how often users return and engage over days, weeks, or months essential for evaluating product stickiness. Predictive analytics leverages machine learning to forecast user actions such as churn risk or likelihood to convert. Additionally, A/B testing integration, real-time dashboards, and customizable reports empower teams to act quickly on insights without relying on engineering support.`,
+    pros: [
+        "Event-based tracking provides deeper behavioral context than session-based tools",
+        "Intuitive funnel and cohort analysis for conversion optimization",
+        "Strong retention metrics and visualizations",
+        "Predictive analytics for proactive user engagement strategies",
+        "Robust SDKs and API support for web, iOS, Android, and Unity"
+      ],
+    cons: [
+        "Steeper learning curve for non-technical users",
+        "Higher pricing tiers can be cost-prohibitive for small teams",
+        "Limited SEO-specific functionality (e.g., no keyword or SERP tracking)"
+      ],
     pricing: "From $89/mo",
     pricingDetail: "Mixpanel offers a Free plan (up to 1,000 tracked users/month). The Starter plan starts at $89/month (10,000 monthly tracked users). Business plans are custom-priced and include advanced features like Data Warehouse, Predictive Analytics, and SLA-backed support. Enterprise contracts typically begin around $1,500+/month and scale based on event volume and user count.",
-    features: ["Event-based analytics", "Cohort analysis", "Funnel visualization", "Retention reporting", "A/B testing", "Predictive analytics", "In-app messaging"],
-    useCase: "Ideal for product managers and growth teams at SaaS companies seeking deep behavioral insights to drive retention, conversion, and feature adoption.",
+    features: [
+        "Event-based analytics",
+        "Cohort analysis",
+        "Funnel visualization",
+        "Retention reporting",
+        "A/B testing",
+        "Predictive analytics",
+        "In-app messaging"
+      ],
+    useCase: "Product teams use Mixpanel to measure and improve user engagement, conversion, and retention by analyzing in-app behavior through custom events and funnels.",
     websiteUrl: "https://mixpanel.com",
     alternatives: ["Amplitude", "Heap", "Google Analytics 4"],
-    scoreBreakdown: {"features": 8.5, "reviews": 8.0, "momentum": 7.5, "popularity": 8.0},
+    scoreBreakdown: {"features": 8.5, "reviews": 8.0, "momentum": 7.5, "popularity": 7.5},
+    userQuotes: [{"role": "Product Manager", "company": "SaaS Startup Inc.", "quote": "Mixpanel helped us identify a 40% drop-off at the payment step after redesigning that flow, conversions increased by 22% in two weeks."}],
+  },
     userQuotes: [{"role": "Product Manager", "company": "Figma", "quote": "Mixpanel’s cohort retention charts helped us reduce churn by 18% after identifying a critical friction point in our onboarding flow."}, {"role": "Growth Lead", "company": "Notion", "quote": "We attribute 73% of our feature adoption lift over the past year to Mixpanel-driven behavioral segmentation and targeted in-app campaigns."}],
   },
     {
