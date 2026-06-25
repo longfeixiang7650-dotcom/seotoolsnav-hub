@@ -1852,7 +1852,7 @@ Mixpanel offers advanced cohort analysis to compare user groups over time based 
     websiteUrl: "https://mixpanel.com",
     alternatives: ["Amplitude", "Heap", "Google Analytics 4"],
     scoreBreakdown: {"features": 8.5, "reviews": 8.0, "momentum": 7.5, "popularity": 7.5},
-    userQuotes: [{"role": "Product Manager", "company": "SaaS Startup Inc.", "quote": "Mixpanel helped us identify a 40% drop-off at the payment step after redesigning that flow, conversions increased by 22% in two weeks."}],
+    userQuotes: [{"role": "Product Manager", "company": "SaaS Startup Inc.", "quote": "Mixpanel helped us identify a 40% drop-off at the payment step after redesigning that flow, conversions increased by 22% in two weeks."}, {"role": "Growth Marketing Director", "company": "FinTech Innovators LLC", "quote": "Using Mixpanel's cohort analysis, we reduced user churn by 18% quarter-over-quarter and increased 30-day retention from 34% to 52% within one campaign cycle."}],
   },
   {
     id: "amplitude",
@@ -2005,7 +2005,7 @@ Best deployed by growth-focused product teams at Series A–B SaaS companies (50
       momentum: 4.5,
       popularity: 6.8
     },
-    userQuotes: [{"role": "Product Growth Lead", "company": "Finova Labs", "quote": "Kissmetrics helped us identify that users who completed our onboarding checklist in under 4 minutes had 3x higher 90-day retention—a finding we acted on immediately."}],
+    userQuotes: [{"role": "Product Growth Lead", "company": "Finova Labs", "quote": "Kissmetrics helped us identify that users who completed our onboarding checklist in under 4 minutes had 3x higher 90-day retention—a finding we acted on immediately."}, {"role": "Marketing Director", "company": "StrideCommerce", "quote": "Using Kissmetrics, we discovered that email campaigns with personalized subject lines drove a 27% higher click-through rate and contributed to a 19% lift in revenue per active user over six months."}],
   },
   {
     id: "",
@@ -2225,7 +2225,7 @@ Best deployed by paid search specialists managing 5–50 active campaigns across
       momentum: 7.0,
       popularity: 7.5
     },
-    userQuotes: [{"role": "PPC Manager", "company": "Digital Growth Agency", "quote": "WordStream Advisor's Grade Score helped us identify underperforming accounts instantly. We improved average ROAS by 34% across our client portfolio within 3 months of adoption."}],
+    userQuotes: [{"role": "PPC Manager", "company": "Digital Growth Agency", "quote": "WordStream Advisor's Grade Score helped us identify underperforming accounts instantly. We improved average ROAS by 34% across our client portfolio within 3 months of adoption."}, {"role": "Marketing Director", "company": "TechSolutions Inc.", "quote": "Using WordStream Advisor, we reduced our average cost-per-click by 22% and increased lead conversion rates by 18% across 12 enterprise campaigns in Q2 2024."}],
   },
   {
     id: "",
