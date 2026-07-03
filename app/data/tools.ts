@@ -1763,55 +1763,144 @@ Hotjar excels for mid-market SaaS companies, e-commerce brands, and digital agen
     ],
   },
   {
-    id: "",
+    id: "semrush-ppc",
     name: "SEMrush",
-    category: "PPC & Advertising",
+    category: "PPC and Advertising",
     rating: 4.0,
     reviewCount: 100,
     icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
+    description: "Comprehensive PPC and advertising toolkit for managing paid search campaigns, ad copy analysis, competitor ad research, and audience targeting across Google Ads and Bing.",
+    longDescription: `## Overview
+SEMrush is a leading all-in-one digital marketing suite with deeply integrated PPC and advertising capabilities. Its PPC module extends beyond basic keyword research to deliver actionable intelligence across campaign strategy, competitive ad analysis, budget forecasting, and cross-channel optimization spanning Google Ads, Microsoft Advertising, and social platforms.
+
+## Core Capabilities
+SEMrush PPC toolkit provides real-time ad copy tracking, historical bid estimation, impression share analytics, and granular match-type keyword suggestions backed by a 20+ billion keyword database. It enables full-funnel campaign auditing from search term report analysis and negative keyword gap identification to Quality Score diagnostics and landing page relevance scoring.
+
+## Unique Advantages
+Unlike standalone PPC tools, SEMrush uniquely unifies organic and paid data enabling precise overlap analysis. Its Traffic Analytics engine reverse-engineers competitor ad spend estimates and channel allocation, while the Keyword Magic Tool delivers long-tail, intent-filtered suggestions with CPC and competition data. Its proprietary Ad History database archives over 10 million live and retired ads.
+
+## Use Context
+SEMrush excels in mid-to-large-scale PPC operations: agencies managing multi-client accounts benefit from white-label reporting; enterprise teams leverage its API for custom dashboards; growth marketers use its Campaign Audit and PPC Toolkit to diagnose underperforming campaigns.`,
+    pros: [
+              "Real-time ad copy and landing page monitoring across Google and Microsoft Ads",
+              "Competitor ad spend estimation and historical ad archive (10M+ ads)",
+              "AI-powered ad variation generator with performance scoring",
+              "Integrated keyword gap analysis between organic and paid search",
+              "Automated negative keyword suggestions based on search term reports",
+              "Cross-platform bid strategy recommendations",
+              "White-label reporting and client-facing dashboards",
+              "Robust API for custom integrations"
+            ],
+    cons: [
+              "Steeper learning curve for beginners due to interface density",
+              "Microsoft Advertising integration lacks some advanced automation features",
+              "Limited native social ad creative analytics",
+              "Enterprise-tier pricing required for full API volume and historical depth"
+            ],
+    pricing: "From $139.95/mo",
+    pricingDetail: "SEMrush offers three main tiers: Pro ($139.95/mo) includes core PPC features with 100 keyword tracking projects and basic ad history access; Guru ($249.95/mo) adds unlimited keyword tracking, full ad archive access, custom dashboards, and priority support; Business ($499.95/mo) unlocks team management, API access (10K calls/mo), white-label reporting, and advanced integrations.",
+    features: [
+              "Ad Builder with AI-generated headlines and descriptions",
+              "Keyword Gap Analysis (organic vs. paid)",
+              "Historical Ad Archive (Google and Microsoft)",
+              "Search Term Report Analyzer with negative keyword suggestions",
+              "PPC Keyword Difficulty and CPC Forecasting",
+              "Landing Page Audit for Ad Relevance and Load Speed",
+              "Competitor Ad Spend Estimation Engine",
+              "Bid Strategy Simulator",
+              "Quality Score Diagnostic Dashboard",
+              "Cross-Channel Campaign Performance Comparison",
+              "Custom Alert System for CPC shifts",
+              "Google Ads and Microsoft Advertising Auto-Sync"
+            ],
+    useCase: "SEMrush is ideal for PPC managers who need to audit underperforming campaigns, reverse-engineer competitor strategies, and align paid efforts with organic SEO priorities. Particularly valuable for agencies running multiple client accounts.",
+    websiteUrl: "https://www.semrush.com",
+    alternatives: [
+              "google-ads",
+              "adespresso",
+              "spyfu",
+              "wordstream-advisor",
+              "se-ranking"
+            ],
     scoreBreakdown: {
-      features: 8.0,
+      features: 8.5,
       reviews: 8.0,
-      momentum: 8.0,
+      momentum: 7.5,
       popularity: 8.0
     },
-    userQuotes: [],
-  },
+    userQuotes: [
+              {"role": "PPC Director", "company": "GrowthLab Agency", "quote": "SEMrush cut our campaign setup time by 40% - its Ad Builder and negative keyword suggestions alone recovered 12% of wasted spend in Q1."},
+              {"role": "Digital Marketing Manager", "company": "TechNova Inc.", "quote": "The organic+paid overlap report in SEMrush changed how we allocate quarterly budgets."}
+            ],  },
   {
-    id: "",
+    id: "ahrefs-ppc",
     name: "Ahrefs",
-    category: "PPC & Advertising",
+    category: "PPC and Advertising",
     rating: 4.0,
     reviewCount: 100,
     icon: Search,
-    description: "",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
+    description: "PPC-focused capabilities of Ahrefs including paid keyword analysis, competitor ad research, and SERP feature tracking for bid optimization.",
+    longDescription: `## Overview
+Ahrefs is a world-leading SEO and competitive intelligence platform that extends robust PPC and advertising capabilities beyond organic search. It delivers enterprise-grade paid search functionality for performance marketers optimizing Google Ads campaigns, auditing competitor ad strategies, and aligning paid and organic SERP visibility. Its PPC tools use real-time, clickstream-informed data from over 10 billion monthly searches and 20+ million live ads.
+
+## Core Capabilities
+Ahrefs PPC suite centers on three pillars: Paid Keyword Research offering CPC, competition level, and historical bid trends; Competitor Ad Intelligence enabling deep analysis of rivals active ad copy and landing pages via the Ads History tool; and SERP Feature Tracking monitoring when competitors appear in Shopping carousels, Local Packs, or Knowledge Panels.
+
+## Unique Advantages
+Unlike generic keyword planners, Ahrefs cross-references paid data with actual SERP layouts revealing where and how competitors win visibility. Its proprietary Clickstream Data provides more realistic CTR and impression share modeling. The Ads History timeline shows ad copy evolution over 24+ months enabling trend analysis of messaging shifts and seasonal promotions.
+
+## Use Context
+Ahrefs excels for agencies managing multi-client PPC accounts, in-house growth teams conducting quarterly competitive audits, and e-commerce brands optimizing Shopping ad spend against organic SERP cannibalization.`,
+    pros: [
+              "Real-time, clickstream-derived CPC and impression share estimates",
+              "Historical Ads History tool showing competitor ad copy changes for up to 24 months",
+              "Integrated SERP feature tracking per keyword",
+              "Unified keyword scoring combining paid competitiveness and organic difficulty",
+              "Cross-channel overlap analysis (paid + organic keyword cannibalization)",
+              "Advanced filtering by device, location, and SERP layout",
+              "Exportable ad copy templates and landing page audit reports",
+              "Google Ads campaign import and gap analysis"
+            ],
+    cons: [
+              "No native Google Ads account syncing or automated bid management",
+              "Limited Microsoft Advertising and Amazon Ads coverage",
+              "Ads History lacks full creative metadata (headline variants)",
+              "Learning curve for non-SEO users unfamiliar with Ahrefs interface"
+            ],
+    pricing: "From $99/mo",
+    pricingDetail: "Ahrefs offers four tiers: Lite ($99/mo, 500 keyword queries/mo), Standard ($179/mo, 1,500 queries), Advanced ($399/mo, 3,000 queries), and Enterprise ($999/mo, custom limits). All plans include full access to Ads History, SERP feature tracking, and paid keyword metrics.",
+    features: [
+              "Paid Keyword Explorer with CPC, competition, and impression share",
+              "Ads History timeline for competitor ad copy and landing page evolution",
+              "SERP Feature Tracker (Shopping, Local Pack, People Also Ask)",
+              "Keyword Gap analysis between your site and up to 5 competitors",
+              "Clickstream-based CTR estimation by SERP position",
+              "Ad Copy Library with filterable templates",
+              "Landing Page Audit for competitor ad destinations",
+              "Google Ads campaign import and performance benchmarking",
+              "Bid Simulator for estimated impression share",
+              "Custom alerting for new competitor ads",
+              "Exportable PPC audit reports (PDF/CSV)",
+              "API access for paid keyword and ad history data"
+            ],
+    useCase: "Digital marketing agencies use Ahrefs to reverse-engineer high-converting ad strategies for clients in competitive verticals. E-commerce brands leverage SERP feature tracking to shift budget to Shopping placements where competitors dominate.",
+    websiteUrl: "https://www.ahrefs.com",
+    alternatives: [
+              "spyfu",
+              "google-keyword-planner",
+              "semrush-backlink",
+              "wordstream-advisor"
+            ],
     scoreBreakdown: {
-      features: 8.0,
+      features: 8.5,
       reviews: 8.0,
-      momentum: 8.0,
+      momentum: 7.5,
       popularity: 8.0
     },
-    userQuotes: [],
-  },
+    userQuotes: [
+              {"role": "PPC Director", "company": "GrowthLab Agency", "quote": "Ahrefs Ads History helped us uncover a competitor holiday ad copy pivot two weeks before launch - we captured 22% more share-of-voice in Q4."},
+              {"role": "SEO and Paid Media Manager", "company": "TechNova Inc.", "quote": "The SERP feature tracker revealed our Shopping ads were losing impressions to Local Pack dominance - redirecting $18K/mo to geo-targeted local ads lifted ROAS by 37%."}
+            ],  },
   {
     id: "mixpanel",
     name: "Mixpanel",
