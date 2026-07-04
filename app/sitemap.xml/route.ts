@@ -20,7 +20,9 @@ const BLOG_SLUGS = ["technical-seo-audit-checklist-2026", "keyword-research-guid
   "free-seo-tools-2026-guide",
   "ahrefs-vs-semrush-vs-moz-agency-seo-tools-2026",
   "seo-crawler-tools-comparison-screaming-frog-sitebulb-invicti",
-  "seo-tool-integrations-apis-workflow-2026"] as const;
+  "seo-tool-integrations-apis-workflow-2026",
+  "technical-seo-audit-checklist-2026-tools-methodology",
+  "seo-tools-free-vs-paid-2026"] as const;
 
 const TOOL_SLUGS = [
   "semrush",
