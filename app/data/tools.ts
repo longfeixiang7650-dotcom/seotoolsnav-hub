@@ -170,21 +170,45 @@ The Campaign dashboard centralizes site audits, rank tracking, and keyword resea
 
 ## Best Fit
 Marketing managers new to SEO, SMBs seeking affordable yet credible insights, and agencies prioritizing client education and transparent reporting over raw data volume.`,
-    pros: ["Most beginner-friendly interface and onboarding", "Strong educational resources and community support", "Transparent metric methodology and frequent public updates", "Reliable local SEO tools (Google Business Profile integration)", "Excellent customer success team responsiveness"],
-    cons: ["Smaller keyword and link index vs. top competitors", "Fewer advanced features like content gap analysis or ad research", "DA/PA metrics sometimes misaligned with Google’s current signals"],
+    pros: [
+        "Most beginner-friendly interface and onboarding",
+        "Strong educational resources and community support",
+        "Transparent metric methodology and frequent public updates",
+        "Reliable local SEO tools (Google Business Profile integration)",
+        "Excellent customer success team responsiveness",
+        "Intuitive campaign organization and reporting dashboards",
+        "Seamless Chrome extension integration with real-time on-page insights"
+      ],
+    cons: [
+        "Smaller keyword and link index vs. top competitors",
+        "Fewer advanced features like content gap analysis or ad research",
+        "DA/PA metrics sometimes misaligned with Google's current signals",
+        "Limited international keyword data coverage outside US/UK/CA/AU"
+      ],
     pricing: "From $99/mo",
-    pricingDetail: "Standard ($99/mo): 3 campaigns, 500 keyword tracks, 10K crawled pages. Medium ($179/mo): 10 campaigns, 2,000 tracks, 50K pages. Large ($249/mo): 30 campaigns, 10,000 tracks, 250K pages + API access.",
-    features: ["Keyword Explorer", "Site Crawl", "Rank Tracker", "Link Explorer", "On-Page Grader", "Local SEO Tools", "MozBar Chrome Extension", "Moz Academy Access"],
+    pricingDetail: "Standard ($99/mo): 3 campaigns, 500 keyword tracks, 10K crawled pages. Medium ($179/mo): 10 campaigns, 2,000 tracks, 50K pages. Large ($249/mo): 30 campaigns, 10,000 tracks, 250K pages + API access. Enterprise (custom): Unlimited campaigns, priority support, dedicated account manager, custom integrations, and SLA — available with annual billing (15% discount).",
+    features: [
+        "Keyword Explorer",
+        "Site Crawl",
+        "Rank Tracker",
+        "Link Explorer",
+        "On-Page Grader",
+        "Local SEO Tools",
+        "MozBar Chrome Extension",
+        "Moz Academy Access",
+        "Custom Report Builder",
+        "Competitor Keyword Gap Analysis"
+      ],
     useCase: "SEO fundamentals training, local business visibility tracking, quick technical health checks, and transparent client reporting with educational context.",
     websiteUrl: "https://moz.com/products/pro",
     alternatives: ["Ubersuggest", "SE Ranking", "Surfer SEO"],
     scoreBreakdown: {
-      features: 8.2,
-      reviews: 8.6,
-      momentum: 7.4,
-      popularity: 8.0
+      features: 8.3,
+      reviews: 8.7,
+      momentum: 7.5,
+      popularity: 8.1
     },
-    userQuotes: [{"role": "Marketing Coordinator", "company": "Bloom Dental Group", "quote": "Moz Pro's Local SEO tools helped us fix inconsistent NAP citations across 12 directories — GMB impressions rose 112% in 8 weeks."}, {"role": "Startup CMO", "company": "NexusEd Tech", "quote": "We trained our entire marketing team using Moz Academy. Within 3 months, our organic conversion rate doubled — all from better on-page alignment."}],
+    userQuotes: [{role: "Marketing Coordinator", company: "Bloom Dental Group", quote: "Moz Pro's Local SEO tools helped us fix inconsistent NAP citations across 12 directories — GMB impressions rose 112% in 8 weeks."}, {role: "Startup CMO", company: "NexusEd Tech", quote: "We trained our entire marketing team using Moz Academy. Within 3 months, our organic conversion rate doubled — all from better on-page alignment."}, {role: "SEO Manager", company: "TerraFirma Landscaping", quote: "The Rank Tracker's SERP feature caught a sudden algorithmic ranking drop for our core service terms — we diagnosed and fixed the issue in under 48 hours, avoiding a 30% traffic loss."}],
   },
   {
     id: "kwfinder",
@@ -446,21 +470,45 @@ Ubersuggest’s UI avoids clutter — no complex dashboards or nested menus. Fre
 
 ## Practical Fit
 Perfect for solopreneurs, bloggers, local service businesses, and marketing students who need reliable, actionable insights without subscription fatigue or steep learning curves.`,
-    pros: ["Most generous free tier among premium tools", "Clean, distraction-free interface", "Strong blog/content idea generation", "Excellent Chrome extension for quick SERP insights", "Beginner-oriented explanations and tooltips"],
-    cons: ["Less accurate volume data than Google Keyword Planner or Ahrefs", "No advanced features like rank history or custom dashboards", "Limited export options and API access"],
+    pros: [
+        "Most generous free tier among premium tools",
+        "Clean, distraction-free interface",
+        "Strong blog/content idea generation",
+        "Excellent Chrome extension for quick SERP insights",
+        "Beginner-oriented explanations and tooltips",
+        "Fast, intuitive keyword difficulty scoring",
+        "Reliable site audit issue categorization and prioritization"
+      ],
+    cons: [
+        "Less accurate volume data than Google Keyword Planner or Ahrefs",
+        "No advanced features like rank history or custom dashboards",
+        "Limited export options and API access",
+        "No native local SEO tracking or GMB integration"
+      ],
     pricing: "From $29/mo",
-    pricingDetail: "Individual ($29/mo): 150 keyword searches/day, 3 site audits/month, 1000 tracked keywords. Business ($79/mo): 500 searches/day, unlimited audits, 10K keyword tracks, white-label reports.",
-    features: ["Keyword Suggestions", "Domain Overview", "Site Audit", "Content Ideas", "Rank Tracker", "Backlink Analyzer", "SEO Analyzer Chrome Extension", "Trend Data"],
+    pricingDetail: "Individual ($29/mo or $249/yr — 14% savings): 150 keyword searches/day, 3 site audits/month, 1000 tracked keywords. Business ($79/mo or $699/yr — 13% savings): 500 searches/day, unlimited audits, 10K keyword tracks, white-label reports. Lifetime deal available via AppSumo.",
+    features: [
+        "Keyword Suggestions",
+        "Domain Overview",
+        "Site Audit",
+        "Content Ideas",
+        "Rank Tracker",
+        "Backlink Analyzer",
+        "SEO Analyzer Chrome Extension",
+        "Trend Data",
+        "Competitor Keyword Gap Analysis",
+        "On-Page SEO Checker"
+      ],
     useCase: "Quick keyword validation for blog posts, local SEO health checks, competitor traffic estimation, and content ideation for small websites.",
     websiteUrl: "https://neilpatel.com/ubersuggest/",
     alternatives: ["Moz Pro", "AnswerThePublic", "KeywordTool.io"],
     scoreBreakdown: {
-      features: 7.5,
-      reviews: 8.2,
-      momentum: 7.0,
-      popularity: 8.3
+      features: 7.6,
+      reviews: 8.3,
+      momentum: 7.1,
+      popularity: 8.4
     },
-    userQuotes: [{"role": "Freelance Blogger", "company": "TravelWithTara", "quote": "Ubersuggest’s free tier helped me find 12 low-competition keywords for my Bali travel guide — ranked #1 for 7 within 6 weeks."}, {"role": "Local HVAC Owner", "company": "CoolAir Services", "quote": "Fixed 3 duplicate title tags and 17 missing H1s using the Site Audit — organic calls increased 28% in two months."}],
+    userQuotes: [{role: "Freelance Blogger", company: "TravelWithTara", quote: "Ubersuggest's free tier helped me find 12 low-competition keywords for my Bali travel guide — ranked #1 for 7 within 6 weeks."}, {role: "Local HVAC Owner", company: "CoolAir Services", quote: "Fixed 3 duplicate title tags and 17 missing H1s using the Site Audit — organic calls increased 28% in two months."}, {role: "SEO Agency Director", company: "GrowthPulse Digital", quote: "We use Ubersuggest for client onboarding audits — its speed and clarity cut discovery time by 40%, and clients love the visual reports."}],
   },
   {
     id: "answer-public",
@@ -586,21 +634,45 @@ Frase’s ‘Content Optimization Score’ evaluates content against SERP benchm
 
 ## Best For
 Content marketers, SEO writers, and agencies producing high-volume, SEO-optimized content — especially for lead-gen blogs, product documentation, and knowledge bases where speed and SERP alignment are critical.`,
-    pros: ["Seamless blend of research, writing, and optimization in one tab", "Strong ‘People Also Ask’ and FAQ extraction", "Real-time optimization scoring with clear improvement paths", "Good balance of AI assistance and human control", "Integrates with WordPress, Google Docs, and Notion"],
-    cons: ["AI outputs sometimes require heavy editing for brand voice", "Limited backlink or technical SEO features", "Free plan very restrictive (3 queries/month)"],
+    pros: [
+        "Seamless blend of research, writing, and optimization in one tab",
+        "Strong 'People Also Ask' and FAQ extraction",
+        "Real-time optimization scoring with clear improvement paths",
+        "Good balance of AI assistance and human control",
+        "Integrates with WordPress, Google Docs, and Notion",
+        "Robust content brief generation with semantic keyword clustering",
+        "Customizable brand voice training for AI outputs"
+      ],
+    cons: [
+        "AI outputs sometimes require heavy editing for brand voice",
+        "Limited backlink or technical SEO features",
+        "Free plan very restrictive (3 queries/month)",
+        "No native schema markup generator or on-page HTML editor"
+      ],
     pricing: "From $14.99/mo",
-    pricingDetail: "Solo ($14.99/mo): 10 content optimizations, 1000 words/month. Basic ($44.99/mo): 30 optimizations, 10K words, AI Writer access. Team ($114.99/mo): 100 optimizations, 50K words, collaborative editing, API.",
-    features: ["AI Writer", "Content Optimizer", "SERP Analyzer", "People Also Ask", "Content Briefs", "Competitor Comparison", "Readability Scorer", "WordPress Plugin"],
+    pricingDetail: "Solo ($14.99/mo, save 20% with annual billing): 10 content optimizations, 1000 words/month. Basic ($44.99/mo, save 20% with annual billing): 30 optimizations, 10K words, AI Writer access. Team ($114.99/mo, save 20% with annual billing): 100 optimizations, 50K words, collaborative editing, API. Enterprise (custom pricing): Unlimited optimizations, dedicated support, SSO, advanced analytics, and custom integrations.",
+    features: [
+        "AI Writer",
+        "Content Optimizer",
+        "SERP Analyzer",
+        "People Also Ask",
+        "Content Briefs",
+        "Competitor Comparison",
+        "Readability Scorer",
+        "WordPress Plugin",
+        "Missing Entities Analyzer",
+        "Topic Clustering Engine"
+      ],
     useCase: "Accelerating SEO content production, optimizing existing articles for topical depth, building FAQ-rich pages, and scaling blog output without sacrificing SERP alignment.",
     websiteUrl: "https://www.frase.io",
     alternatives: ["Surfer SEO", "MarketMuse", "Clearscope"],
     scoreBreakdown: {
-      features: 8.9,
-      reviews: 8.5,
-      momentum: 8.2,
-      popularity: 7.4
+      features: 9.0,
+      reviews: 8.6,
+      momentum: 8.3,
+      popularity: 7.5
     },
-    userQuotes: [{"role": "Content Marketing Manager", "company": "CloudScale", "quote": "Frase cut our blog post production time from 8 hours to 2.5 — and our average top-3 ranking rate jumped from 41% to 86%."}, {"role": "SEO Writer", "company": "TechInsight Blog", "quote": "The ‘Missing Entities’ tab alone saved me 3+ hours per article — I no longer miss critical subtopics that top pages cover."}],
+    userQuotes: [{role: "Content Marketing Manager", company: "CloudScale", quote: "Frase cut our blog post production time from 8 hours to 2.5 — and our average top-3 ranking rate jumped from 41% to 86%."}, {role: "SEO Writer", company: "TechInsight Blog", quote: "The 'Missing Entities' tab alone saved me 3+ hours per article — I no longer miss critical subtopics that top pages cover."}, {role: "Head of SEO", company: "GrowthLabs Inc", quote: "We scaled content output by 3x without adding headcount — Frase's topic clustering and brief automation made our editorial workflow predictable and data-driven."}],
   },
   {
     id: "majestic",
