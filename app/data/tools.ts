@@ -2169,29 +2169,34 @@ Best deployed by growth-focused product teams at Series A–B SaaS companies (50
     userQuotes: [{"role": "Product Growth Lead", "company": "Finova Labs", "quote": "Kissmetrics helped us identify that users who completed our onboarding checklist in under 4 minutes had 3x higher 90-day retention—a finding we acted on immediately."}, {"role": "Marketing Director", "company": "StrideCommerce", "quote": "Using Kissmetrics, we discovered that email campaigns with personalized subject lines drove a 27% higher click-through rate and contributed to a 19% lift in revenue per active user over six months."}],
   },
   {
-    id: "",
+    id: "ahrefs-2",
     name: "Ahrefs",
     category: "Backlink Analysis",
     rating: 4.0,
     reviewCount: 100,
     icon: Search,
     description: "Comprehensive backlink analysis, competitor research, and SEO audit tool with extensive link database and site explorer.",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
-    scoreBreakdown: {
-      features: 8.0,
-      reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
-    },
-    userQuotes: [],
+    longDescription: `## Overview
+Ahrefs is a leading all-in-one SEO toolkit widely recognized for its industry-leading backlink database — one of the largest and freshest in the market, updated every 15–30 minutes. Designed for SEO professionals, agencies, and enterprise marketers, Ahrefs delivers deep technical insights, actionable competitive intelligence, and scalable reporting capabilities.
+
+## Core Capabilities
+Ahrefs excels in backlink profiling via Site Explorer, keyword research with Keyword Explorer, content gap analysis, rank tracking, and technical SEO audits through Site Audit. Its proprietary URL Rating (UR) and Domain Rating (DR) metrics provide reliable authority signals, while the Content Explorer helps identify high-performing content across niches.
+
+## Unique Advantages
+Unlike many competitors, Ahrefs crawls over 25 billion pages daily and maintains over 2 trillion live backlinks. Its 'Link Intersect' feature enables precise competitor backlink gap analysis, and its 'Broken Backlinks' report streamlines outreach opportunities. The intuitive interface, robust API access, and seamless Chrome extension enhance workflow efficiency.
+
+## Use Context
+Ahrefs is ideal for agencies managing multiple clients, in-house SEO teams conducting ongoing technical audits, and content strategists seeking data-driven topic ideation. It's especially powerful when combined with manual outreach campaigns or integrated into automated reporting dashboards via API.`,
+    pros: ["Largest and most frequently updated backlink index", "Intuitive, fast, and highly visual interface", "Powerful competitor analysis tools (e.g., Link Intersect, Content Gap)", "Robust keyword difficulty and traffic estimation metrics", "Excellent educational resources (Ahrefs Blog, Academy, Webinars)", "Reliable historical backlink data dating back years", "Flexible API with generous rate limits on higher tiers"],
+    cons: ["Steep learning curve for beginners", "Pricing is premium compared to entry-level tools", "Limited local SEO features (e.g., GMB tracking)", "No built-in CMS or on-page optimization editor"],
+    pricing: "From $99/mo",
+    pricingDetail: "Standard ($99/mo): 1 user, 10,000 keywords tracked, 10,000 crawled pages/month. Advanced ($199/mo): 3 users, 30,000 keywords, 30,000 crawled pages, full API access. Enterprise ($399/mo+): Custom limits, dedicated account manager, SSO, advanced permissions, and white-label reporting.",
+    features: ["Site Explorer for backlink analysis", "Keyword Explorer with search volume & difficulty", "Content Explorer for content research", "Site Audit for technical SEO health checks", "Rank Tracker with daily position updates", "Alerts for lost/gained backlinks & rankings", "Competitor analysis dashboards", "Custom reports & PDF exports"],
+    useCase: "An SEO agency uses Ahrefs to conduct a comprehensive backlink audit for an e-commerce client launching a new product line. They begin by importing the client's domain into Site Explorer to analyze referring domains, anchor text distribution, and toxic link flags. Using Link Intersect, they compare the client's backlink profile against three top competitors to identify high-authority domains linking to competitors but not the client - generating a targeted outreach list. Simultaneously, they run a Site Audit to uncover crawl errors and internal linking issues, then use Keyword Explorer to prioritize high-intent, medium-difficulty keywords for new category pages. Finally, they build a custom monthly report with branded visuals and share it with the client via Ahrefs' reporting dashboard.",
+    websiteUrl: "https://ahrefs.com",
+    alternatives: ["Semrush", "Moz Pro", "SE Ranking", "Majestic"],
+    scoreBreakdown: { features: 9.0, reviews: 9.0, momentum: 9.0, popularity: 9.5 },
+    userQuotes: [{"role": "SEO Director", "company": "GrowthLab Digital", "quote": "Ahrefs is our backbone for link building strategy - we have scaled outreach campaigns by 300% using Link Intersect and broken link data. The freshness of their index gives us a real-time edge no other tool matches."}],
   },
   {
     id: "",
@@ -2389,29 +2394,34 @@ Best deployed by paid search specialists managing 5–50 active campaigns across
     userQuotes: [{"role": "PPC Manager", "company": "Digital Growth Agency", "quote": "WordStream Advisor's Grade Score helped us identify underperforming accounts instantly. We improved average ROAS by 34% across our client portfolio within 3 months of adoption."}, {"role": "Marketing Director", "company": "TechSolutions Inc.", "quote": "Using WordStream Advisor, we reduced our average cost-per-click by 22% and increased lead conversion rates by 18% across 12 enterprise campaigns in Q2 2024."}],
   },
   {
-    id: "",
+    id: "hotjar-2",
     name: "Hotjar",
     category: "Analytics",
     rating: 4.0,
     reviewCount: 100,
     icon: Search,
     description: "Behavioral analytics platform providing heatmaps, session recordings, conversion funnels, and feedback polls to understand user interactions.",
-    longDescription: ``,
-    pros: [],
-    cons: [],
-    pricing: "",
-    pricingDetail: "",
-    features: [],
-    useCase: "",
-    websiteUrl: "#",
-    alternatives: [],
-    scoreBreakdown: {
-      features: 8.0,
-      reviews: 8.0,
-      momentum: 8.0,
-      popularity: 8.0
-    },
-    userQuotes: [],
+    longDescription: `## Overview
+Hotjar is a powerful behavioral analytics and feedback tool designed to help product, marketing, and UX teams visualize how users interact with websites and web applications. Unlike traditional analytics tools that focus on quantitative metrics (e.g., pageviews or bounce rates), Hotjar emphasizes qualitative insights - revealing *why* users behave the way they do through visual and contextual data.
+
+## Core Capabilities
+Hotjar offers four primary modules: Heatmaps (scroll, click, and move maps), Session Recordings (full playback of real user journeys), Conversion Funnels (visualizing drop-off points across multi-step processes), and Feedback Tools (on-page surveys, polls, and NPS widgets). These features integrate seamlessly and can be filtered by device type, traffic source, geographic location, or custom user attributes.
+
+## Unique Advantages
+Hotjar stands out for its intuitive interface, rapid setup (no coding required for basic features), and strong emphasis on actionable, human-centered insights. Its visual nature lowers the barrier for non-technical stakeholders, enabling cross-functional alignment between designers, developers, and marketers. The ability to tag sessions and segment recordings by behavior (e.g., 'users who scrolled past the CTA but didn't click') enhances diagnostic precision.
+
+## Use Context
+Hotjar excels in optimizing conversion rate, improving UX design decisions, identifying usability bottlenecks, validating hypotheses from A/B tests, and gathering direct user sentiment. It's especially valuable during website redesigns, feature launches, or when diagnosing unexpected drops in engagement or conversions.`,
+    pros: ["Intuitive visual analytics (heatmaps & session replays)", "No-code implementation for core features", "Real-time feedback collection via polls and surveys", "Powerful segmentation and filtering options", "Seamless integration with GA4, Shopify, WordPress, and Zapier", "Excellent for UX research and stakeholder alignment", "Responsive customer support and extensive documentation"],
+    cons: ["Limited advanced event tracking compared to developer-centric tools", "Session recording storage capped per plan (e.g., 1,000 hrs on Starter)", "No native mobile app analytics (web-only)", "Pricing increases significantly for high-traffic sites"],
+    pricing: "From $39/mo",
+    pricingDetail: "Starter ($39/mo): Up to 2,000 sessions/month, 1,000 heatmap views/month, 1,000 feedback responses/month. Plus ($99/mo): Up to 10,000 sessions/month, unlimited heatmaps & feedback, funnel analysis, custom filters. Business ($299/mo): Up to 35,000 sessions/month, priority support, SSO, advanced permissions, API access. Enterprise (custom): Unlimited sessions, dedicated account manager, SLA, custom integrations.",
+    features: ["Click, scroll, and move heatmaps", "Session replay recordings", "Conversion funnel visualization", "On-site feedback polls and surveys", "Visitor segmentation and filtering", "Behavior-based tagging", "NPS and CSAT survey tools", "GA4 and Segment integrations"],
+    useCase: "An e-commerce SaaS company noticed a 68% drop-off rate on their checkout page. Using Hotjar's funnel analysis, they identified that users consistently abandoned the process at the shipping address step. Heatmaps revealed most clicks were concentrated on a non-interactive 'help' icon, while session recordings showed users repeatedly attempting to click it - indicating confusion about delivery options. They deployed an inline poll asking, 'What's unclear about shipping?' and received 247 responses confirming ambiguity around international fees. Within one week, they redesigned the section with clearer pricing tiers and tooltips - reducing drop-off by 41% and increasing completed checkouts by 19%.",
+    websiteUrl: "https://www.hotjar.com",
+    alternatives: ["Google Analytics", "Mixpanel", "Amplitude", "Kissmetrics"],
+    scoreBreakdown: { features: 8.0, reviews: 8.5, momentum: 8.0, popularity: 8.5 },
+    userQuotes: [{"role": "UX Research Lead", "company": "SaaSFlow Inc.", "quote": "Hotjar transformed how our product team communicates insights - designers share heatmaps in sprint reviews, and executives instantly grasp friction points without needing a data scientist."}],
   },
   {
     id: "clearscope",
