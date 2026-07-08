@@ -22,7 +22,11 @@ const BLOG_SLUGS = ["technical-seo-audit-checklist-2026", "keyword-research-guid
   "seo-crawler-tools-comparison-screaming-frog-sitebulb-invicti",
   "seo-tool-integrations-apis-workflow-2026",
   "technical-seo-audit-checklist-2026-tools-methodology",
-  "seo-tools-free-vs-paid-2026"] as const;
+  "seo-tools-free-vs-paid-2026",
+  "eeat-signals-content-authority-seo-2026",
+  "backlink-analysis-tools-comparison-2026-ahrefs-moz-semrush",
+  "technical-seo-audit-guide-crawl-analyze-fix-2026",
+  "content-optimization-tools-comparison-2026-surfer-frase-clearscope-marketmuse"] as const;
 
 const TOOL_SLUGS = [
   "semrush",
