@@ -34,6 +34,7 @@ const BLOG_SLUGS = ["technical-seo-audit-checklist-2026", "keyword-research-guid
   "enterprise-seo-platforms-comparison-2026",
   "schema-markup-implementation-guide-2026",
   "seo-for-ai-generated-content-2026",
+  "seo-automation-tools-comparison-2026-ai-workflows",
 ] as const;
 
 const TOOL_SLUGS = [

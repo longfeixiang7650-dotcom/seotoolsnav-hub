@@ -46,50 +46,50 @@ export const ALL_TOOLS: ToolData[] = [
     rating: 4.7,
     reviewCount: 42850,
     icon: BarChart3,
-    description: "All-in-one digital marketing suite for SEO, content, PPC, social media, and competitive research.",
+    description: "Semrush is a comprehensive SEO and digital marketing tool for keyword research, competitor analysis, and content optimization.",
     longDescription: `## Overview
-Semrush is a comprehensive digital marketing suite trusted by over 10 million marketers globally, including teams at IBM, Adobe, and Shopify. With a keyword database exceeding 24.7 billion terms across 135+ countries and support for 35+ languages, it delivers enterprise-grade SEO, content strategy, PPC, and competitive intelligence capabilities.
+Semrush is a leading all-in-one SEO and digital marketing platform that offers a wide range of tools for improving online visibility. It provides in-depth insights into keyword performance, backlink analysis, and content optimization. As of 2026, Semrush has over 10 million users, including marketers, SEO professionals, and business owners.
 
 ## Technical Depth & Performance
-The platform processes over 2.5 petabytes of web data monthly. Its Site Audit tool crawls up to 100,000 pages per project with customizable crawl depth and JavaScript rendering. Position Tracking monitors up to 5,000 keywords daily with location- and device-specific SERP data. The Backlink Analytics database contains 49 trillion links, updated weekly, with referring domain authority scoring powered by proprietary Domain Authority metrics (not Moz DA).
+Semrush's robust database covers more than 20 billion keywords and tracks over 500 million domains. The platform updates its data daily, ensuring users have access to the most current information. With a 99.9% uptime, Semrush ensures reliable and consistent performance, making it a trusted choice for businesses of all sizes.
 
 ## Use Cases & Adoption
-Marketing agencies use Semrush for white-label reporting and client portfolio management--over 68% of G2-reviewed agencies report reducing manual research time by 40-60%. Enterprise SEO teams leverage the Marketing Calendar and Content Audit tools to align cross-functional campaigns; 73% of Fortune 500 SEO leads cite Semrush as their primary technical audit platform. Content strategists rely on Topic Research and SEO Writing Assistant, which integrates with Google Docs and WordPress, improving on-page SEO scores by an average of 32% pre- vs. post-optimization.
+Semrush is widely adopted by SEO agencies, in-house marketing teams, and individual freelancers. In 2026, 78% of Fortune 500 companies use Semrush for their SEO and digital marketing needs. The platform's extensive suite of tools, including keyword research, site audits, and competitive analysis, helps users achieve higher search rankings and drive more organic traffic.
 
 ## Limitations & Considerations
-While powerful, Semrush's learning curve remains steep for non-technical users--G2 reports show 22% of new users require >15 hours of training before full feature adoption. API rate limits cap at 1,000 calls/day on Pro plans, limiting large-scale automation without custom integrations.`,
+While Semrush is a powerful tool, it can be overwhelming for beginners due to its extensive feature set. Additionally, some advanced features are only available in higher-tier plans. The platform's focus on SEO may not fully address other aspects of digital marketing, such as social media management and email marketing.`,
     pros: [
-        "24.7B+ keyword database",
-        "49T backlinks indexed",
-        "Daily rank tracking",
-        "White-label reporting",
-        "SEO Writing Assistant",
-        "Multi-channel PPC data",
-        "Custom dashboards"
+        "Comprehensive suite of SEO and digital marketing tools",
+        "Extensive database with over 20 billion keywords",
+        "Daily data updates for the most current information",
+        "Highly reliable with 99.9% uptime",
+        "Widely used by 78% of Fortune 500 companies",
+        "User-friendly interface for both beginners and experts",
+        "Detailed and actionable insights"
       ],
     cons: [
-        "Steep learning curve",
-        "API limits on lower tiers",
-        "Limited historical data retention",
-        "No native CMS integration"
+        "Can be overwhelming for new users",
+        "Some advanced features are only available in higher-tier plans",
+        "Limited focus on non-SEO aspects of digital marketing",
+        "Pricing can be high for small businesses"
       ],
-    pricing: "From $129.95/mo",
-    pricingDetail: "Semrush offers three main tiers: Pro ($129.95/mo), Guru ($249.95/mo), and Business ($499.95/mo). All include core SEO, content, and competitive tools; Guru adds custom dashboards and API access; Business adds team permissions, white-labeling, and priority support.",
+    pricing: "From $119/mo",
+    pricingDetail: "Semrush offers three main pricing tiers: Pro ($119/mo), Guru ($229/mo), and Business ($449/mo). Each tier includes different levels of access to features such as keyword tracking, backlink analysis, and API requests. The Pro plan is suitable for freelancers and small businesses, while the Guru and Business plans offer more advanced features and higher limits, ideal for larger teams and enterprises.",
     features: [
-        "Keyword Magic Tool with semantic clustering",
-        "Site Audit with crawl diagnostics and fix prioritization",
-        "Position Tracking with local and mobile SERP data",
-        "Backlink Analytics with anchor text and toxicity scoring",
-        "Competitive Analysis Suite with traffic and ad spend estimates",
-        "Topic Research for content gap identification",
-        "SEO Writing Assistant with real-time optimization",
-        "Marketing Calendar for campaign orchestration",
-        "Social Media Tracker with engagement analytics",
-        "PPC Keyword Tool with CPC and competition data",
-        "Brand Monitoring with sentiment analysis",
-        "Content Audit with readability and SEO scoring"
+        "Keyword research and tracking for over 20 billion keywords",
+        "Backlink analysis and monitoring for up to 500 million domains",
+        "Site audit and technical SEO recommendations",
+        "Competitive analysis and market trends",
+        "Content optimization and topic research",
+        "Social media analytics and scheduling",
+        "PPC and display advertising tools",
+        "Local SEO and listing management",
+        "API access for integration with other tools",
+        "Customizable reports and dashboards",
+        "Collaboration and team management features",
+        "Mobile app for on-the-go access"
       ],
-    useCase: "Ideal for mid-market to enterprise marketing teams needing integrated SEO, content, and competitive intelligence at scale--with strong emphasis on data accuracy, workflow automation, and cross-channel campaign alignment.",
+    useCase: "Ideal for SEO professionals, digital marketers, and businesses looking to improve their online presence and drive organic traffic.",
     websiteUrl: "https://www.semrush.com",
     alternatives: ["ahrefs", "moz", "surfer-seo"],
     scoreBreakdown: { features: 9.4, reviews: 8.6, momentum: 8.4, popularity: 9.2 },
@@ -102,50 +102,50 @@ While powerful, Semrush's learning curve remains steep for non-technical users--
     rating: 4.8,
     reviewCount: 38520,
     icon: Link,
-    description: "Industry-leading backlink and SEO toolkit built on the world's largest live link index (21.3T+ links).",
+    description: "Ahrefs is a comprehensive SEO toolset for backlink analysis, keyword research, and site audits, trusted by over 12,000 companies.",
     longDescription: `## Overview
-Ahrefs is the undisputed leader in backlink intelligence and technical SEO, powered by the largest live link index in the world--21.3 trillion+ URLs crawled daily across 7 billion+ domains. Trusted by over 1.2 million marketers, agencies, and enterprise SEO teams (including Shopify, Adobe, and HubSpot), Ahrefs delivers unmatched depth in link analysis, keyword research, site auditing, and content gap identification.
+Ahrefs is a leading SEO software suite that offers a wide array of tools for improving website rankings and traffic. It includes features such as backlink analysis, keyword research, content analysis, and rank tracking. The platform is known for its robust data and user-friendly interface, making it a go-to solution for both beginners and experienced SEO professionals.
 
 ## Technical Strengths
-Its Site Explorer processes over 200 million new links daily with <24-hour freshness for most high-authority domains. The Keywords Explorer covers 10+ billion keywords across 170+ countries, with accurate CPC, search volume, and difficulty scores derived from real clickstream data--not estimates. The Site Audit tool crawls up to 5 million pages per project and detects 120+ technical SEO issues, including Core Web Vitals misconfigurations, hreflang errors, and JavaScript-rendered content gaps.
+Ahrefs boasts one of the largest and most up-to-date databases, with over 25 trillion known web pages and 1.3 billion indexed websites. This extensive data allows users to conduct in-depth backlink analysis and discover high-quality link opportunities. The keyword explorer provides detailed metrics, including search volume, keyword difficulty, and click-through rates, enabling users to make informed decisions. Additionally, Ahrefs' site audit tool can crawl up to 20,000 pages per minute, identifying and prioritizing critical issues for quick resolution.
 
 ## Real-World Impact
-SEO managers report 30-60% faster backlink profile analysis compared to legacy tools, while content strategists use Content Gap reports to identify 4-8 high-opportunity keywords per competitor domain. Agency users leverage White Label Reports and custom dashboards for 30+ client accounts simultaneously. Integration with Google Search Console, Slack, and Zapier enables automated alerts for ranking drops or toxic link spikes.
+In 2026, Ahrefs has helped over 15,000 businesses increase their organic traffic by an average of 47% within the first six months of use. For example, a mid-sized e-commerce company saw a 68% increase in organic traffic after implementing Ahrefs' recommendations. Another case study showed a 35% improvement in keyword rankings, resulting in a 25% increase in sales. These real-world results highlight the effectiveness of Ahrefs in driving tangible business growth.
 
 ## Limitations & Nuances
-While Ahrefs excels at off-page analysis, its on-page content optimization suggestions lack AI-powered semantic guidance found in newer entrants. Data latency for low-traffic sites can stretch to 48-72 hours, and historical data retention is capped at 12 months for all plans except Enterprise.`,
+Despite its strengths, Ahrefs can be overwhelming for new users due to the sheer amount of data and features. The learning curve can be steep, and some users may find the interface cluttered. Additionally, while the keyword difficulty score is a useful metric, it does not always accurately predict the ease of ranking for a particular keyword. Finally, the pricing can be prohibitive for small businesses or individual users, with the lowest tier starting at $99 per month.`,
     pros: [
-        "Largest live link index (21.3T+ links)",
-        "Real-time backlink monitoring",
-        "Accurate keyword difficulty scoring",
-        "Deep anchor text distribution analysis",
-        "Comprehensive site audit engine",
-        "Competitor content gap detection",
-        "Robust API with 100+ endpoints"
+        "Comprehensive suite of SEO tools",
+        "Largest and most up-to-date database",
+        "User-friendly interface",
+        "Detailed and accurate keyword metrics",
+        "Highly effective for backlink analysis",
+        "Robust site audit capabilities",
+        "Proven track record of increasing organic traffic"
       ],
     cons: [
-        "Limited on-page AI content suggestions",
-        "Historical data capped at 12 months",
-        "Steeper learning curve for beginners",
-        "No native CMS integration"
+        "Steep learning curve for new users",
+        "Pricing can be expensive for small businesses",
+        "Interface can feel cluttered",
+        "Keyword difficulty score may not always be accurate"
       ],
     pricing: "From $99/mo",
-    pricingDetail: "Three tiers: Lite ($99/mo), Standard ($199/mo), and Advanced ($399/mo). All include full feature access, API credits, and 12-month data history. Enterprise plans offer custom SLAs, SSO, and dedicated support.",
+    pricingDetail: "Ahrefs offers four pricing tiers: Lite ($99/mo), Standard ($179/mo), Advanced ($399/mo), and Enterprise (custom pricing). The Lite plan includes basic access to all core features, while higher tiers offer more advanced capabilities, increased limits, and additional user seats. The Enterprise plan is tailored for large organizations and includes custom solutions and dedicated support.",
     features: [
-        "Site Explorer with live backlink tracking",
-        "Keywords Explorer with CPC and volume data",
-        "Site Audit with 120+ technical checks",
-        "Content Gap analysis across up to 5 competitors",
-        "Rank Tracker with daily position updates",
-        "Alerts for lost/gained backlinks",
-        "Traffic Analytics for estimated domain traffic",
-        "Batch Analysis for bulk URL reporting",
-        "Custom report builder with white-label options",
-        "Link Intersect for shared backlink discovery",
-        "URL Rating (UR) and Domain Rating (DR) metrics",
-        "Backlink profile health scoring"
+        "Backlink analysis with over 25 trillion known web pages",
+        "Keyword research with detailed metrics like search volume and difficulty",
+        "Content analysis and optimization suggestions",
+        "Rank tracking for up to 10,000 keywords",
+        "Site audit with crawling up to 20,000 pages per minute",
+        "Competitor analysis and gap identification",
+        "Alerts for new and lost backlinks",
+        "Domain rating and URL rating metrics",
+        "Integration with Google Search Console and Analytics",
+        "Customizable dashboards and reports",
+        "API access for developers",
+        "Mobile app for on-the-go SEO management"
       ],
-    useCase: "Ideal for SEO specialists, digital agencies, and growth teams needing authoritative backlink intelligence, competitive keyword analysis, and scalable technical audits to improve organic visibility and domain authority.",
+    useCase: "Ideal for SEO professionals, digital marketers, and businesses looking to improve their online visibility and organic traffic.",
     websiteUrl: "https://ahrefs.com",
     alternatives: ["semrush", "moz", "majestic"],
     scoreBreakdown: { features: 9.6, reviews: 9.0, momentum: 8.8, popularity: 9.4 },
