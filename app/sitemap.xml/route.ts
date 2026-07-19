@@ -44,6 +44,7 @@ const BLOG_SLUGS = [
   "technical-seo-fundamentals-2026-core-web-vitals-inp",
   "top-seo-tools-keyword-research-2026",
   "programmatic-seo-automation-strategies",
+  "ecommerce-seo-strategy-2026-product-page-optimization",
 ] as const;
 
 const TOOL_SLUGS = [
