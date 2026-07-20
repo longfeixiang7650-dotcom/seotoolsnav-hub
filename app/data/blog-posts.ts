@@ -1555,7 +1555,7 @@ The practical implication: a single, well-placed link from a topically relevant,
 
 Digital PR has emerged as the single highest-ROI link building strategy in 2026--but only when executed with proprietary data and journalistic rigor. Generic "10 tips" listicles forwarded to reporters no longer work; newsrooms receive an average of 427 PR pitches per day (Cision, 2026), and the open rate for mass-blasted pitches has dropped to 2.3%.
 
-What works is original research. In our 90-day campaign across 3 B2B SaaS clients, links generated from data-backed digital PR assets achieved:
+What works is original research. In our 90-day campaign across 3 SaaS clients, links generated from data-backed digital PR assets achieved:
 
 - **Average Domain Rating (DR) of linking domains**: 67 (vs. 32 for guest posting)
 - **Organic traffic uplift from qualified links**: 213% within 90 days (vs. 38% for broken link replacement)
@@ -1780,7 +1780,7 @@ Content in 2026 is judged not by keyword density or word count--but by demonstra
 
 #### EEAT Is Now Measured Through Verifiable Signals--Not Just Claims
 
-Experience, Expertise, Authoritativeness, and Trustworthiness (EEAT) are evaluated algorithmically through cross-referenced signals. A medical article must cite peer-reviewed studies (with DOIs), link to author bios hosted on institutional domains (e.g., university.edu or hospital.org), and include transparent disclosure of funding sources or conflicts of interest. For B2B SaaS, EEAT manifests through documented case studies with client logos, verifiable metrics (e.g., "reduced deployment time by 47%"), and contributor bios with public GitHub activity, conference speaking history, or patent filings. Generic bylines or stock author photos trigger immediate EEAT demotion.
+Experience, Expertise, Authoritativeness, and Trustworthiness (EEAT) are evaluated algorithmically through cross-referenced signals. A medical article must cite peer-reviewed studies (with DOIs), link to author bios hosted on institutional domains (e.g., university.edu or hospital.org), and include transparent disclosure of funding sources or conflicts of interest. For SaaS, EEAT manifests through documented case studies with client logos, verifiable metrics (e.g., "reduced deployment time by 47%"), and contributor bios with public GitHub activity, conference speaking history, or patent filings. Generic bylines or stock author photos trigger immediate EEAT demotion.
 
 #### AI Is a Co-Pilot--Not a Creator
 
@@ -2079,7 +2079,7 @@ Pricing information is accurate as of June 2026 but subject to change without no
   '',
   'Ahrefs and Semrush both offer automated keyword clustering--but their underlying methodologies diverge sharply.',
   '',
-  'Ahrefs Cluster Explorer (v6.2+, released March 2026) uses hierarchical agglomerative clustering (HAC) trained on 2.1B SERP features. It groups keywords by shared top-10 ranking domains, SERP feature overlap (e.g., People Also Ask, local packs), and lexical distance (Word2Vec embeddings trained on 2025-2026 search logs). Clusters are updated biweekly and support custom intent labels (e.g., "commercial-investigation", "post-purchase-support"). In testing across 14 B2B SaaS sites, Ahrefs generated clusters with 82% internal consistency (measured via inter-rater agreement on intent labeling) and reduced manual clustering time from 11.4 hours/week to 1.7.',
+  'Ahrefs Cluster Explorer (v6.2+, released March 2026) uses hierarchical agglomerative clustering (HAC) trained on 2.1B SERP features. It groups keywords by shared top-10 ranking domains, SERP feature overlap (e.g., People Also Ask, local packs), and lexical distance (Word2Vec embeddings trained on 2025-2026 search logs). Clusters are updated biweekly and support custom intent labels (e.g., "commercial-investigation", "post-purchase-support"). In testing across 14 SaaS and technology sites, Ahrefs generated clusters with 82% internal consistency (measured via inter-rater agreement on intent labeling) and reduced manual clustering time from 11.4 hours/week to 1.7.',
   '',
   'Semrush Keyword Magic Tool (v12.5+, April 2026) uses graph-based clustering: nodes = keywords, edges = co-occurrence in top-10 pages + semantic similarity (BERT-base-multilingual-cased fine-tuned on query logs). Its strength lies in cross-language alignment--for multiregional brands, Semrush clusters maintain 74% label stability across EN/ES/DE queries where Ahrefs drops to 59%. However, Semrush clusters show higher false-positive rates for long-tail commercial terms (18.6% misclassification vs. Ahrefs\' 9.1%).',
   '',
@@ -2617,7 +2617,7 @@ Here's what actually works in 2026 -- tested across 17 enterprise SEO audits and
 - **Pricing**: $86/mo (Business plan; 2,000 keyword queries/mo + 500 intent flows)
 - **Strengths**: Best for mapping complex user journeys; excels at mid-funnel intent clustering
 - **Weaknesses**: Smaller keyword database (~1.2B terms vs. Ahrefs' 22B); limited API depth
-- **Best For**: B2B SaaS companies building content hubs
+- **Best For**: SaaS companies building content hubs
 
 ### 4. **Moz Pro + Keyword Explorer AI**
 - **Key Features**:
@@ -3589,7 +3589,7 @@ In 2026, content optimization is no longer about keyword stuffing or chasing alg
 | **Topical Authority Mapping** | Yes (via Topic Clusters module, requires add-on) | Limited (basic content grouping only) | Yes (built-in Topic Explorer with entity mapping) | Yes (advanced Topic Graph with cross-domain authority scoring) |
 | **EEAT Integration** | Author bio scoring + citation tracking (beta) | Author credential prompts + source quality flags | Expertise signal scoring (based on citations, domain authority of sources) | Full EEAT audit: author background validation, source trust scoring, citation diversity metrics |
 | **AI Overview Readiness Score** | 87% correlation with AI Overview inclusion (per G2 2026 benchmark study) | 79% (limited schema & answer formatting guidance) | 92% (includes FAQ schema, direct-answer optimization, and conversational tone scoring) | 95% (integrates with Google's AI Overview API for real-time feedback) |
-| **Best For** | Mid-size marketing teams needing fast, actionable on-page guidance | Agencies managing diverse client content workflows | Enterprise publishers prioritizing editorial rigor and compliance | Large-scale B2B SaaS and financial services with strict EEAT requirements |
+| **Best For** | Mid-size marketing teams needing fast, actionable on-page guidance | Agencies managing diverse client content workflows | Enterprise publishers prioritizing editorial rigor and compliance | Large-scale SaaS and financial services with strict EEAT requirements |
 
 ## Surfer SEO: Speed, Scalability, and SERP-First Optimization
 
@@ -3860,7 +3860,7 @@ The following table summarises results from three anonymised case studies conduc
 
 | Site Type | Metric | Pre-Optimisation (75th %ile) | Post-Optimisation (75th %ile) | Δ | Organic Traffic Uplift (90 days) |
 |-----------|--------|-------------------------------|--------------------------------|----|-----------------------------------|
-| B2B SaaS Dashboard | LCP | 4.7 s | 1.9 s | -2.8 s | +29% |
+| SaaS Dashboard | LCP | 4.7 s | 1.9 s | -2.8 s | +29% |
 | Global News Publisher | INP | 712 ms | 174 ms | -538 ms | +18% |
 | Multiregional eCommerce | CLS | 0.31 | 0.04 | -0.27 | +14% |
 | Aggregate (n = 37) | Avg. CWV Pass Rate | 39% | 92% | +53 pp | +22% (median) |
