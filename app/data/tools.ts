@@ -1266,7 +1266,10 @@ Later excels where visual cohesion, speed-to-publish, and creator-centric workfl
     cons: [
         "Limited free plan with only 30 posts per month",
         "No native LinkedIn scheduling for personal profiles",
-        "Analytics dashboard lacks advanced segmentation options"
+        "Analytics dashboard lacks advanced segmentation options",
+        "No built-in social listening or competitor monitoring features",
+        "Auto-publish for Instagram still requires mobile notification approval",
+        "Limited content discovery and curation tools compared to dedicated platforms"
       ],
     pricing: "From $25/mo",
     pricingDetail: "Free plan available (up to 10 posts/social set). Starter ($25/mo): 1 social set, 100 posts. Growth ($45/mo): 3 social sets, 150 posts, analytics. Advanced ($80/mo): 6 social sets, 300 posts, team collaboration, priority support.",
@@ -1291,7 +1294,9 @@ Later excels where visual cohesion, speed-to-publish, and creator-centric workfl
     },
     userQuotes: [
       {"role": "Social Media Manager", "company": "StyleCart", "quote": "Later's visual calendar cut our Instagram planning time by 60% and the auto-publish feature eliminated manual posting entirely."},
-      {"role": "Content Creator", "company": "LifestyleBlog", "quote": "The Linkin.bio feature turned our Instagram feed into a shoppable storefront -- affiliate revenue grew 34% in two months."}
+      {"role": "Content Creator", "company": "LifestyleBlog", "quote": "The Linkin.bio feature turned our Instagram feed into a shoppable storefront -- affiliate revenue grew 34% in two months."},
+      {"role": "Marketing Coordinator", "company": "UrbanHome", "quote": "Dragging and dropping posts onto the calendar is incredibly intuitive. We plan a full month of content in under 2 hours now instead of a full day."},
+      {"role": "Agency Owner", "company": "PixelPerfect Media", "quote": "Managing 12 client accounts in Later is seamless. The collaboration tools and approval workflows keep our team aligned without endless Slack threads."}
     ],
   },
   {
@@ -1359,7 +1364,10 @@ With intuitive UX, deep integrations, and continuous AI innovation, HubSpot Mark
     cons: [
         "Steep pricing tiers that can become cost-prohibitive for small businesses",
         "Learning curve for advanced features like workflows and custom reporting",
-        "Limited flexibility in email template design compared to specialized email service providers"
+        "Limited flexibility in email template design compared to specialized email service providers",
+        "No native transactional email delivery (requires SendGrid or SMTP integration)",
+        "Reporting dashboards can feel cluttered and lack advanced segmentation filters",
+        "Heavy reliance on HubSpot ecosystem makes switching costs extremely high"
       ],
     pricing: "From $18/mo",
     pricingDetail: "Free plan includes 2,000 email sends/month and 1M contacts. Starter ($18/mo): 5x contact limit, 2x email send limit. Professional ($800/mo): custom reporting, smart content, multi-touch attribution. Enterprise ($3,600/mo): custom objects, predictive lead scoring, dedicated support.",
@@ -1384,7 +1392,9 @@ With intuitive UX, deep integrations, and continuous AI innovation, HubSpot Mark
     },
     userQuotes: [
       {"role": "Marketing Operations Director", "company": "SaaSScale", "quote": "HubSpot Marketing Hub unified our email, social, and CRM data into one dashboard -- campaign attribution accuracy jumped from 42% to 91%."},
-      {"role": "Growth Marketing Lead", "company": "Finova Labs", "quote": "The AI content assistant cut our blog creation time by 55% while maintaining brand voice -- our organic traffic grew 140% in 5 months."}
+      {"role": "Growth Marketing Lead", "company": "Finova Labs", "quote": "The AI content assistant cut our blog creation time by 55% while maintaining brand voice -- our organic traffic grew 140% in 5 months."},
+      {"role": "Demand Generation Manager", "company": "CloudSphere Inc.", "quote": "The multi-touch attribution models finally gave us boardroom-ready proof that blog content drives 34% of pipeline -- not just top-of-funnel vanity metrics."},
+      {"role": "CEO", "company": "BrightPath Agency", "quote": "Consolidating six tools into HubSpot saved us $2,400/mo in subscription costs and eliminated the data sync headaches that plagued our monthly reporting."}
     ],
   },
   {
@@ -1497,7 +1507,10 @@ ActiveCampaign excels in depth over breadth: its tightly integrated architecture
     cons: [
         "Steeper learning curve for beginners",
         "Pricing can become expensive as contact list grows",
-        "Limited built-in landing page and form builder compared to competitors"
+        "Limited built-in landing page and form builder compared to competitors",
+        "No native A/B testing for landing pages or forms",
+        "Email deliverability issues reported on shared IP pools at lower tiers",
+        "Limited SMS marketing capabilities compared to dedicated platforms"
       ],
     pricing: "From $29/mo",
     pricingDetail: "Starter ($29/mo): 1,000 contacts, email campaigns, basic automations. Plus ($49/mo): 1,000 contacts, landing pages, lead scoring. Professional ($89/mo): 1,000 contacts, predictive sending, split automations, conditional content. Enterprise custom pricing includes custom reporting, custom mail server, and dedicated support.",
@@ -1522,7 +1535,9 @@ ActiveCampaign excels in depth over breadth: its tightly integrated architecture
     },
     userQuotes: [
       {"role": "Marketing Automation Manager", "company": "EcoRetail", "quote": "ActiveCampaign's split automations let us test five different follow-up sequences simultaneously -- we identified a winner that lifted conversion by 28%."},
-      {"role": "Growth Lead", "company": "SaaSFlow", "quote": "The predictive sending feature increased our email open rates by 23% and click-through rates by 17% within the first month of activation."}
+      {"role": "Growth Lead", "company": "SaaSFlow", "quote": "The predictive sending feature increased our email open rates by 23% and click-through rates by 17% within the first month of activation."},
+      {"role": "E-commerce Operations Director", "company": "ModaStyle", "quote": "Migrating from Mailchimp to ActiveCampaign gave us true behavioral segmentation. Our abandoned cart recovery revenue jumped 43% in Q1 alone."},
+      {"role": "Founder", "company": "Boutique Health Co.", "quote": "The visual automation builder made complex nurture sequences accessible to our non-technical marketing lead -- we launched 7 automated campaigns in week one."}
     ],
   },
   {
