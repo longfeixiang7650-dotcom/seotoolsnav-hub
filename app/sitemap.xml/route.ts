@@ -47,6 +47,7 @@ const BLOG_SLUGS = [
   "ecommerce-seo-strategy-2026-product-page-optimization",
   "enterprise-seo-tool-stack-2026",
   "voice-search-optimization-strategies-2026",
+  "technical-seo-audit-showdown-screaming-frog-sitebulb-semrush-2026",
 ] as const;
 
 const TOOL_SLUGS = [
