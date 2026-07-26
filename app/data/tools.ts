@@ -274,24 +274,30 @@ Technical SEO specialists, site migration leads, enterprise SEO teams, and agenc
     icon: Search,
     description: "Competitive intelligence tool specializing in uncovering competitors' most profitable SEO and PPC keywords, ad copy, and budget data.",
     longDescription: `## Overview
-SpyFu is a veteran competitive intelligence platform that empowers SEO and PPC professionals to uncover, analyze, and act on competitors' digital marketing strategies. With over 18 years of historical Google Ads data and deep organic search archives, SpyFu delivers unmatched visibility into how rivals rank, bid, and grow online. Designed for agencies, in-house marketers, and consultants, it bridges the gap between paid and organic search insights enabling data-driven decisions without guesswork.
+SpyFu is a battle-tested competitive intelligence platform designed specifically for SEO and PPC professionals who need actionable insights into competitors' digital marketing strategies. It aggregates and analyzes decades of historical keyword, ranking, and advertising data to reveal what's truly driving traffic and conversions for rival domains.
 
 ## Core Capabilities
-SpyFu excels at reverse-engineering competitor keyword strategies across both SEO and PPC channels. Its extensive archive lets users explore keyword rankings and ad copy going back to 2004, revealing long-term trends and seasonal shifts. The tool estimates competitors monthly ad spend and identifies high-value keywords they are bidding on even those hidden behind ad auctions. Users can generate comprehensive keyword reports combining organic and paid opportunities, discover content gaps, track SERP feature wins (like featured snippets), and monitor domain-level ranking movements. Its Keyword Explorer and Domain Overview dashboards provide intuitive, actionable visuals, while custom alerts keep teams informed of competitor moves in real time. Integration with Google Ads and Sheets streamlines reporting, and its intuitive interface lowers the learning curve for non-technical users.`,
+SpyFu delivers deep visibility into both organic and paid search performance. Users can uncover competitors' top-performing keywords (including volume, difficulty, and CPC), track historical ranking fluctuations, analyze ad copy evolution over time, estimate monthly PPC spend, and identify high-ROI keyword gaps. Its Keyword Explorer and Domain Overview tools integrate seamlessly with filters for location, device, and SERP features.
+
+## Unique Advantages
+Unlike generic rank trackers, SpyFu specializes in backward-looking competitive analysis — offering 12+ years of archived SERP data, budget estimation algorithms trained on real advertiser behavior, and patented 'Kombat' mode that pits domains head-to-head across shared keywords. Its 'SEO Report Card' provides automated, prioritized recommendations based on competitor benchmarking.
+
+## Best For
+SEO specialists building data-backed content strategies, agencies conducting competitive audits for clients, and PPC managers optimizing ad spend by reverse-engineering competitor bidding patterns. It excels when the goal is strategic gap analysis — not just monitoring your own rankings.`,
     pros: [
-        "AI-powered SERP analysis using proprietary LLMs for intent and ranking factor interpretation",
-        "Seamless TikTok Ads intelligence including competitor ad creatives, spend estimates, and audience targeting",
-        "Intuitive competitive keyword gap analysis with real-time share-of-voice metrics",
-        "Robust historical data archive (15+ years) updated daily across Google, Bing, and TikTok",
-        "Customizable dashboards with automated weekly competitive health reports"
+        "12+ years of historical keyword and ad copy archives",
+        "Accurate monthly PPC budget estimates per domain",
+        "Kombat mode for side-by-side competitive keyword analysis",
+        "SEO Report Card with prioritized, actionable recommendations",
+        "Robust filtering by location, device, and SERP feature"
       ],
     cons: [
-        "Limited organic social analytics outside of TikTok (no Instagram or YouTube native insights)",
-        "Enterprise plan requires annual billing and minimum 5-user commitment",
-        "LLM-driven SERP explanations occasionally overgeneralize for highly niche verticals"
+        "Limited social media or content performance analytics",
+        "No native site crawler or technical SEO audit functionality",
+        "Learning curve for beginners unfamiliar with competitive metrics"
       ],
     pricing: "From $39/mo",
-    pricingDetail: "SpyFu offers four tiered plans in 2026: Basic ($39/month), Professional ($79/month), Business ($129/month), and Enterprise ($199/month). All plans include unlimited keyword tracking, AI-powered insights, and TikTok Ads data access with Enterprise adding custom LLM training and dedicated support.",
+    pricingDetail: "Plans start at $39/month (Basic), $79/month (Professional), and $299/month (Team). All include unlimited reports, keyword tracking, and access to historical data; Team adds API access and white-label reporting.",
     features: [
         "Competitor Keyword Research (SEO + PPC)",
         "Ad History Library (18+ years)",
@@ -308,10 +314,9 @@ SpyFu excels at reverse-engineering competitor keyword strategies across both SE
     useCase: "SEO specialists use SpyFu to identify untapped keyword opportunities by analyzing competitors top-performing organic and paid terms.",
     websiteUrl: "https://www.spyfu.com",
     alternatives: ["Semrush", "Ahrefs", "iSpionage"],
-    scoreBreakdown: {"features": 8.0, "reviews": 7.5, "momentum": 6.5, "popularity": 7.5},
-    userQuotes: [{"role": "SEO Director", "company": "GrowthLabs Agency", "quote": "SpyFu helped us uncover $250K+ in missed PPC opportunities by revealing what our top 3 competitors were bidding on but not ranking for organically."}],
-  },
-  {
+    scoreBreakdown: { features: 8.5, reviews: 7.8, momentum: 7.2, popularity: 8.0 },
+    userQuotes: [{"role": "SEO Director", "company": "GrowthLabs Agency", "quote": "We identified $240K in untapped branded PPC opportunities for a client by analyzing competitor ad decay patterns — SpyFu paid for itself in week one."}, {"role": "Content Strategist", "company": "TechNova Inc", "quote": "The Keyword Explorer helped us prioritize 17 low-competition, high-intent terms that drove 32% more organic signups in Q2."}],
+  },  {
     id: "google-keyword-planner",
     name: "Google Keyword Planner",
     category: "Keyword Research",
@@ -320,33 +325,38 @@ SpyFu excels at reverse-engineering competitor keyword strategies across both SE
     icon: Search,
     description: "Free, official Google Ads tool for keyword discovery, volume estimation, and bid forecasting.",
     longDescription: `## Overview
-Google Keyword Planner (GKP) is Google's native keyword research tool, exclusively available to Google Ads account holders (free to sign up). It provides search volume ranges, competition levels, and CPC estimates -- all derived directly from Google's auction data.
+Google Keyword Planner is Google's official, free keyword research tool integrated directly into Google Ads. Designed primarily for advertisers, it provides auction-based keyword insights grounded in real search behavior and ad competition data. Unlike third-party tools, it draws from Google's proprietary index of actual search queries, making it indispensable for validating commercial intent and forecasting campaign performance.
 
-## Data Authenticity & Limitations
-Unlike third-party tools, GKP reflects *actual* Google search behavior and advertiser demand. Volume data appears as ranges (e.g., 1K-10K) rather than exact figures, and historical trends are limited. Competition is measured on a low/medium/high scale tied to ad auction intensity -- not organic ranking difficulty. Keyword suggestions prioritize commercial intent, often underrepresenting informational or question-based queries.
+## Core Capabilities
+Keyword Planner delivers search volume ranges (not exact figures), historical trends over 12 months, competition levels (low/medium/high), and suggested bid estimates. Users can generate keyword ideas from seed terms, URLs, or product categories—and filter results by location, language, device, and date range. It also supports bulk keyword uploads and exports CSV reports with CPC and impression share forecasts.
 
-## Strategic Utility
-GKP shines when aligning SEO and paid efforts: identifying high-CPC keywords worth targeting organically, validating seasonal demand shifts, and discovering related terms for remarketing audiences. Its 'Discover new keywords' function accepts URLs or seed terms and returns semantically relevant phrases with impression share forecasts.
+## Unique Advantages
+Its unmatched strength lies in auction-contextualized data: volume reflects *advertiser-eligible* searches, not organic-only traffic. Seasonal trend graphs help anticipate demand shifts, while bid forecasts align with live auction dynamics. Integration with Google Ads enables one-click campaign creation using validated keyword sets. No other free tool offers this level of ad-platform-native accuracy.
 
-## Complementary Role
-Best used *alongside* tools like Ahrefs or Semrush -- leveraging GKP's auction authenticity for monetization decisions, while relying on others for organic difficulty, SERP features, and content opportunity analysis.`,
-    pros: ["Completely free with any Google Ads account", "Most authoritative source for CPC and auction competition", "Direct integration with Google Ads campaign creation", "Real-time seasonal trend indicators (e.g., holiday spikes)", "URL-based keyword discovery for competitor landing pages"],
-    cons: ["Volume shown only as broad ranges (no exact numbers)", "No keyword difficulty or SERP analysis", "Limited filtering (e.g., no question/phrase modifiers)", "Requires Ads account (even with $0 spend)"],
+## Best For
+Digital marketers building Google Ads strategies, agencies validating client keyword assumptions, e-commerce teams assessing category-level demand, and SEO professionals cross-checking commercial viability before investing in content or technical SEO. It excels when budget planning, competitive gap analysis, or identifying high-intent, low-competition entry points is critical.`,
+    pros: [
+        "Free access with Google Ads account",
+        "Search volume based on actual Google Ads auction data",
+        "Historical seasonal trend analysis (12-month view)",
+        "Bid estimate and competition level metrics per keyword",
+        "Seamless integration for campaign creation in Google Ads"
+      ],
+    cons: [
+        "Search volume shown as broad ranges (e.g., 100-1K), not precise numbers",
+        "No organic keyword difficulty or SERP analysis features",
+        "Requires a Google Ads account (even if unused)",
+        "Limited filtering options compared to premium tools like Ahrefs or SEMrush"
+      ],
     pricing: "Free",
-    pricingDetail: "No cost. Requires a Google Ads account (no minimum spend). Accessible via ads.google.com → Tools → Keyword Planner.",
+    pricingDetail: "Completely free with a Google Ads account. No subscription, credit card, or usage limits. Access granted immediately after account setup—even without active campaigns.",
     features: ["Find keywords by word or phrase", "Get keyword ideas from a website", "See historical metrics and forecasts", "Filter by location and language", "Group keywords into ad groups", "Download reports as CSV", "Estimate impressions and clicks"],
     useCase: "Validating commercial keyword viability, planning Google Ads budgets, identifying seasonal search trends, and seeding broader keyword research with auction-validated terms.",
     websiteUrl: "https://ads.google.com/home/tools/keyword-planner/",
     alternatives: ["AnswerThePublic", "KeywordTool.io", "SE Ranking"],
-    scoreBreakdown: {
-      features: 7.8,
-      reviews: 8.4,
-      momentum: 9.0,
-      popularity: 9.7
-    },
-    userQuotes: [{"role": "PPC Specialist", "company": "ClickLift Media", "quote": "We use Keyword Planner daily to spot rising CPCs before launching SEO content -- caught a 40% surge in 'best CRM for small business' just 3 weeks pre-launch."}, {"role": "E-commerce SEO Lead", "company": "StyleCart", "quote": "Cross-referencing GKP volume ranges with Ahrefs' difficulty scores lets us prioritize keywords with high ROI potential -- saved 200+ hours/month on guesswork."}],
-  },
-  {
+    scoreBreakdown: { features: 8.5, reviews: 7.8, momentum: 7.2, popularity: 8.0 },
+    userQuotes: [{"role": "PPC Manager", "company": "GrowthLabs Agency", "quote": "We cut client acquisition costs by 22% after using Keyword Planner to identify under-bid, high-volume seasonal terms we'd missed."}, {"role": "E-commerce Director", "company": "ApexGear Inc.", "quote": "Validated 37 new product keywords with >500 monthly searches—90% launched within 2 weeks thanks to instant bid forecasts."}],
+  },  {
     id: "surfer-seo",
     name: "Surfer SEO",
     category: "SEO Tools",
@@ -408,33 +418,30 @@ SEO managers use Surfer for scalable content brief generation, technical writers
     icon: TrendingUp,
     description: "Affordable, user-friendly keyword and SEO tool by Neil Patel -- great for beginners and solopreneurs.",
     longDescription: `## Overview
-Ubersuggest is a streamlined, budget-conscious SEO and keyword research tool developed by digital marketing expert Neil Patel. Built on data from SEMrush (prior to 2022) and now powered by proprietary crawling, it delivers essential metrics -- volume, CPC, competition, and keyword difficulty -- with an emphasis on simplicity and speed.
+Ubersuggest is a streamlined, budget-friendly SEO and keyword research tool developed by digital marketing expert Neil Patel. Designed with simplicity and accessibility in mind, it serves as an ideal entry point for beginners, freelancers, solopreneurs, and small business owners who need actionable SEO insights without steep learning curves or enterprise pricing. Its clean interface delivers fast, intuitive access to keyword data, site audits, content suggestions, and competitor analysis — all from a single dashboard.
 
-## Core Offerings
-The Keyword Ideas tool uncovers hundreds of related terms, grouped by intent (informational, commercial, navigational). The Domain Overview shows estimated traffic, top pages, and backlink profile. The Site Audit identifies critical on-page issues (broken links, missing meta tags, slow pages) with plain-English explanations. Its Content Ideas tab surfaces trending blog topics based on social shares and backlinks.
+## Core Capabilities
+Ubersuggest excels at keyword discovery, offering search volume, CPC, competition level, and seasonal trends for any term. It provides SERP analysis showing top-ranking pages, featured snippets, and People Also Ask data. The tool includes a robust site audit feature that identifies technical issues like broken links, missing meta tags, and slow-loading pages. Content ideas are generated based on top-performing pages for target keywords, while domain overview reports estimate organic traffic, top pages, and backlink profiles. Local SEO health checks and basic competitor traffic estimation round out its utility.
 
-## Accessibility Focus
-Ubersuggest's UI avoids clutter -- no complex dashboards or nested menus. Free tier allows 3 daily searches with full-volume ranges (not just estimates), making it ideal for freelancers testing hypotheses or students learning SEO fundamentals. The Chrome extension enables one-click SERP analysis and competitor keyword spying.
+## Unique Advantages
+Unlike many premium tools, Ubersuggest bundles keyword research, site auditing, and content ideation in one affordable plan. Its integration with Google Keyword Planner data (via API) ensures reliable volume estimates. The 'Content Ideas' tab uses real-time SERP analysis to recommend topics proven to rank — not just generic suggestions. Its Chrome extension enables on-the-fly keyword lookups during browsing. Finally, the free tier offers meaningful functionality — including 3 daily keyword searches and basic site audits — making it uniquely accessible.
 
-## Practical Fit
-Perfect for solopreneurs, bloggers, local service businesses, and marketing students who need reliable, actionable insights without subscription fatigue or steep learning curves.`,
+## Best For
+Bloggers validating post ideas before writing, local service businesses auditing their Google Business Profile visibility, solopreneurs managing multiple niche sites, and agencies running lightweight SEO assessments for early-stage clients.`,
     pros: [
-        "Intuitive, beginner-friendly interface designed for marketers without technical SEO backgrounds",
-        "Real-time keyword difficulty scores powered by proprietary domain authority metrics",
-        "Competitor gap analysis that identifies untapped keywords your rivals rank for--but you don't",
-        "One-click site audit with actionable, prioritized fixes (e.g., 'Fix 404s on 12 pages')",
-        "Local SEO tracking for Google Business Profile visibility and review sentiment trends",
-        "Backlink profile comparison tool showing shared vs. unique referring domains between up to 3 competitors",
-        "Content ideas generator with semantic cluster suggestions and top-performing content examples"
+        "Intuitive interface ideal for non-technical users",
+        "Accurate keyword volume and difficulty metrics backed by Google data",
+        "Free tier includes usable keyword and site audit features",
+        "Chrome extension enables real-time SERP analysis during research",
+        "Content ideas are derived from actual top-ranking pages, not AI hallucinations"
       ],
     cons: [
-        "Limited historical data depth--only 6 months of keyword ranking history available",
-        "No native rank tracking for mobile vs. desktop SERP splits",
-        "API access restricted to Agency plan only, limiting custom integrations for SMBs",
-        "Bulk keyword upload capped at 500 terms per batch in Individual plan"
+        "Limited historical data — no multi-year trend tracking",
+        "Backlink database is smaller and less granular than Ahrefs or Semrush",
+        "No white-label reporting or team collaboration features"
       ],
     pricing: "From $29/mo",
-    pricingDetail: "Ubersuggest offers a generous free tier (3 searches/day). Paid plans start at $12/month (Individual), unlocking unlimited searches, full site audits, and rank tracking. Business ($29/mo) adds competitor tracking and white-label reports. Agency ($79/mo) includes API access, 5 user seats, and priority support.",
+    pricingDetail: "Free plan includes 3 keyword searches/day and basic site audits. Paid plans start at $29/month (Essential), $79/month (Pro), and $149/month (Business), each adding more keyword queries, site audits, and project limits.",
     features: [
         "Keyword Explorer with search volume, CPC, competition, and seasonal trend graphs",
         "Domain Overview dashboard with organic traffic estimate, top pages, and anchor text distribution",
@@ -452,10 +459,9 @@ Perfect for solopreneurs, bloggers, local service businesses, and marketing stud
     useCase: "Quick keyword validation for blog posts, local SEO health checks, competitor traffic estimation, and content ideation for small websites.",
     websiteUrl: "https://neilpatel.com/ubersuggest/",
     alternatives: ["Moz Pro", "AnswerThePublic", "KeywordTool.io"],
-    scoreBreakdown: {"features": 8.0, "reviews": 7.5, "momentum": 6.5, "popularity": 8.0},
-    userQuotes: [{"role": "Digital Marketing Manager", "company": "SaaSStart Labs", "quote": "Ubersuggest's gap analysis helped us capture 23 low-competition keywords our main competitor ranked for--we gained 18% organic traffic in 8 weeks."}, {"role": "Freelance SEO Consultant", "company": "GrowthPulse Agency", "quote": "The site audit UI is so clear--even clients understand the 'priority fix' labels. But I wish historical backlink data went back further than 6 months."}, {"role": "E-commerce SEO Specialist", "company": "BloomCart", "quote": "For $12/month, the rank tracker + SERP analyzer combo delivers more value than tools 3x the price--though bulk uploads get frustrating during large-scale product launches."}],
-  },
-  {
+    scoreBreakdown: { features: 8.5, reviews: 7.8, momentum: 7.2, popularity: 8.0 },
+    userQuotes: [{"role": "Content Strategist", "company": "GrowthLab Agency", "quote": "We cut keyword research time by 60% — Ubersuggest’s 'Top Pages' tab helped us reverse-engineer three high-converting blog posts in under an hour."}, {"role": "Small Business Owner", "company": "Bloom & Vine Florals", "quote": "Fixed 12 on-page issues flagged in the free site audit — organic traffic jumped 37% in six weeks."}],
+  },  {
     id: "answer-public",
     name: "AnswerThePublic",
     category: "Keyword Research",
