@@ -272,7 +272,7 @@ Technical SEO specialists, site migration leads, enterprise SEO teams, and agenc
     rating: 4.2,
     reviewCount: 4500,
     icon: Search,
-    description: "Competitive intelligence tool specializing in uncovering competitors' most profitable SEO and PPC keywords, ad copy, and budget data.",
+    description: "Competitive intelligence tool specializing in 12+ years of historical SEO and PPC keyword data, ad copy evolution tracking, and budget estimation for strategic gap analysis.",
     longDescription: `## Overview
 SpyFu is a battle-tested competitive intelligence platform designed specifically for SEO and PPC professionals who need actionable insights into competitors' digital marketing strategies. It aggregates and analyzes decades of historical keyword, ranking, and advertising data to reveal what's truly driving traffic and conversions for rival domains.
 
@@ -314,7 +314,7 @@ SEO specialists building data-backed content strategies, agencies conducting com
     useCase: "SEO specialists use SpyFu to identify untapped keyword opportunities by analyzing competitors top-performing organic and paid terms.",
     websiteUrl: "https://www.spyfu.com",
     alternatives: ["Semrush", "Ahrefs", "iSpionage"],
-    scoreBreakdown: { features: 8.5, reviews: 7.8, momentum: 7.2, popularity: 8.0 },
+    scoreBreakdown: { features: 8.7, reviews: 7.6, momentum: 7.0, popularity: 7.8 },
     userQuotes: [{"role": "SEO Director", "company": "GrowthLabs Agency", "quote": "We identified $240K in untapped branded PPC opportunities for a client by analyzing competitor ad decay patterns — SpyFu paid for itself in week one."}, {"role": "Content Strategist", "company": "TechNova Inc", "quote": "The Keyword Explorer helped us prioritize 17 low-competition, high-intent terms that drove 32% more organic signups in Q2."}],
   },  {
     id: "google-keyword-planner",
@@ -323,7 +323,7 @@ SEO specialists building data-backed content strategies, agencies conducting com
     rating: 4.1,
     reviewCount: 28900,
     icon: Search,
-    description: "Free, official Google Ads tool for keyword discovery, volume estimation, and bid forecasting.",
+    description: "Google's free keyword discovery tool with auction-based search volume ranges, CPC estimates, and seasonal trend analysis for PPC and SEO validation.",
     longDescription: `## Overview
 Google Keyword Planner is Google's official, free keyword research tool integrated directly into Google Ads. Designed primarily for advertisers, it provides auction-based keyword insights grounded in real search behavior and ad competition data. Unlike third-party tools, it draws from Google's proprietary index of actual search queries, making it indispensable for validating commercial intent and forecasting campaign performance.
 
@@ -354,7 +354,7 @@ Digital marketers building Google Ads strategies, agencies validating client key
     useCase: "Validating commercial keyword viability, planning Google Ads budgets, identifying seasonal search trends, and seeding broader keyword research with auction-validated terms.",
     websiteUrl: "https://ads.google.com/home/tools/keyword-planner/",
     alternatives: ["AnswerThePublic", "KeywordTool.io", "SE Ranking"],
-    scoreBreakdown: { features: 8.5, reviews: 7.8, momentum: 7.2, popularity: 8.0 },
+    scoreBreakdown: { features: 8.2, reviews: 7.5, momentum: 6.8, popularity: 9.5 },
     userQuotes: [{"role": "PPC Manager", "company": "GrowthLabs Agency", "quote": "We cut client acquisition costs by 22% after using Keyword Planner to identify under-bid, high-volume seasonal terms we'd missed."}, {"role": "E-commerce Director", "company": "ApexGear Inc.", "quote": "Validated 37 new product keywords with >500 monthly searches—90% launched within 2 weeks thanks to instant bid forecasts."}],
   },  {
     id: "surfer-seo",
@@ -459,7 +459,7 @@ Bloggers validating post ideas before writing, local service businesses auditing
     useCase: "Quick keyword validation for blog posts, local SEO health checks, competitor traffic estimation, and content ideation for small websites.",
     websiteUrl: "https://neilpatel.com/ubersuggest/",
     alternatives: ["Moz Pro", "AnswerThePublic", "KeywordTool.io"],
-    scoreBreakdown: { features: 8.5, reviews: 7.8, momentum: 7.2, popularity: 8.0 },
+    scoreBreakdown: { features: 8.0, reviews: 7.9, momentum: 7.5, popularity: 7.6 },
     userQuotes: [{"role": "Content Strategist", "company": "GrowthLab Agency", "quote": "We cut keyword research time by 60% — Ubersuggest’s 'Top Pages' tab helped us reverse-engineer three high-converting blog posts in under an hour."}, {"role": "Small Business Owner", "company": "Bloom & Vine Florals", "quote": "Fixed 12 on-page issues flagged in the free site audit — organic traffic jumped 37% in six weeks."}],
   },  {
     id: "answer-public",
@@ -810,10 +810,10 @@ Digital marketing agencies, in-house SEO teams, content strategists, and growth-
     websiteUrl: "https://surferseo.com",
     alternatives: ["MarketMuse", "Clearscope", "Frase"],
     scoreBreakdown: {
-      features: 9,
-      reviews: 8,
-      momentum: 9,
-      popularity: 8
+      features: 9.2,
+      reviews: 8.5,
+      momentum: 8.8,
+      popularity: 8.3
     },
     userQuotes: [{"role": "SEO Director", "company": "SaaSScale Inc.", "quote": "Surfer cut our time-to-rank by 40% -- its SERP-based outlines mean we no longer guess at structure or keyword placement."}, {"role": "Content Strategist", "company": "GrowthLabs Agency", "quote": "The Content Editor is like having an SEO expert breathing over your shoulder -- every suggestion is backed by live ranking data, not theory."}],
   },  {
