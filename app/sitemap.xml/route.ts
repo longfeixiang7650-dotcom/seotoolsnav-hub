@@ -50,6 +50,8 @@ const BLOG_SLUGS = [
   "technical-seo-audit-showdown-screaming-frog-sitebulb-semrush-2026",
   "google-algorithm-updates-2026-impact-seo-strategy",
   "how-to-do-a-complete-seo-audit-in-2026",
+
+  "link-building-strategies-2026-proven-tactics",
   "international-seo-multilingual-website-hreflang-ccs-geotargeting-2026",
 ] as const;
 
