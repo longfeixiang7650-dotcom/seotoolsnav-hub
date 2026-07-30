@@ -53,6 +53,8 @@ const BLOG_SLUGS = [
 
   "link-building-strategies-2026-proven-tactics",
   "international-seo-multilingual-website-hreflang-ccs-geotargeting-2026",
+
+  "seo-analytics-reporting-tools-2026-measure-what-matters",
 ] as const;
 
 const TOOL_SLUGS = [
