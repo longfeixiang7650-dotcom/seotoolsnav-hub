@@ -57,6 +57,7 @@ const BLOG_SLUGS = [
   "seo-analytics-reporting-tools-2026-measure-what-matters",
 
   "video-seo-2026-youtube-ranking-guide",
+  "ai-overviews-generative-search-seo-2026",
 ] as const;
 
 const TOOL_SLUGS = [
