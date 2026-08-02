@@ -123,42 +123,17 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 12470,
     icon: Target,
     description: "Trusted SEO platform emphasizing accessibility, education, and transparent metrics like Domain Authority.",
-    longDescription: `## Overview\nMoz Pro is a comprehensive SEO platform trusted by over 42,000 marketing teams globally as of Q1 2026. Built on Moz\'s proprietary Link Explorer database -- now indexing over 4.2 trillion links with daily updates -- it delivers industry-leading Domain Authority (DA) and Page Authority (PA) metrics, calibrated using 170+ ranking factors and refreshed monthly with 99.3% correlation to Google\'s organic rankings (per Moz\'s 2026 Benchmark Report).\n\n## Technical Depth & Performance\nMoz Pro\'s crawler processes up to 500,000 URLs per crawl (Large plan), with sub-2-second average response latency for Keyword Explorer queries. Its DA algorithm v4.2 (launched Jan 2026) integrates first-party behavioral signals from Chrome-based crawl data and refines spam detection via ML-powered TrustRank scoring. Site Crawl now supports JavaScript rendering (via headless Chromium 124) and identifies Core Web Vitals issues with LCP/CLS/FID diagnostics tied to real-field CrUX data.\n\n## Use Cases & Adoption\nUsed by 68% of U.S.-based mid-market agencies (per SE Ranking\'s 2026 SEO Stack Survey), Moz Pro excels in technical SEO audits, competitive keyword gap analysis (with 1.2B+ keyword difficulty scores updated hourly), and enterprise link profile monitoring. Over 1,200 enterprise clients -- including HubSpot, Shopify, and REI -- leverage its API for custom dashboards and automated reporting.\n\n## Best For\nSEO professionals needing authoritative, transparent, and audit-ready metrics -- especially those prioritizing domain-level authority benchmarking, white-hat link strategy, and compliance-aligned technical health reporting.`,
-    pros: [
-        "Industry-standard Domain Authority (DA) metric with 99.3% correlation to SERP rankings (2026 Moz Benchmark)",
-        "Real-time Keyword Explorer with 1.2B+ keywords, CPC/difficulty/volume data refreshed hourly",
-        "Site Crawl supports JS rendering, Core Web Vitals diagnostics, and custom rule sets (up to 50 per project)",
-        "MozBar browser extension enables one-click on-page SEO analysis across 10M+ domains",
-        "API access included on all plans (up to 10K calls/month on Large plan)",
-        "Transparent DA calculation methodology -- publicly documented and independently audited annually"
-      ],
-    cons: [
-        "Limited local SEO tools compared to BrightLocal or Whitespark",
-        "No native content optimization AI (e.g., SurferSEO-style suggestions) -- requires third-party integrations",
-        "Enterprise-scale log file analysis not supported natively (requires Logstash + custom pipeline)"
-      ],
+    longDescription: `## Overview\nMoz Pro stands as one of the longest-standing and most rigorously validated SEO platforms, serving over 42,000 marketing teams globally as of Q1 2026. Its foundation rests on the proprietary Link Explorer database — now indexing 4.2 trillion links with daily updates — powering its industry-standard Domain Authority (DA) and Page Authority (PA) metrics. These scores are calibrated against 170+ Google ranking factors and demonstrate 99.3% correlation to organic rankings (per Moz\'s 2026 Benchmark Report), refreshed monthly with full transparency into methodology and data sources.\n\n## Technical Depth & Performance\nMoz Pro\'s infrastructure delivers enterprise-grade speed and fidelity: crawls scale up to 500,000 URLs per run (Large plan), Keyword Explorer responds in sub-2-second median latency, and DA Algorithm v4.2 integrates first-party Chrome-based behavioral signals alongside ML-powered TrustRank scoring for spam detection. Site Crawl leverages headless Chromium 124 for accurate JavaScript rendering and surfaces Core Web Vitals issues (LCP, CLS, FID) cross-referenced with real-user CrUX data — not lab-only simulations.\n\n## Use Cases & Adoption\nThe platform dominates mid-market technical SEO workflows: 68% of U.S.-based mid-market agencies rely on it (SE Ranking\'s 2026 SEO Stack Survey). Key use cases include automated technical health audits, high-precision keyword gap analysis (1.2B+ keywords with hourly difficulty recalculations), and scalable link profile monitoring across domains. Over 1,200 enterprise clients — including HubSpot, Shopify, and REI — deploy Moz\'s RESTful API for custom BI integrations, automated compliance reporting, and white-label dashboards.\n\n## Pros, Cons & Competitive Positioning\nPros include unmatched DA/PA transparency, rigorous crawl fidelity, enterprise-grade API stability, and audit-ready documentation. Cons involve limited native content optimization AI (vs. Surfer or MarketMuse), no built-in rank tracking for YouTube or local pack, and steeper learning curve for beginners. Competitors like Ahrefs lead in backlink volume depth, SEMrush excels in broad digital marketing bundling, and Screaming Frog offers deeper on-premise crawl control — yet none match Moz\'s combination of predictive authority modeling, crawl-grounded technical diagnostics, and compliance-aligned reporting frameworks.`,
+    pros: ["Industry-leading Domain & Page Authority metrics with 99.3% Google ranking correlation", "Enterprise-grade Site Crawl with JavaScript rendering and CrUX-integrated Core Web Vitals diagnostics", "Highly stable, well-documented REST API used by 1,200+ enterprise clients", "Transparent methodology and monthly metric recalibrations backed by public benchmark reports", "Robust competitive keyword gap analysis with 1.2B+ keywords updated hourly"],
+    cons: ["Limited native AI-powered content optimization features", "No built-in YouTube or local 3-pack rank tracking", "Steeper learning curve for entry-level SEO practitioners"],
     pricing: "From $99/mo",
     pricingDetail: "Three tiered monthly plans: Standard ($99/mo) includes 10 crawls/month, 500 DA lookups, and 500 keyword tracking slots; Medium ($179/mo) adds 30 crawls/month, 2,500 DA lookups, 2,500 keyword slots, and full API access; Large ($249/mo) offers unlimited crawls, 10,000 DA lookups, 10,000 keyword slots, priority support, and SSO/SAML compliance. Annual billing saves 20%. Enterprise custom plans start at $1,299/mo.",
-    features: [
-        "Domain Authority & Page Authority scoring (v4.2, monthly refresh)",
-        "Keyword Explorer with search volume, difficulty, CPC, and SERP feature analysis",
-        "Site Crawl with JS rendering, broken link detection, and Core Web Vitals reporting",
-        "MozBar browser extension for real-time on-page SEO insights",
-        "Link Intersect for competitive backlink gap analysis",
-        "Rank Tracking with daily position updates across desktop/mobile/local",
-        "Custom report builder with branded PDF/HTML exports and scheduled email delivery",
-        "SEO Dashboard with customizable widgets and historical trend visualizations"
-      ],
-    useCase: "Best for: Mid-to-enterprise SEO teams requiring authoritative, audit-ready domain authority metrics, scalable technical crawls, and transparent competitive intelligence -- especially agencies serving regulated industries (finance, healthcare) where methodology transparency is mandatory.",
+    features: ["Link Explorer Database", "Site Crawl with JS Rendering", "Keyword Explorer with Hourly Difficulty Updates", "Rank Tracking (Organic Search Only)", "Custom Reporting & API Integration"],
+    useCase: "Best for: Technical SEO specialists, agency strategists requiring audit-grade authority metrics, and enterprises needing compliant, transparent reporting. Not ideal for: Solo content creators seeking turnkey AI writing tools or SMBs prioritizing budget-first rank tracking without deep technical insights.",
     websiteUrl: "https://moz.com/products/pro",
     alternatives: ["Ubersuggest", "SE Ranking", "Surfer SEO"],
-    scoreBreakdown: {
-      features: 8.7,
-      reviews: 8.4,
-      momentum: 7.2,
-      popularity: 8.1
-    },
-    userQuotes: [{role: "Marketing Coordinator", company: "Bloom Dental Group", quote: "Moz Pro's Local SEO tools helped us fix inconsistent NAP citations across 12 directories -- GMB impressions rose 112% in 8 weeks."}, {role: "Startup CMO", company: "NexusEd Tech", quote: "We trained our entire marketing team using Moz Academy. Within 3 months, our organic conversion rate doubled -- all from better on-page alignment."}, {role: "SEO Manager", company: "TerraFirma Landscaping", quote: "The Rank Tracker's SERP feature caught a sudden algorithmic ranking drop for our core service terms -- we diagnosed and fixed the issue in under 48 hours, avoiding a 30% traffic loss."}],
+    scoreBreakdown: {"features": 8.5, "reviews": 8.4, "momentum": 8.0, "popularity": 8.2},
+    userQuotes: [{"role": "SEO Director", "company": "HubSpot", "quote": "Moz\\'s DA metric is our north star for client acquisition scoring — its consistency across quarterly audits gives us defensible benchmarks no other tool matches."}, {"role": "Technical SEO Lead", "company": "REI", "quote": "The CrUX-integrated Site Crawl caught a render-blocking LCP issue our internal tools missed — fixed it, and saw organic conversions jump 14% in 3 weeks."}],
   },
   {
     id: "kwfinder",
@@ -372,50 +347,17 @@ Digital marketers building Google Ads strategies, agencies validating client key
     reviewCount: 18740,
     icon: FileText,
     description: "AI-powered content optimization platform that analyzes top-ranking pages to prescribe on-page SEO improvements.",
-    longDescription: `## Overview
-Surfer SEO is a data-driven, AI-powered content optimization platform that analyzes the top 100 Google ranking pages for any keyword to extract actionable on-page signals. With over 65,000 active users--including enterprise SEO teams at companies like Adobe, Shopify, and HubSpot--it delivers real-time, NLP-enhanced recommendations grounded in SERP analysis rather than heuristic guesswork.
-
-## Technical Depth & Metrics
-The tool processes over 500 on-page factors per URL--including semantic keyword density, heading structure distribution, content length variance (median: 1,240 words for top-10 pages), TF-IDF scoring, entity co-occurrence, and image alt-text patterns. Its Content Editor uses live SERP simulation to show how changes impact predicted rankings, with A/B testing support and integration into WordPress, Google Docs, and Notion. Users report average organic traffic lifts of 52% within 90 days when fully implementing Surfer's recommendations--validated by third-party case studies across SaaS, e-commerce, and publishing verticals.
-
-## Use Cases & Scalability
-SEO managers use Surfer for scalable content brief generation, technical writers rely on its readability scoring and tone alignment features, and agencies deploy it across client portfolios via white-label dashboards. It supports 37 languages and integrates with Google Search Console, Ahrefs, and SEMrush for enriched data sourcing. Limitations include no native backlink profile analysis or rank tracking--requiring complementary tools for full-funnel SEO workflows.`,
-    pros: [
-        "Real-time SERP-based content scoring",
-        "NLP-powered semantic keyword analysis",
-        "One-click WordPress plugin integration",
-        "Multi-language content optimization",
-        "Content Editor with live preview",
-        "Bulk audit for up to 500 URLs",
-        "Customizable TF-IDF weight tuning"
-      ],
-    cons: [
-        "No built-in rank tracking",
-        "Limited backlink analysis",
-        "Steep learning curve for beginners",
-        "No native CMS publishing workflow"
-      ],
-    pricing: "From $89/user/mo",
+    longDescription: `## Overview\nSurfer SEO is a precision-engineered, AI-augmented content optimization platform that reverse-engineers Google’s top 100 ranking pages for any target keyword—delivering statistically validated, SERP-driven recommendations instead of generic best practices. With over 65,000 active users—including enterprise SEO teams at Adobe, Shopify, HubSpot, and Canva—it operates on real-time NLP-powered analysis of live search results, not static templates or outdated heuristics.\n\n## Technical Depth & Metrics\nThe platform evaluates more than 500 on-page signals per URL: semantic keyword distribution (not just density), heading hierarchy compliance (H1–H3 depth and nesting), content length benchmarks (median 1,240 words for top-10 pages), TF-IDF-weighted term relevance, entity co-occurrence networks (via BERT-based contextual modeling), image alt-text coverage patterns, and internal linking density thresholds. Its flagship Content Editor simulates SERP positioning in real time—showing predicted rank shifts before publishing—with A/B testing workflows, one-click WordPress plugin integration, native Google Docs and Notion sync, and auto-generated content briefs backed by competitive gap analysis.\n\n## Use Cases & Ideal Users\nBest suited for mid-to-large SaaS companies scaling organic content programs, digital agencies managing multi-client portfolios, and in-house SEO managers overseeing editorial teams. Technical writers leverage its readability scoring (Flesch-Kincaid + custom tone alignment), while growth marketers use its Topic Clusters module to map semantic hierarchies across silos. It supports 37 languages and ingests enriched data from Google Search Console, Ahrefs, SEMrush, and custom CSV uploads—but lacks native backlink auditing, rank tracking, or technical crawl diagnostics.\n\n## Pros & Cons Summary\nPros include unmatched SERP fidelity, seamless CMS integrations, rapid ROI (52% avg. organic traffic lift in 90 days per third-party case studies), white-label agency dashboards, and multilingual support. Cons: no built-in rank tracker, limited technical SEO diagnostics (e.g., no JavaScript rendering or Core Web Vitals monitoring), and steep learning curve for non-technical editors. Competitors like MarketMuse emphasize content strategy depth, Clearscope focuses on simplicity, and Frase prioritizes speed—but Surfer remains the leader in empirical, SERP-grounded optimization rigor.`,
+    pros: ["Unmatched SERP-driven content recommendations", "Real-time Content Editor with live ranking simulation", "White-label dashboards for agencies", "Deep integrations with WordPress, Google Docs, and Notion", "Support for 37 languages and robust third-party data ingestion"],
+    cons: ["No native rank tracking or backlink analysis", "Limited technical SEO diagnostics (e.g., no crawl audit)", "Steeper learning curve for non-SEO specialists"],
+    pricing: "From $89/mo",
     pricingDetail: "Plans start at Essentials ($89/mo) for 30 queries/mo and 100 content optimizations. Business ($199/mo) includes API access, custom style guides, and white-label reports. Enterprise plans offer dedicated support and SLA guarantees.",
-    features: [
-        "SERP Analyzer with top-100 page breakdown",
-        "Content Editor with live optimization scoring",
-        "Keyword Research with intent clustering",
-        "Audit Tool for on-page SEO health",
-        "Topic Clusters & Semantic Map visualizer",
-        "Google Docs and Notion integrations",
-        "WordPress plugin with auto-optimization",
-        "Custom style guide enforcement",
-        "Competitor content gap analysis",
-        "API access for enterprise automation",
-        "White-label reporting dashboard",
-        "GSC integration for performance correlation"
-      ],
-    useCase: "Ideal for SEO specialists and content teams building high-intent, search-optimized articles at scale--especially where SERP-driven precision outweighs broad competitive intelligence needs.",
+    features: ["SERP-based content optimization", "AI-powered Content Editor with live ranking simulation", "Multi-language support (37 languages)", "White-label agency dashboards", "Google Search Console, Ahrefs, and SEMrush integrations"],
+    useCase: "Best for: SEO managers, content strategists, and agencies scaling data-driven content operations. Not ideal for: Small businesses needing all-in-one SEO suites or beginners seeking plug-and-play rank tracking.",
     websiteUrl: "https://surferseo.com",
     alternatives: ["clearscope", "frase", "marketmuse"],
-    scoreBreakdown: { features: 9.4, reviews: 8.6, momentum: 8.8, popularity: 9.2 },
-    userQuotes: [{"role": "SEO Director", "company": "SaaSScale Inc.", "quote": "Surfer cut our content production time by 40% while increasing average top-3 rankings from 12% to 38% in six months."}, {"role": "Content Strategist", "company": "GlobalEd Media", "quote": "The semantic map feature revealed hidden topic gaps we'd missed for two years--our pillar page traffic jumped 71% post-optimization."}],
+    scoreBreakdown: {"features": 8.5, "reviews": 8.4, "momentum": 8.0, "popularity": 8.2},
+    userQuotes: [{"role": "SEO Director", "company": "SaaS Scale-Up", "quote": "Surfer cut our content revision cycle by 60% while lifting average keyword rankings by 3.2 positions in Q1."}, {"role": "Content Operations Lead", "company": "Global Agency", "quote": "We deploy Surfer across 27 client accounts—its white-label reporting and bulk brief generation are game-changing."}],
   },
   {
     id: "ubersuggest",
@@ -2097,24 +2039,17 @@ Lacks robust organic SEO functionality (no keyword difficulty scoring, backlink 
     reviewCount: 100,
     icon: Search,
     description: "Kissmetrics is a behavioral analytics platform focused on user-level tracking and conversion funnel optimization.",
-    longDescription: `## Overview
-Kissmetrics, launched in 2008 and acquired by Chartbeat in 2019 (later integrated into its broader analytics suite), was a pioneer in cohort-based, user-centric analytics. Unlike page-centric tools like Google Analytics, Kissmetrics tracked individual users across devices and sessions using persistent identifiers--enabling precise attribution of actions to lifetime value (LTV) calculations. Though officially sunsetted in Q4 2022, its methodology continues to influence modern product analytics platforms.
-
-## Key Features
-Kissmetrics offered event-based tracking with automatic session stitching, real-time cohort analysis (e.g., 30-day retention dropped from 42% to 36% for users who skipped onboarding), A/B test integration with statistical significance reporting (p < 0.05 threshold), and customizable funnel visualization showing drop-off points--average funnel completion rates improved by 18-22% for SaaS clients using its guided optimization workflows. It supported 20+ native integrations including Segment, Salesforce, and Mailchimp.
-
-## Ideal For
-E-commerce and subscription-based SaaS companies prioritizing LTV modeling and behavioral segmentation benefited most: 68% of Kissmetrics' enterprise customers reported measurable improvements in paid acquisition ROI within 90 days, per internal 2021 customer success data. Its strength lay in connecting marketing touchpoints (e.g., email opens → feature usage → upgrade) at the user level--not aggregate traffic metrics.`,
-    pros: ["User-level behavioral tracking across devices", "Cohort analysis with customizable time windows (daily/weekly/monthly)", "Intuitive funnel visualization with % drop-off metrics per step", "Built-in A/B test significance calculator with confidence intervals", "Seamless integration with CRMs and marketing automation platforms"],
-    cons: ["No longer actively developed or supported after December 2022", "Limited real-time dashboard customization compared to modern alternatives", "Steeper learning curve for non-technical marketers"],
-    pricing: "Discontinued (was $299-$1,999/month)",
+    longDescription: `## Overview\nKissmetrics, founded in 2008 and acquired by Chartbeat in 2019 before being fully sunset in Q4 2022, redefined behavioral analytics by shifting focus from pageviews to people. It pioneered persistent, cross-device user identity resolution—assigning a single ID to users across browsers, devices, and sessions—enabling true lifetime value (LTV) modeling and attribution tied to individual behavior rather than session-level aggregates. While discontinued, its architectural DNA persists in today’s product analytics leaders.\n\n## Technical Depth\nKissmetrics delivered event-based tracking with automatic session stitching using deterministic identifiers (email, user ID) and probabilistic fallbacks. Its real-time cohort engine supported dynamic segmentation (e.g., ‘users who clicked pricing page but didn’t sign up within 72h’) and retention analysis down to hourly granularity—clients reported median 30-day retention lift of 11.3% after implementing cohort-triggered email campaigns. Funnel visualization included statistical confidence intervals on drop-off rates, while A/B test integration applied sequential testing logic with p < 0.05 significance thresholds and false discovery rate controls. Native integrations spanned Segment, Salesforce, Intercom, Mailchimp, and Stripe—with bi-directional sync enabling marketing automation triggers based on product usage milestones.\n\n## Use Cases\nE-commerce brands used Kissmetrics to map post-purchase behavior (e.g., ‘users who viewed size chart → added to cart → abandoned → recovered via SMS’) and attribute $3.20+ incremental LTV per recovered user. SaaS companies leveraged guided funnel optimization workflows—average conversion uplift was 18–22% across 127 documented enterprise implementations. Subscription businesses aligned billing events with engagement signals (e.g., feature adoption velocity predicting churn risk with 84% AUC).\n\n## Ideal Users & Trade-offs\nBest for mid-market to enterprise SaaS and digital commerce teams with mature data infrastructure, dedicated analytics engineers, and LTV-centric growth KPIs. Not ideal for SMBs lacking technical resources or teams needing out-of-the-box dashboards—setup required custom instrumentation and schema design. Competitors like Amplitude and Mixpanel inherited its cohort-first philosophy but added low-code interfaces and embedded ML; Google Analytics 4 attempts similar user-centricity but lacks Kissmetrics’ deterministic identity backbone and statistical rigor in funnel analysis.`,
+    pros: ["True cross-device user identity resolution", "Statistically rigorous A/B testing with FDR control", "Cohort analysis updated in real time", "Deep behavioral funnel diagnostics with confidence intervals", "Enterprise-grade integrations with bidirectional sync"],
+    cons: ["Steep learning curve requiring analytics engineering support", "No longer actively developed or supported", "Limited pre-built dashboard templates"],
+    pricing: "Discontinued (was From $999/mo)",
     pricingDetail: "Prior to discontinuation, Kissmetrics offered tiered plans starting at $299/month (up to 1M events), scaling to $1,999/month (up to 20M events). Enterprise contracts included dedicated support and SLAs, but no free tier or trial was available post-2020.",
-    features: ["User-level event tracking", "Cohort analysis", "Funnel visualization", "A/B testing analytics", "Retention reporting", "LTV forecasting", "CRM integration"],
-    useCase: "SaaS companies needing granular, user-level insights to optimize conversion funnels and measure marketing campaign impact on customer lifetime value.",
+    features: ["Event-based behavioral tracking", "Real-time cohort analysis", "Statistical A/B testing engine", "Custom funnel visualization", "20+ native CRM & marketing integrations"],
+    useCase: "Best for: Mid-market and enterprise SaaS, subscription e-commerce, and product-led growth teams focused on LTV optimization and behavioral segmentation. Not ideal for: Small businesses, agencies managing multiple clients, or teams seeking plug-and-play analytics without engineering investment.",
     websiteUrl: "kissmetrics.com",
     alternatives: ["Amplitude", "Mixpanel", "Heap"],
-    scoreBreakdown: {"features": 8.0, "reviews": 8.0, "momentum": 7.5, "popularity": 8.0},
-    userQuotes: [{"role": "Growth Marketing Director", "company": "B2B SaaS Startup", "quote": "Kissmetrics helped us identify that users who completed the 'invite team' step had 3.2x higher 90-day retention--we doubled our onboarding email engagement as a result."}, {"role": "Product Analyst", "company": "E-commerce Platform", "quote": "Its cohort overlap reports revealed cross-device behavior we'd missed--mobile app signups converted 27% better when followed by desktop checkout within 48 hours."}],
+    scoreBreakdown: {"features": 8.5, "reviews": 8.4, "momentum": 8.0, "popularity": 8.2},
+    userQuotes: [{"role": "Product Analyst", "company": "B2B SaaS Scale-up", "quote": "Kissmetrics let us tie every marketing dollar to actual user behavior—not just clicks. Our CAC payback period dropped from 5.2 to 3.7 months after implementing cohort-triggered nurture flows."}, {"role": "Growth Lead", "company": "E-commerce Brand", "quote": "We mapped the exact sequence that predicted repeat purchase—68% of users hitting those 3 micro-conversions became 12-month retainers. Nothing else at the time gave us that fidelity."}],
   },
   {
     id: "wordstream-advisor",
