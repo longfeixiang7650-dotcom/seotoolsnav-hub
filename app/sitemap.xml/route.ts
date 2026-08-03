@@ -58,6 +58,8 @@ const BLOG_SLUGS = [
 
   "video-seo-2026-youtube-ranking-guide",
   "ai-overviews-generative-search-seo-2026",
+  "seo-content-refresh-historically-optimized-2026",
+  "internal-linking-strategy-2026-definitive-guide",
 ] as const;
 
 const TOOL_SLUGS = [
