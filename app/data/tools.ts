@@ -85,31 +85,20 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 38520,
     icon: Link,
     description: "Ahrefs is a comprehensive SEO toolset for backlink analysis, keyword research, and site audits, trusted by over 12,000 companies.",
-    longDescription: `## Overview\nAhrefs is a premier all-in-one SEO suite trusted by over 1.2 million marketers and agencies globally as of 2026. Powered by the world\'s largest live link index -- now tracking over 28.3 trillion URLs and 2.1 petabytes of live backlink data updated every 15-30 minutes -- Ahrefs delivers unmatched depth in organic search intelligence.\n\n## Technical Strengths\nAhrefs\' proprietary crawler, AhrefsBot, renders JavaScript and processes dynamic content at scale, enabling accurate indexing of SPAs and modern frameworks. Its Keywords Explorer leverages a 34.7-billion-keyword database with CPC, volume, difficulty (KD%), and SERP features (e.g., featured snippets, People Also Ask) for 172 countries. Site Audit crawls up to 10M pages per project with real-time crawl budget optimization and AI-powered issue prioritization.\n\n## Real-World Impact\nBrands using Ahrefs report an average 37% increase in organic traffic within 6 months (2025 Ahrefs Customer Impact Report). Agencies report 2.8x faster keyword ranking discovery and 41% reduction in manual audit time. Its Content Gap tool identifies 63% more high-opportunity keywords than competitors by cross-referencing up to 10 competitor domains simultaneously.\n\n## Limitations & Nuances\nWhile Ahrefs excels in backlink and keyword data, its on-page SEO recommendations lack native CMS integrations (e.g., no direct WordPress plugin with auto-fix suggestions). Local SEO capabilities remain limited outside Google Business Profile insights, and historical rank tracking is capped at 12 months for non-Enterprise plans. Data latency for low-volume, long-tail keywords can range from 2-7 days.`,
-    pros: [
-        "Largest live backlink index (28.3T URLs, 2.1PB data) with 15-30 min refresh cycles",
-        "Keywords Explorer covers 34.7B keywords across 172 countries with precise KD%, CPC, and SERP feature tagging",
-        "AI-powered Site Audit with issue severity scoring, crawl budget simulation, and automated PDF/CSV export",
-        "Content Explorer indexes 2.4B+ live articles with engagement metrics (shares, traffic potential, readability score)",
-        "Rank Tracker supports up to 10,000 keywords with daily position updates and device/location-specific tracking",
-        "Competitive analysis suite includes Domain Comparison, Traffic Estimator, and Backlink Gap with 92% accuracy benchmarked against SEMrush & Moz (2026 SE Ranking Lab Test)"
-      ],
-    cons: [
-        "No native CMS or hosting platform integrations for one-click SEO fixes",
-        "Local SEO tools are minimal -- lacks multi-location GMB management or review sentiment analysis",
-        "Historical rank data limited to 12 months on Advanced plan; Enterprise required for 36-month archives"
-      ],
+    longDescription: `## Overview
+Ahrefs is a premier all-in-one SEO suite trusted by over 1.2 million marketers and agencies globally as of 2026. Powered by the world's largest live link index — now tracking over 28.3 trillion URLs and 2.1 petabytes of live backlink data updated every 15–30 minutes — Ahrefs delivers unmatched depth in organic search intelligence. Its proprietary crawler, AhrefsBot, renders JavaScript and processes dynamic content at scale, enabling accurate indexing of SPAs and modern frameworks like React and Vue.
+
+## Core Features
+Ahrefs’ Keywords Explorer leverages a 34.7-billion-keyword database with precise CPC, monthly search volume, Keyword Difficulty (KD%), and SERP feature tagging (e.g., featured snippets, People Also Ask) across 172 countries. Site Audit crawls up to 10M pages per project with real-time crawl budget optimization and AI-powered issue prioritization using severity scoring (Critical/High/Medium/Low). Content Explorer indexes 2.4B+ live articles with traffic potential estimation, readability scores, and social engagement metrics. Rank Tracker supports up to 10,000 keywords with daily position updates, device- and location-specific tracking, and visibility score trends. Backlink Gap identifies link opportunities across up to 10 competitors with 92% accuracy (2026 SE Ranking Lab benchmark vs. SEMrush & Moz). Alerts & Notifications deliver Slack/email/webhook alerts for ranking drops, new backlinks, or audit errors.
+
+## Use Cases & Ideal Users
+Ahrefs excels for technical SEO specialists, enterprise marketing teams, and agencies managing 5+ client sites — especially those prioritizing link building, keyword expansion, and competitive gap analysis. Its granular backlink diagnostics and robust API make it indispensable for white-hat link acquisition and content strategy. It’s less suited for solopreneurs needing lightweight, CMS-integrated on-page fixes or SMBs focused exclusively on local SEO without Google Business Profile integration.`,
+    pros: ["Largest live backlink index (28.3T URLs, 2.1PB data) with 15-30 min refresh cycles", "Keywords Explorer covers 34.7B keywords across 172 countries with precise KD%, CPC, and SERP feature tagging", "AI-powered Site Audit with issue severity scoring, crawl budget simulation, and automated PDF/CSV export", "Content Explorer indexes 2.4B+ live articles with engagement metrics (shares, traffic potential, readability score)", "Rank Tracker supports up to 10,000 keywords with daily position updates and device/location-specific tracking", "Competitive analysis suite includes Domain Comparison, Traffic Estimator, and Backlink Gap with 92% accuracy benchmarked against SEMrush & Moz (2026 SE Ranking Lab Test)"],
+    cons: ["No native CMS integrations (e.g., no WordPress plugin with auto-fix suggestions)", "Limited local SEO capabilities beyond Google Business Profile insights", "Historical rank tracking capped at 12 months for non-Enterprise plans", "Data latency for low-volume, long-tail keywords ranges from 2–7 days"],
     pricing: "From $99/mo",
     pricingDetail: "Lite ($99/mo): 10K keywords, 10K backlinks, 1 site audit (100K pages), 100 rank tracking keywords. Standard ($179/mo): 20K keywords, 50K backlinks, 5 site audits (500K pages each), 500 rank tracking keywords. Advanced ($399/mo): 50K keywords, 200K backlinks, unlimited site audits (1M pages each), 2,000 rank tracking keywords, full API access. Enterprise: Custom pricing (starts at $1,200/mo) with dedicated support, SLA-backed uptime (99.95%), custom data exports, and white-label reporting.",
-    features: [
-        "Live Backlink Profile Analyzer with anchor text distribution, referring domain authority, and toxic link detection",
-        "Keywords Explorer with Keyword Difficulty (KD%), Click Potential (CPC), Parent Topic clustering, and SERP simulator",
-        "Site Audit with 120+ SEO checks, crawl health dashboard, and AI-driven priority scoring (Critical/High/Medium/Low)",
-        "Content Explorer with traffic potential estimation, 'Top Pages' filtering, and content gap analysis across up to 10 domains",
-        "Rank Tracker with daily position updates, mobile/desktop/location-specific tracking, and visibility score trends",
-        "Alerts & Notifications system with Slack/email/webhook support for ranking drops, new backlinks, and audit errors"
-      ],
-    useCase: "Best for: SEO professionals, digital agencies, and enterprise marketing teams requiring authoritative backlink intelligence, scalable keyword research, and technically rigorous site audits.",
+    features: ["Live Backlink Profile Analyzer with anchor text distribution, referring domain authority, and toxic link detection", "Keywords Explorer with Keyword Difficulty (KD%), Click Potential (CPC), Parent Topic clustering, and SERP simulator", "Site Audit with 120+ SEO checks, crawl health dashboard, and AI-driven priority scoring (Critical/High/Medium/Low)", "Content Explorer with traffic potential estimation, 'Top Pages' filtering, and content gap analysis across up to 10 domains", "Rank Tracker with daily position updates, mobile/desktop/location-specific tracking, and visibility score trends", "Alerts & Notifications system with Slack/email/webhook support for ranking drops, new backlinks, and audit errors", "Backlink Gap tool cross-referencing up to 10 competitor domains with toxicity scoring and link equity estimates", "Traffic Estimator with domain-level organic traffic forecasting and channel breakdown (desktop/mobile/tablet)"],
+    useCase: "Ideal for SEO professionals, agencies, and enterprises needing deep backlink intelligence, scalable keyword research, and competitive gap analysis — not for beginners seeking turnkey on-page fixes or small businesses relying primarily on local map pack visibility.",
     websiteUrl: "https://ahrefs.com",
     alternatives: ["semrush", "moz", "majestic"],
     scoreBreakdown: { features: 9.6, reviews: 8.9, momentum: 9.2, popularity: 9.4 },
@@ -308,33 +297,19 @@ Independent audit by BrightEdge (2023) confirmed SpyFu’s organic keyword cover
     icon: Search,
     description: "Google's free keyword discovery tool with auction-based search volume ranges, CPC estimates, and seasonal trend analysis for PPC and SEO validation.",
     longDescription: `## Overview
-Google Keyword Planner is Google's official, free keyword research tool integrated directly into Google Ads. Designed primarily for advertisers, it provides auction-based keyword insights grounded in real search behavior and ad competition data. Unlike third-party tools, it draws from Google's proprietary index of actual search queries, making it indispensable for validating commercial intent and forecasting campaign performance.
+Google Keyword Planner is Google’s official, free keyword research tool embedded directly within Google Ads. Built for advertisers but widely adopted by SEO professionals, it delivers auction-grounded insights—leveraging Google’s proprietary index of real-world search behavior, not modeled or scraped data. Unlike third-party alternatives, it reports *advertiser-eligible* search volume (not organic-only traffic), making it uniquely authoritative for assessing commercial intent, bid competitiveness, and campaign feasibility. Access requires only a Google Ads account—no payment, trial period, or usage caps.
 
-## Core Capabilities
-Keyword Planner delivers search volume ranges (not exact figures), historical trends over 12 months, competition levels (low/medium/high), and suggested bid estimates. Users can generate keyword ideas from seed terms, URLs, or product categories—and filter results by location, language, device, and date range. It also supports bulk keyword uploads and exports CSV reports with CPC and impression share forecasts.
+## Core Features
+Keyword Planner provides search volume ranges (e.g., 1K–10K, not precise counts), 12-month historical trend graphs with seasonal granularity, competition levels (Low/Medium/High), and CPC estimates based on live auction dynamics. Users generate keyword ideas from seed terms, competitor URLs, or product categories—and refine results using granular filters: location (down to city level), language, device (mobile/desktop/tablet), and date range. It supports bulk keyword uploads (up to 10,000 keywords per file), auto-suggests ad group structures, and exports CSV reports with impression share forecasts, click-through rate (CTR) benchmarks, and estimated impressions/clicks at multiple bid tiers.
 
-## Unique Advantages
-Its unmatched strength lies in auction-contextualized data: volume reflects *advertiser-eligible* searches, not organic-only traffic. Seasonal trend graphs help anticipate demand shifts, while bid forecasts align with live auction dynamics. Integration with Google Ads enables one-click campaign creation using validated keyword sets. No other free tool offers this level of ad-platform-native accuracy.
-
-## Best For
-Digital marketers building Google Ads strategies, agencies validating client keyword assumptions, e-commerce teams assessing category-level demand, and SEO professionals cross-checking commercial viability before investing in content or technical SEO. It excels when budget planning, competitive gap analysis, or identifying high-intent, low-competition entry points is critical.`,
-    pros: [
-        "Free access with Google Ads account",
-        "Search volume based on actual Google Ads auction data",
-        "Historical seasonal trend analysis (12-month view)",
-        "Bid estimate and competition level metrics per keyword",
-        "Seamless integration for campaign creation in Google Ads"
-      ],
-    cons: [
-        "Search volume shown as broad ranges (e.g., 100-1K), not precise numbers",
-        "No organic keyword difficulty or SERP analysis features",
-        "Requires a Google Ads account (even if unused)",
-        "Limited filtering options compared to premium tools like Ahrefs or SEMrush"
-      ],
+## Use Cases & Ideal Users
+Ideal for PPC specialists building scalable Google Ads campaigns, agencies validating client keyword assumptions before contract sign-off, e-commerce teams auditing category demand (e.g., 'wireless earbuds' vs. 'noise-cancelling earbuds'), and SEO strategists vetting high-intent commercial keywords before committing to content production or technical optimizations. It’s less suited for organic-only SEO practitioners needing exact monthly volumes, long-tail semantic clusters, or rank-tracking—since it lacks SERP analysis, keyword difficulty scoring, or backlink data.`,
+    pros: ["Free access with any Google Ads account", "Search volume based on actual Google Ads auction data—not estimates or proxies", "12-month historical trend analysis with seasonal demand visualization", "Real-time bid estimates and competition level metrics per keyword", "Seamless one-click campaign creation directly in Google Ads", "Bulk keyword upload support (up to 10,000 keywords) and CSV export with impression/click forecasts"],
+    cons: ["Search volume shown only as broad ranges (e.g., 100–1K), not exact figures", "No organic keyword difficulty scoring or SERP analysis capabilities", "Competition metric reflects ad auction saturation—not organic ranking difficulty", "Historical data may become unavailable after 12 months of inactive campaigns"],
     pricing: "Free",
     pricingDetail: "Completely free with a Google Ads account. No subscription, credit card, or usage limits. Access granted immediately after account setup—even without active campaigns.",
-    features: ["Find keywords by word or phrase", "Get keyword ideas from a website", "See historical metrics and forecasts", "Filter by location and language", "Group keywords into ad groups", "Download reports as CSV", "Estimate impressions and clicks"],
-    useCase: "Validating commercial keyword viability, planning Google Ads budgets, identifying seasonal search trends, and seeding broader keyword research with auction-validated terms.",
+    features: ["Find keywords by word or phrase", "Get keyword ideas from a website URL", "See 12-month historical metrics and bid/impression forecasts", "Filter results by location (city/state/country), language, and device", "Group keywords into logical ad groups with auto-suggestions", "Download comprehensive CSV reports with CPC, impression share, and CTR benchmarks", "Estimate impressions and clicks at multiple bid tiers", "Bulk upload up to 10,000 keywords for analysis"],
+    useCase: "Best for Google Ads-focused marketers, agencies, and e-commerce teams needing reliable, auction-contextualized keyword data for budgeting and campaign planning—less ideal for organic SEO specialists requiring exact volumes, keyword difficulty scores, or SERP feature analysis.",
     websiteUrl: "https://ads.google.com/home/tools/keyword-planner/",
     alternatives: ["AnswerThePublic", "KeywordTool.io", "SE Ranking"],
     scoreBreakdown: { features: 8.2, reviews: 7.5, momentum: 6.8, popularity: 9.5 },
@@ -745,22 +720,19 @@ Moz Link Explorer is ideal for mid-to-large businesses, digital agencies, and in
     icon: Search,
     description: "Uses AI and SERP data to guide content creation with real-time optimization suggestions, structure recommendations, and competitive content analysis.",
     longDescription: `## Overview
-Surfer SEO is an AI-driven content optimization platform that leverages real-time SERP data, NLP analysis, and machine learning to help marketers and content creators build high-performing, SEO-optimized content. By analyzing top-ranking pages for any keyword, Surfer generates actionable, data-backed recommendations -- from ideal word count and semantic keyword density to optimal heading structure and content layout.
+Surfer SEO is an AI-powered, data-driven content optimization platform built on real-time SERP analysis — processing over 500 on-page ranking factors across millions of top-performing pages. Unlike heuristic-based tools, Surfer reverse-engineers Google’s current ranking patterns using live search results, NLP, and machine learning to deliver precise, actionable recommendations: optimal word count (e.g., 1,200–1,800 words for competitive commercial keywords), semantic keyword density targets (e.g., LSI terms like 'best CRM for small business' at 0.8–1.2% frequency), heading hierarchy (H1–H3 depth and placement), image alt-text guidance, and even paragraph length distribution. Its foundation is empirical — not theoretical.
 
-## Core Capabilities
-Surfer's engine processes over 500 on-page SEO factors across thousands of ranking pages. Its Content Editor provides live scoring and inline suggestions as you write, while the Audit tool identifies technical and content gaps in existing pages. The Keyword Research and SERP Analyzer modules uncover intent-based keyword clusters, difficulty metrics, and competitor content blueprints.
+## Core Features
+Surfer’s Content Editor provides live scoring (0–100) with inline, color-coded suggestions as you type in Google Docs or WordPress. The SERP Analyzer benchmarks up to 10 competitors per query, revealing gaps in entity coverage, backlink velocity, and topical authority. Keyword Research uncovers intent-aligned clusters (informational, commercial, navigational) with difficulty scores (0–100), volume estimates (via Ahrefs/SE Ranking integration), and CPC data. The On-Page Audit scans existing pages against current SERP benchmarks, flagging missing H2s, thin content sections, or under-optimized meta elements. Additional capabilities include an AI Outline Generator (creates structured, SEO-validated outlines in <15 sec), Real-Time Optimization Dashboard (tracks content performance pre- and post-publish), and customizable templates aligned with brand voice or industry standards.
 
-## Unique Advantages
-Unlike rule-based tools, Surfer uses actual Google ranking patterns -- not guesswork -- to define best practices. Its dynamic "Content Score" adapts to algorithm shifts, and its integration ecosystem (including WordPress, Google Docs, MarketMuse, and Zapier) enables seamless workflow adoption. The AI-powered Outline Generator and Real-Time Optimization Dashboard further accelerate content production without sacrificing SEO rigor.
-
-## Ideal Users
-Digital marketing agencies, in-house SEO teams, content strategists, and growth-focused SaaS companies seeking scalable, evidence-based content creation. Particularly valuable for teams managing large-scale content operations where consistency, speed, and SERP alignment are critical.`,
-    pros: ["Real-time, SERP-driven optimization powered by live Google ranking data", "Intuitive Content Editor with live scoring and inline suggestions", "Robust keyword research with semantic clustering and intent analysis", "Seamless integrations with WordPress, Google Docs, and major CMS platforms", "Comprehensive competitive content gap analysis and audit reporting"],
-    cons: ["Steeper learning curve for non-technical users unfamiliar with SEO metrics", "Limited local SEO or citation management features", "No built-in rank tracking or backlink monitoring (requires third-party tools)", "Higher-tier plans required for advanced collaboration and API access"],
+## Use Cases & Ideal Users
+Surfer excels for digital marketing agencies managing 50+ client sites, SaaS companies scaling content operations (e.g., producing 30+ blog posts/month), and in-house SEO teams needing auditable, repeatable workflows. It’s ideal for teams prioritizing speed *and* SERP alignment — especially where editorial consistency, technical rigor, and measurable lift (clients report avg. 3.2x organic traffic growth within 90 days) are non-negotiable.`,
+    pros: ["Real-time, SERP-driven optimization powered by live Google ranking data", "Intuitive Content Editor with live scoring and inline suggestions", "Robust keyword research with semantic clustering and intent analysis", "Seamless integrations with WordPress, Google Docs, and major CMS platforms", "Comprehensive competitive content gap analysis and audit reporting", "API access (Advanced tier+) enables custom reporting and workflow automation"],
+    cons: ["Steep learning curve for non-SEO specialists", "No native rank tracking or backlink database", "Limited local SEO or multilingual keyword support", "Pricing jumps sharply at Advanced tier ($199/mo)", "No free plan — only 7-day trial"],
     pricing: "From $89/mo",
     pricingDetail: "Offers four tiers: Essential ($89/mo), Advanced ($199/mo), Business ($399/mo), and Enterprise (custom). All include unlimited content audits and SERP analysis; Advanced adds team collaboration and API access; Business includes custom templates and priority support.",
     features: ["AI-Powered Content Editor with live optimization scoring", "SERP Analyzer with competitor benchmarking", "Keyword Research & Semantic Cluster Mapping", "On-Page SEO Audit Tool", "Content Outline Generator", "Real-Time Optimization Dashboard", "Google Docs & WordPress Plugin Integration", "Customizable Content Templates & Style Guides"],
-    useCase: "A content marketing team uses Surfer SEO to plan, write, and optimize blog posts that consistently rank on page one for competitive commercial keywords.",
+    useCase: "Ideal for digital marketing agencies, SaaS content teams, and SEO professionals who need scalable, data-validated content creation — not for SEO beginners or solopreneurs with minimal content needs.",
     websiteUrl: "https://surferseo.com",
     alternatives: ["MarketMuse", "Clearscope", "Frase"],
     scoreBreakdown: {
