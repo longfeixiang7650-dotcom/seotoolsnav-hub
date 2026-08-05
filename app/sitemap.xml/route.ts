@@ -115,6 +115,7 @@ const CATEGORY_SLUGS = [
     "ppc-and-advertising",
     "seo-tools",
     "social-media-management",
+  "match-seo-tools-to-specific-jobs-2026",
 ] as const;
 
 export async function GET() {
