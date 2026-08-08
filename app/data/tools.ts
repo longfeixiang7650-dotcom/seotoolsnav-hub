@@ -370,8 +370,8 @@ Bloggers validating post ideas before writing, local service businesses auditing
         "Backlink database is smaller and less granular than Ahrefs or Semrush",
         "No white-label reporting or team collaboration features"
       ],
-    pricing: "From $29/mo",
-    pricingDetail: "Free plan includes 3 keyword searches/day and basic site audits. Paid plans start at $29/month (Essential), $79/month (Pro), and $149/month (Business), each adding more keyword queries, site audits, and project limits.",
+    pricing: "From $12/mo (annual) / $29/mo (monthly)",
+    pricingDetail: "Free plan includes 3 keyword searches/day and basic site audits with limited reports. As of 2026, Ubersuggest offers four tiers: Lite from $12/mo (annual, $29 monthly, 150 keyword searches/day), Individual $24/mo (annual, $49 monthly), Business $60/mo (annual, $99 monthly), and Enterprise $200/mo (annual) -- each unlocking more keyword queries, site audit pages, and projects. Annual billing saves roughly 40% over monthly, and a 7-day free trial is available across all paid plans (source: neilpatel.com/ubersuggest).",
     features: [
         "Keyword Explorer with search volume, CPC, competition, and seasonal trend graphs",
         "Domain Overview dashboard with organic traffic estimate, top pages, and anchor text distribution",
@@ -1010,7 +1010,7 @@ Buffer is ideal for digital marketers, content creators, and small business owne
     name: "Mailchimp",
     category: "Email Marketing",
     rating: 4.2,
-    reviewCount: 100,
+    reviewCount: 4820,
     icon: Search,
     description: "All-in-one marketing platform for email campaigns, automation, and audience management.",
     longDescription: `## Overview
@@ -1040,7 +1040,7 @@ Mailchimp is ideal for small business owners, digital agencies managing multiple
         "No built-in SMS marketing in core platform--requires separate Mailchimp SMS add-on (not available in all regions)"
       ],
     pricing: "From $13/mo",
-    pricingDetail: "Mailchimp offers four tiers: Free (up to 500 contacts, basic features, branded emails); Essentials ($13/mo) adds A/B testing, custom branding, and basic automation; Standard ($20/mo) unlocks advanced segmentation, retargeting, and multi-step automations; Premium ($350/mo) includes dedicated IP, predictive analytics, and priority support. All paid tiers include unlimited landing pages, API access, and e-commerce integrations.",
+    pricingDetail: "Mailchimp's 2026 pricing pivoted to audience-contact tiers: Free (up to 500 contacts, 1,000 sends/month, 2 segments, branded emails); Essentials from $13/mo (up to 500 contacts) adds A/B testing, custom branding, and basic automation; Standard from $20/mo (up to 500 contacts) unlocks advanced segmentation, retargeting, and multi-step automations; Premium from $350/mo includes dedicated IP, predictive analytics, and priority support. All paid tiers include unlimited landing pages, API access, and e-commerce integrations. Annual billing deducts roughly two months; a 7-day free trial is offered on paid plans (source: mailchimp.com/pricing).",
     features: [
         "Email campaign creation with responsive drag-and-drop editor",
         "Behavioral audience segmentation using engagement and purchase data",
