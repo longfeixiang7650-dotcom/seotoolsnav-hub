@@ -6937,6 +6937,31 @@ Convert the top 20 largest above-the-fold images to WebP, rename them descriptiv
     category: "Technical SEO",
     readTime: 11,
     tags: ["Image SEO", "WebP", "Core Web Vitals", "Visual Search", "Alt Text", "Structured Data"]
-  }
+  },
+
+  {
+    slug: "internal-linking-audit-playbook-2026",
+    title: "The Internal Linking Audit Playbook: Find and Fix Broken Link Equity in 2026",
+    excerpt: "Internal links are the cheapest authority signal you control. This playbook shows you how to audit yours, spot orphan pages, and rebuild anchor-text flow after every site migration.",
+    content: `Most SEO audits spend their energy on backlinks and keywords while the most controllable ranking lever sits right under the cursor: internal links. Internal links tell Google which pages matter, how they relate, and how authority should flow through your site. They cost nothing to create, require no outreach, and compound with every page you publish. The problem is that almost nobody audits them. Orphan pages accumulate, anchor text turns generic, and after a redesign the link map silently breaks. This playbook gives you a repeatable internal linking audit you can run in half a day with tools you probably already have.
+
+Start with the crawl. Pull the full URL list from your sitemap plus a real crawl from a tool that follows links, because sitemaps miss orphan pages that are not linked from anywhere. You are looking for three data points per URL: the number of inbound internal links, the anchor texts used, and whether the page is reachable from the homepage within reasonable clicks. A site where important pages sit five clicks from the root is leaking authority through depth, regardless of how many links point at them.
+
+The first pass is the orphan hunt. Any URL that receives zero internal links is functionally invisible to crawlers that rely on site structure. Recover these by adding contextual links from topically related pages, not by dumping every orphan into a footer. The second pass is the depth check. Map the shortest path from the homepage to each money page. Pages deeper than three or four clicks should be promoted with thoughtful links placed inside body content on high-authority hub pages.
+
+Anchor text is where most sites leak the most value. Google reads the words in a link, and links that say click here or read more transfer far less topical signal than links that describe the destination with real keywords. During the audit, extract every anchor text and group them by destination. If your most important product or service pages are dominated by naked URLs or generic phrases, rewrite the anchors to include the page's primary topic while keeping them natural. One or two keyword-rich anchors per page beats ten generic ones, and stuffing every link with the same exact-match phrase triggers diminishing returns.
+
+Redirects and broken links deserve a dedicated pass. Every internal link pointed at a 404, or at a URL that 301s more than one hop, forces crawlers to spend budget chasing a redirect chain. Export the crawl for 4xx and 3xx status codes, then either update the links to the final URL or restore the missing page. A chain of three redirects on a link that should resolve in one is a common, easily fixed source of wasted crawl equity.
+
+Your internal linking budget is not infinite. Each page has a practical limit on how many outbound internal links add value before the noise dilutes the signal. A one-thousand-word article can reasonably carry three to six deep internal links. Budget them deliberately: prioritize your cornerstone content, your conversion pages, and the cluster pages that support them. The same principle applies to the homepage, which should link to your handful of most important pages with clean, descriptive anchors rather than a wall of category links.
+
+The tools to run this audit are straightforward. Any good site crawler exports inbound link counts, anchor texts, and status codes to a spreadsheet, and a dedicated internal linking tool that visualizes the link graph makes orphan detection far faster. Full-site SEO platforms bundle most of this into a single report. Run the audit quarterly and always after a redesign or platform migration, because those are precisely the moments when link maps quietly break. A tight internal link structure is the highest-leverage, lowest-cost SEO work available in 2026, and it rewards you every time a crawler spends a budget on a page that finally flows the way you intended.`,
+    author: "Mara Ellison",
+    authorRole: "Senior SEO Analyst",
+    date: "2026-08-10",
+    category: "SEO Strategy",
+    readTime: 8,
+    tags: ["Internal Linking","SEO Audit","Anchor Text","Crawlability","Orphan Pages","Site Architecture"]
+  },
 
 ];

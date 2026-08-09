@@ -62,6 +62,7 @@ const BLOG_SLUGS = [
   "winning-featured-snippets-zero-click-search-2026",
   "seo-split-testing-tools-2026",
   "image-seo-optimization-guide-2026",
+  "internal-linking-audit-playbook-2026",
 ] as const;
 
 const TOOL_SLUGS = [
