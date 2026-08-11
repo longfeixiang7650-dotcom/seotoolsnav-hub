@@ -64,6 +64,7 @@ const BLOG_SLUGS = [
   "image-seo-optimization-guide-2026",
   "internal-linking-audit-playbook-2026",
   "log-file-analysis-crawl-budget-technical-seo-2026",
+  "screaming-frog-vs-sitebulb-vs-lumar-technical-seo-crawler-2026",
 ] as const;
 
 const TOOL_SLUGS = [
